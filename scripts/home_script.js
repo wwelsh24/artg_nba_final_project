@@ -42,9 +42,9 @@ function Fill_Select(team){
     return fill;
 }
 
-d3.json("Color_Key.json").then(function(color_data){
-    d3.csv("lineups_four_factors_3_21_2023.csv", parseCsv_Lineup).then(function(data_1) {
-        d3.csv("league_four_factors_3_21_2023.csv", parseCsv_Team).then(function(data_2) {
+d3.json("data/Color_Key.json").then(function(color_data){
+    d3.csv("data/lineups_four_factors_3_21_2023.csv", parseCsv_Lineup).then(function(data_1) {
+        d3.csv("data/league_four_factors_3_21_2023.csv", parseCsv_Team).then(function(data_2) {
 
             var league_average = data_2[0].OFFRTG;
             var chart_type = "team";
