@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style/home_style.css">
+    <link rel="stylesheet" type="text/css" href="./style/default_style.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="nav_link" href="/Assignment%205/home.html">Home</a>
+        <a class="nav_link" href="/Assignment%205/Assignment5.html">Team Pages</a>
+        <a class="nav_link" href="/Assignment%205/about.html">About</a>
+      </div>
+    <h1 class = "title" id = "page_title"> NBA Rating Visualization Homepage</h1>
+    <div id="chart"></div>
+    <svg id = "bubble_svg">
+        <g id = "bubbles"></g>
+    </svg>
+    <div id = "player_menu">
+    <div id = "button_container">
+            <input class = "checkbox" type = "checkbox" id = "sim_input">
+            <span>No-Overlap Simulation</span> 
+            <br>
+            <input class = "checkbox" type = "checkbox" id = "lineup_input">
+            <span>Lineup Data</span>
+          
+          
+    </div>
+    <div id = "description_container">
+    </div>
+    <script src="./home_script.js"></script>
+</body>
+
+</html>

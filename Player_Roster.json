@@ -1,0 +1,6104 @@
+[
+  {
+    "Rk": 1,
+    "Player": "Precious Achiuwa",
+    "Pos": "C",
+    "Tm": "TOR",
+    "ORtg": 112,
+    "DRtg": 113,
+    "Player-additional": "achiupr01"
+  },
+  {
+    "Rk": 2,
+    "Player": "Steven Adams",
+    "Pos": "C",
+    "Tm": "MEM",
+    "ORtg": 118,
+    "DRtg": 108,
+    "Player-additional": "adamsst01"
+  },
+  {
+    "Rk": 3,
+    "Player": "Bam Adebayo",
+    "Pos": "C",
+    "Tm": "MIA",
+    "ORtg": 115,
+    "DRtg": 111,
+    "Player-additional": "adebaba01"
+  },
+  {
+    "Rk": 4,
+    "Player": "Ochai Agbaji",
+    "Pos": "SG",
+    "Tm": "UTA",
+    "ORtg": 115,
+    "DRtg": 121,
+    "Player-additional": "agbajoc01"
+  },
+  {
+    "Rk": 5,
+    "Player": "Santi Aldama",
+    "Pos": "PF",
+    "Tm": "MEM",
+    "ORtg": 120,
+    "DRtg": 111,
+    "Player-additional": "aldamsa01"
+  },
+  {
+    "Rk": 6,
+    "Player": "Nickeil Alexander-Walker",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 109,
+    "DRtg": 116,
+    "Player-additional": "alexani01"
+  },
+  {
+    "Rk": 6,
+    "Player": "Nickeil Alexander-Walker",
+    "Pos": "SG",
+    "Tm": "UTA",
+    "ORtg": 111,
+    "DRtg": 116,
+    "Player-additional": "alexani01"
+  },
+  {
+    "Rk": 6,
+    "Player": "Nickeil Alexander-Walker",
+    "Pos": "SG",
+    "Tm": "MIN",
+    "ORtg": 106,
+    "DRtg": 116,
+    "Player-additional": "alexani01"
+  },
+  {
+    "Rk": 7,
+    "Player": "Grayson Allen",
+    "Pos": "SG",
+    "Tm": "MIL",
+    "ORtg": 123,
+    "DRtg": 114,
+    "Player-additional": "allengr01"
+  },
+  {
+    "Rk": 8,
+    "Player": "Jarrett Allen",
+    "Pos": "C",
+    "Tm": "CLE",
+    "ORtg": 132,
+    "DRtg": 108,
+    "Player-additional": "allenja01"
+  },
+  {
+    "Rk": 9,
+    "Player": "Jose Alvarado",
+    "Pos": "PG",
+    "Tm": "NOP",
+    "ORtg": 107,
+    "DRtg": 113,
+    "Player-additional": "alvarjo01"
+  },
+  {
+    "Rk": 10,
+    "Player": "Kyle Anderson",
+    "Pos": "PF",
+    "Tm": "MIN",
+    "ORtg": 120,
+    "DRtg": 112,
+    "Player-additional": "anderky01"
+  },
+  {
+    "Rk": 11,
+    "Player": "Giannis Antetokounmpo",
+    "Pos": "PF",
+    "Tm": "MIL",
+    "ORtg": 117,
+    "DRtg": 108,
+    "Player-additional": "antetgi01"
+  },
+  {
+    "Rk": 12,
+    "Player": "Thanasis Antetokounmpo",
+    "Pos": "SF",
+    "Tm": "MIL",
+    "ORtg": 98,
+    "DRtg": 114,
+    "Player-additional": "antetth01"
+  },
+  {
+    "Rk": 13,
+    "Player": "Cole Anthony",
+    "Pos": "PG",
+    "Tm": "ORL",
+    "ORtg": 117,
+    "DRtg": 115,
+    "Player-additional": "anthoco01"
+  },
+  {
+    "Rk": 14,
+    "Player": "OG Anunoby",
+    "Pos": "SF",
+    "Tm": "TOR",
+    "ORtg": 113,
+    "DRtg": 113,
+    "Player-additional": "anunoog01"
+  },
+  {
+    "Rk": 15,
+    "Player": "Ryan Arcidiacono",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 86,
+    "DRtg": 121,
+    "Player-additional": "arcidry01"
+  },
+  {
+    "Rk": 15,
+    "Player": "Ryan Arcidiacono",
+    "Pos": "PG",
+    "Tm": "NYK",
+    "ORtg": 72,
+    "DRtg": 110,
+    "Player-additional": "arcidry01"
+  },
+  {
+    "Rk": 15,
+    "Player": "Ryan Arcidiacono",
+    "Pos": "PG",
+    "Tm": "POR",
+    "ORtg": 88,
+    "DRtg": 122,
+    "Player-additional": "arcidry01"
+  },
+  {
+    "Rk": 16,
+    "Player": "Deni Avdija",
+    "Pos": "SF",
+    "Tm": "WAS",
+    "ORtg": 106,
+    "DRtg": 114,
+    "Player-additional": "avdijde01"
+  },
+  {
+    "Rk": 17,
+    "Player": "Deandre Ayton",
+    "Pos": "C",
+    "Tm": "PHO",
+    "ORtg": 119,
+    "DRtg": 111,
+    "Player-additional": "aytonde01"
+  },
+  {
+    "Rk": 18,
+    "Player": "Udoka Azubuike",
+    "Pos": "C",
+    "Tm": "UTA",
+    "ORtg": 131,
+    "DRtg": 114,
+    "Player-additional": "azubuud01"
+  },
+  {
+    "Rk": 19,
+    "Player": "Marvin Bagley III",
+    "Pos": "C",
+    "Tm": "DET",
+    "ORtg": 117,
+    "DRtg": 118,
+    "Player-additional": "baglema01"
+  },
+  {
+    "Rk": 20,
+    "Player": "Patrick Baldwin Jr.",
+    "Pos": "SF",
+    "Tm": "GSW",
+    "ORtg": 101,
+    "DRtg": 114,
+    "Player-additional": "baldwpa01"
+  },
+  {
+    "Rk": 21,
+    "Player": "LaMelo Ball",
+    "Pos": "PG",
+    "Tm": "CHO",
+    "ORtg": 108,
+    "DRtg": 115,
+    "Player-additional": "ballla01"
+  },
+  {
+    "Rk": 22,
+    "Player": "Mo Bamba",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 121,
+    "DRtg": 111,
+    "Player-additional": "bambamo01"
+  },
+  {
+    "Rk": 22,
+    "Player": "Mo Bamba",
+    "Pos": "C",
+    "Tm": "ORL",
+    "ORtg": 125,
+    "DRtg": 112,
+    "Player-additional": "bambamo01"
+  },
+  {
+    "Rk": 22,
+    "Player": "Mo Bamba",
+    "Pos": "C",
+    "Tm": "LAL",
+    "ORtg": 100,
+    "DRtg": 108,
+    "Player-additional": "bambamo01"
+  },
+  {
+    "Rk": 23,
+    "Player": "Paolo Banchero",
+    "Pos": "PF",
+    "Tm": "ORL",
+    "ORtg": 105,
+    "DRtg": 114,
+    "Player-additional": "banchpa01"
+  },
+  {
+    "Rk": 24,
+    "Player": "Desmond Bane",
+    "Pos": "SG",
+    "Tm": "MEM",
+    "ORtg": 119,
+    "DRtg": 113,
+    "Player-additional": "banede01"
+  },
+  {
+    "Rk": 25,
+    "Player": "Dalano Banton",
+    "Pos": "PG",
+    "Tm": "TOR",
+    "ORtg": 105,
+    "DRtg": 112,
+    "Player-additional": "bantoda01"
+  },
+  {
+    "Rk": 26,
+    "Player": "Dominick Barlow",
+    "Pos": "SF",
+    "Tm": "SAS",
+    "ORtg": 121,
+    "DRtg": 119,
+    "Player-additional": "barlodo01"
+  },
+  {
+    "Rk": 27,
+    "Player": "Harrison Barnes",
+    "Pos": "PF",
+    "Tm": "SAC",
+    "ORtg": 126,
+    "DRtg": 119,
+    "Player-additional": "barneha02"
+  },
+  {
+    "Rk": 28,
+    "Player": "Scottie Barnes",
+    "Pos": "PF",
+    "Tm": "TOR",
+    "ORtg": 113,
+    "DRtg": 115,
+    "Player-additional": "barnesc01"
+  },
+  {
+    "Rk": 29,
+    "Player": "RJ Barrett",
+    "Pos": "SG",
+    "Tm": "NYK",
+    "ORtg": 107,
+    "DRtg": 118,
+    "Player-additional": "barrerj01"
+  },
+  {
+    "Rk": 30,
+    "Player": "Will Barton",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 102,
+    "DRtg": 117,
+    "Player-additional": "bartowi01"
+  },
+  {
+    "Rk": 30,
+    "Player": "Will Barton",
+    "Pos": "SG",
+    "Tm": "WAS",
+    "ORtg": 101,
+    "DRtg": 117,
+    "Player-additional": "bartowi01"
+  },
+  {
+    "Rk": 30,
+    "Player": "Will Barton",
+    "Pos": "SG",
+    "Tm": "TOR",
+    "ORtg": 105,
+    "DRtg": 114,
+    "Player-additional": "bartowi01"
+  },
+  {
+    "Rk": 31,
+    "Player": "Charles Bassey",
+    "Pos": "C",
+    "Tm": "SAS",
+    "ORtg": 120,
+    "DRtg": 114,
+    "Player-additional": "bassech01"
+  },
+  {
+    "Rk": 32,
+    "Player": "Keita Bates-Diop",
+    "Pos": "SF",
+    "Tm": "SAS",
+    "ORtg": 121,
+    "DRtg": 120,
+    "Player-additional": "bateske01"
+  },
+  {
+    "Rk": 33,
+    "Player": "Nicolas Batum",
+    "Pos": "PF",
+    "Tm": "LAC",
+    "ORtg": 120,
+    "DRtg": 114,
+    "Player-additional": "batumni01"
+  },
+  {
+    "Rk": 34,
+    "Player": "Darius Bazley",
+    "Pos": "PF",
+    "Tm": "TOT",
+    "ORtg": 107,
+    "DRtg": 111,
+    "Player-additional": "bazleda01"
+  },
+  {
+    "Rk": 34,
+    "Player": "Darius Bazley",
+    "Pos": "PF",
+    "Tm": "OKC",
+    "ORtg": 108,
+    "DRtg": 111,
+    "Player-additional": "bazleda01"
+  },
+  {
+    "Rk": 34,
+    "Player": "Darius Bazley",
+    "Pos": "PF",
+    "Tm": "PHO",
+    "ORtg": 101,
+    "DRtg": 106,
+    "Player-additional": "bazleda01"
+  },
+  {
+    "Rk": 35,
+    "Player": "Bradley Beal",
+    "Pos": "SG",
+    "Tm": "WAS",
+    "ORtg": 114,
+    "DRtg": 117,
+    "Player-additional": "bealbr01"
+  },
+  {
+    "Rk": 36,
+    "Player": "Malik Beasley",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 105,
+    "DRtg": 117,
+    "Player-additional": "beaslma01"
+  },
+  {
+    "Rk": 36,
+    "Player": "Malik Beasley",
+    "Pos": "SG",
+    "Tm": "UTA",
+    "ORtg": 107,
+    "DRtg": 118,
+    "Player-additional": "beaslma01"
+  },
+  {
+    "Rk": 36,
+    "Player": "Malik Beasley",
+    "Pos": "SG",
+    "Tm": "LAL",
+    "ORtg": 99,
+    "DRtg": 115,
+    "Player-additional": "beaslma01"
+  },
+  {
+    "Rk": 37,
+    "Player": "MarJon Beauchamp",
+    "Pos": "SF",
+    "Tm": "MIL",
+    "ORtg": 99,
+    "DRtg": 113,
+    "Player-additional": "beaucma01"
+  },
+  {
+    "Rk": 38,
+    "Player": "Dāvis Bertāns",
+    "Pos": "PF",
+    "Tm": "DAL",
+    "ORtg": 120,
+    "DRtg": 118,
+    "Player-additional": "bertada01"
+  },
+  {
+    "Rk": 39,
+    "Player": "Patrick Beverley",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 113,
+    "DRtg": 113,
+    "Player-additional": "beverpa01"
+  },
+  {
+    "Rk": 39,
+    "Player": "Patrick Beverley",
+    "Pos": "PG",
+    "Tm": "LAL",
+    "ORtg": 112,
+    "DRtg": 115,
+    "Player-additional": "beverpa01"
+  },
+  {
+    "Rk": 39,
+    "Player": "Patrick Beverley",
+    "Pos": "PG",
+    "Tm": "CHI",
+    "ORtg": 114,
+    "DRtg": 111,
+    "Player-additional": "beverpa01"
+  },
+  {
+    "Rk": 40,
+    "Player": "Saddiq Bey",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 117,
+    "DRtg": 119,
+    "Player-additional": "beysa01"
+  },
+  {
+    "Rk": 40,
+    "Player": "Saddiq Bey",
+    "Pos": "SF",
+    "Tm": "DET",
+    "ORtg": 115,
+    "DRtg": 119,
+    "Player-additional": "beysa01"
+  },
+  {
+    "Rk": 40,
+    "Player": "Saddiq Bey",
+    "Pos": "SF",
+    "Tm": "ATL",
+    "ORtg": 124,
+    "DRtg": 117,
+    "Player-additional": "beysa01"
+  },
+  {
+    "Rk": 41,
+    "Player": "Khem Birch",
+    "Pos": "C",
+    "Tm": "TOR",
+    "ORtg": 113,
+    "DRtg": 115,
+    "Player-additional": "birchkh01"
+  },
+  {
+    "Rk": 42,
+    "Player": "Goga Bitadze",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 123,
+    "DRtg": 112,
+    "Player-additional": "bitadgo01"
+  },
+  {
+    "Rk": 42,
+    "Player": "Goga Bitadze",
+    "Pos": "C",
+    "Tm": "IND",
+    "ORtg": 115,
+    "DRtg": 115,
+    "Player-additional": "bitadgo01"
+  },
+  {
+    "Rk": 42,
+    "Player": "Goga Bitadze",
+    "Pos": "C",
+    "Tm": "ORL",
+    "ORtg": 129,
+    "DRtg": 110,
+    "Player-additional": "bitadgo01"
+  },
+  {
+    "Rk": 43,
+    "Player": "Bismack Biyombo",
+    "Pos": "C",
+    "Tm": "PHO",
+    "ORtg": 109,
+    "DRtg": 108,
+    "Player-additional": "biyombi01"
+  },
+  {
+    "Rk": 44,
+    "Player": "Buddy Boeheim",
+    "Pos": "PG",
+    "Tm": "DET",
+    "ORtg": 77,
+    "DRtg": 123,
+    "Player-additional": "boehebu01"
+  },
+  {
+    "Rk": 45,
+    "Player": "Bogdan Bogdanović",
+    "Pos": "SG",
+    "Tm": "ATL",
+    "ORtg": 117,
+    "DRtg": 118,
+    "Player-additional": "bogdabo01"
+  },
+  {
+    "Rk": 46,
+    "Player": "Bojan Bogdanović",
+    "Pos": "PF",
+    "Tm": "DET",
+    "ORtg": 118,
+    "DRtg": 122,
+    "Player-additional": "bogdabo02"
+  },
+  {
+    "Rk": 47,
+    "Player": "Bol Bol",
+    "Pos": "PF",
+    "Tm": "ORL",
+    "ORtg": 106,
+    "DRtg": 111,
+    "Player-additional": "bolbo01"
+  },
+  {
+    "Rk": 48,
+    "Player": "Leandro Bolmaro",
+    "Pos": "SG",
+    "Tm": "UTA",
+    "ORtg": 50,
+    "DRtg": 118,
+    "Player-additional": "bolmale01"
+  },
+  {
+    "Rk": 49,
+    "Player": "Devin Booker",
+    "Pos": "SG",
+    "Tm": "PHO",
+    "ORtg": 119,
+    "DRtg": 115,
+    "Player-additional": "bookede01"
+  },
+  {
+    "Rk": 50,
+    "Player": "Brandon Boston Jr.",
+    "Pos": "SG",
+    "Tm": "LAC",
+    "ORtg": 105,
+    "DRtg": 116,
+    "Player-additional": "bostobr01"
+  },
+  {
+    "Rk": 51,
+    "Player": "Chris Boucher",
+    "Pos": "PF",
+    "Tm": "TOR",
+    "ORtg": 125,
+    "DRtg": 112,
+    "Player-additional": "bouchch01"
+  },
+  {
+    "Rk": 52,
+    "Player": "James Bouknight",
+    "Pos": "SG",
+    "Tm": "CHO",
+    "ORtg": 90,
+    "DRtg": 117,
+    "Player-additional": "bouknja01"
+  },
+  {
+    "Rk": 53,
+    "Player": "Jamaree Bouyea",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 89,
+    "DRtg": 112,
+    "Player-additional": "bouyeja01"
+  },
+  {
+    "Rk": 53,
+    "Player": "Jamaree Bouyea",
+    "Pos": "PG",
+    "Tm": "MIA",
+    "ORtg": 93,
+    "DRtg": 111,
+    "Player-additional": "bouyeja01"
+  },
+  {
+    "Rk": 53,
+    "Player": "Jamaree Bouyea",
+    "Pos": "PG",
+    "Tm": "WAS",
+    "ORtg": 0,
+    "DRtg": 119,
+    "Player-additional": "bouyeja01"
+  },
+  {
+    "Rk": 54,
+    "Player": "Tony Bradley",
+    "Pos": "C",
+    "Tm": "CHI",
+    "ORtg": 132,
+    "DRtg": 107,
+    "Player-additional": "bradlto01"
+  },
+  {
+    "Rk": 55,
+    "Player": "Malaki Branham",
+    "Pos": "SF",
+    "Tm": "SAS",
+    "ORtg": 103,
+    "DRtg": 123,
+    "Player-additional": "branhma01"
+  },
+  {
+    "Rk": 56,
+    "Player": "Jarrell Brantley",
+    "Pos": "PF",
+    "Tm": "UTA",
+    "ORtg": 134,
+    "DRtg": 118,
+    "Player-additional": "brantja01"
+  },
+  {
+    "Rk": 57,
+    "Player": "Christian Braun",
+    "Pos": "SG",
+    "Tm": "DEN",
+    "ORtg": 114,
+    "DRtg": 115,
+    "Player-additional": "braunch01"
+  },
+  {
+    "Rk": 58,
+    "Player": "Mikal Bridges",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 118,
+    "DRtg": 115,
+    "Player-additional": "bridgmi01"
+  },
+  {
+    "Rk": 58,
+    "Player": "Mikal Bridges",
+    "Pos": "SF",
+    "Tm": "PHO",
+    "ORtg": 118,
+    "DRtg": 114,
+    "Player-additional": "bridgmi01"
+  },
+  {
+    "Rk": 58,
+    "Player": "Mikal Bridges",
+    "Pos": "SF",
+    "Tm": "BRK",
+    "ORtg": 117,
+    "DRtg": 116,
+    "Player-additional": "bridgmi01"
+  },
+  {
+    "Rk": 59,
+    "Player": "Oshae Brissett",
+    "Pos": "SF",
+    "Tm": "IND",
+    "ORtg": 110,
+    "DRtg": 118,
+    "Player-additional": "brissos01"
+  },
+  {
+    "Rk": 60,
+    "Player": "Malcolm Brogdon",
+    "Pos": "PG",
+    "Tm": "BOS",
+    "ORtg": 122,
+    "DRtg": 113,
+    "Player-additional": "brogdma01"
+  },
+  {
+    "Rk": 61,
+    "Player": "Dillon Brooks",
+    "Pos": "SF",
+    "Tm": "MEM",
+    "ORtg": 102,
+    "DRtg": 114,
+    "Player-additional": "brookdi01"
+  },
+  {
+    "Rk": 62,
+    "Player": "Bruce Brown",
+    "Pos": "SG",
+    "Tm": "DEN",
+    "ORtg": 113,
+    "DRtg": 114,
+    "Player-additional": "brownbr01"
+  },
+  {
+    "Rk": 63,
+    "Player": "Greg Brown III",
+    "Pos": "PF",
+    "Tm": "POR",
+    "ORtg": 79,
+    "DRtg": 114,
+    "Player-additional": "browngr01"
+  },
+  {
+    "Rk": 64,
+    "Player": "Jaylen Brown",
+    "Pos": "SF",
+    "Tm": "BOS",
+    "ORtg": 110,
+    "DRtg": 111,
+    "Player-additional": "brownja02"
+  },
+  {
+    "Rk": 65,
+    "Player": "Kendall Brown",
+    "Pos": "SG",
+    "Tm": "IND",
+    "ORtg": 109,
+    "DRtg": 113,
+    "Player-additional": "brownke03"
+  },
+  {
+    "Rk": 66,
+    "Player": "Moses Brown",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 123,
+    "DRtg": 111,
+    "Player-additional": "brownmo01"
+  },
+  {
+    "Rk": 66,
+    "Player": "Moses Brown",
+    "Pos": "C",
+    "Tm": "LAC",
+    "ORtg": 124,
+    "DRtg": 111,
+    "Player-additional": "brownmo01"
+  },
+  {
+    "Rk": 66,
+    "Player": "Moses Brown",
+    "Pos": "C",
+    "Tm": "BRK",
+    "ORtg": 0,
+    "DRtg": 105,
+    "Player-additional": "brownmo01"
+  },
+  {
+    "Rk": 67,
+    "Player": "Sterling Brown",
+    "Pos": "SG",
+    "Tm": "LAL",
+    "ORtg": 75,
+    "DRtg": 103,
+    "Player-additional": "brownst02"
+  },
+  {
+    "Rk": 68,
+    "Player": "Troy Brown Jr.",
+    "Pos": "SF",
+    "Tm": "LAL",
+    "ORtg": 113,
+    "DRtg": 115,
+    "Player-additional": "browntr01"
+  },
+  {
+    "Rk": 69,
+    "Player": "Jalen Brunson",
+    "Pos": "PG",
+    "Tm": "NYK",
+    "ORtg": 125,
+    "DRtg": 117,
+    "Player-additional": "brunsja01"
+  },
+  {
+    "Rk": 70,
+    "Player": "Thomas Bryant",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 132,
+    "DRtg": 112,
+    "Player-additional": "bryanth01"
+  },
+  {
+    "Rk": 70,
+    "Player": "Thomas Bryant",
+    "Pos": "C",
+    "Tm": "LAL",
+    "ORtg": 138,
+    "DRtg": 112,
+    "Player-additional": "bryanth01"
+  },
+  {
+    "Rk": 70,
+    "Player": "Thomas Bryant",
+    "Pos": "C",
+    "Tm": "DEN",
+    "ORtg": 108,
+    "DRtg": 114,
+    "Player-additional": "bryanth01"
+  },
+  {
+    "Rk": 71,
+    "Player": "Reggie Bullock",
+    "Pos": "SF",
+    "Tm": "DAL",
+    "ORtg": 116,
+    "DRtg": 119,
+    "Player-additional": "bullore01"
+  },
+  {
+    "Rk": 72,
+    "Player": "Alec Burks",
+    "Pos": "SG",
+    "Tm": "DET",
+    "ORtg": 120,
+    "DRtg": 119,
+    "Player-additional": "burksal01"
+  },
+  {
+    "Rk": 73,
+    "Player": "Deonte Burton",
+    "Pos": "SG",
+    "Tm": "SAC",
+    "ORtg": 0,
+    "DRtg": 124,
+    "Player-additional": "burtode02"
+  },
+  {
+    "Rk": 74,
+    "Player": "Jared Butler",
+    "Pos": "SG",
+    "Tm": "OKC",
+    "ORtg": 108,
+    "DRtg": 115,
+    "Player-additional": "butleja02"
+  },
+  {
+    "Rk": 75,
+    "Player": "Jimmy Butler",
+    "Pos": "SF",
+    "Tm": "MIA",
+    "ORtg": 135,
+    "DRtg": 112,
+    "Player-additional": "butleji01"
+  },
+  {
+    "Rk": 76,
+    "Player": "John Butler",
+    "Pos": "C",
+    "Tm": "POR",
+    "ORtg": 97,
+    "DRtg": 119,
+    "Player-additional": "butlejo01"
+  },
+  {
+    "Rk": 77,
+    "Player": "Jamal Cain",
+    "Pos": "SF",
+    "Tm": "MIA",
+    "ORtg": 131,
+    "DRtg": 112,
+    "Player-additional": "cainja01"
+  },
+  {
+    "Rk": 78,
+    "Player": "Kentavious Caldwell-Pope",
+    "Pos": "SG",
+    "Tm": "DEN",
+    "ORtg": 117,
+    "DRtg": 115,
+    "Player-additional": "caldwke01"
+  },
+  {
+    "Rk": 79,
+    "Player": "Facundo Campazzo",
+    "Pos": "PG",
+    "Tm": "DAL",
+    "ORtg": 86,
+    "DRtg": 111,
+    "Player-additional": "campafa01"
+  },
+  {
+    "Rk": 80,
+    "Player": "Vlatko Čančar",
+    "Pos": "PF",
+    "Tm": "DEN",
+    "ORtg": 119,
+    "DRtg": 116,
+    "Player-additional": "cancavl01"
+  },
+  {
+    "Rk": 81,
+    "Player": "Clint Capela",
+    "Pos": "C",
+    "Tm": "ATL",
+    "ORtg": 136,
+    "DRtg": 112,
+    "Player-additional": "capelca01"
+  },
+  {
+    "Rk": 82,
+    "Player": "Vernon Carey Jr.",
+    "Pos": "C",
+    "Tm": "WAS",
+    "ORtg": 87,
+    "DRtg": 104,
+    "Player-additional": "careyve01"
+  },
+  {
+    "Rk": 83,
+    "Player": "Jevon Carter",
+    "Pos": "PG",
+    "Tm": "MIL",
+    "ORtg": 113,
+    "DRtg": 113,
+    "Player-additional": "carteje01"
+  },
+  {
+    "Rk": 84,
+    "Player": "Wendell Carter Jr.",
+    "Pos": "C",
+    "Tm": "ORL",
+    "ORtg": 119,
+    "DRtg": 113,
+    "Player-additional": "cartewe01"
+  },
+  {
+    "Rk": 85,
+    "Player": "Michael Carter-Williams",
+    "Pos": "PG",
+    "Tm": "ORL",
+    "ORtg": 98,
+    "DRtg": 116,
+    "Player-additional": "cartemi01"
+  },
+  {
+    "Rk": 86,
+    "Player": "Alex Caruso",
+    "Pos": "PG",
+    "Tm": "CHI",
+    "ORtg": 115,
+    "DRtg": 109,
+    "Player-additional": "carusal01"
+  },
+  {
+    "Rk": 87,
+    "Player": "Julian Champagnie",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 115,
+    "DRtg": 121,
+    "Player-additional": "champju02"
+  },
+  {
+    "Rk": 87,
+    "Player": "Julian Champagnie",
+    "Pos": "SF",
+    "Tm": "PHI",
+    "ORtg": 0,
+    "DRtg": 106,
+    "Player-additional": "champju02"
+  },
+  {
+    "Rk": 87,
+    "Player": "Julian Champagnie",
+    "Pos": "SF",
+    "Tm": "SAS",
+    "ORtg": 116,
+    "DRtg": 121,
+    "Player-additional": "champju02"
+  },
+  {
+    "Rk": 88,
+    "Player": "Justin Champagnie",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 96,
+    "DRtg": 114,
+    "Player-additional": "champju01"
+  },
+  {
+    "Rk": 88,
+    "Player": "Justin Champagnie",
+    "Pos": "SF",
+    "Tm": "TOR",
+    "ORtg": 205,
+    "DRtg": 116,
+    "Player-additional": "champju01"
+  },
+  {
+    "Rk": 88,
+    "Player": "Justin Champagnie",
+    "Pos": "SF",
+    "Tm": "BOS",
+    "ORtg": 73,
+    "DRtg": 113,
+    "Player-additional": "champju01"
+  },
+  {
+    "Rk": 89,
+    "Player": "Kennedy Chandler",
+    "Pos": "PG",
+    "Tm": "MEM",
+    "ORtg": 101,
+    "DRtg": 112,
+    "Player-additional": "chandke01"
+  },
+  {
+    "Rk": 90,
+    "Player": "Max Christie",
+    "Pos": "SG",
+    "Tm": "LAL",
+    "ORtg": 111,
+    "DRtg": 116,
+    "Player-additional": "chrisma02"
+  },
+  {
+    "Rk": 91,
+    "Player": "Josh Christopher",
+    "Pos": "SG",
+    "Tm": "HOU",
+    "ORtg": 102,
+    "DRtg": 120,
+    "Player-additional": "chrisjo01"
+  },
+  {
+    "Rk": 92,
+    "Player": "Brandon Clarke",
+    "Pos": "PF",
+    "Tm": "MEM",
+    "ORtg": 131,
+    "DRtg": 109,
+    "Player-additional": "clarkbr01"
+  },
+  {
+    "Rk": 93,
+    "Player": "Jordan Clarkson",
+    "Pos": "SG",
+    "Tm": "UTA",
+    "ORtg": 109,
+    "DRtg": 120,
+    "Player-additional": "clarkjo01"
+  },
+  {
+    "Rk": 94,
+    "Player": "Nic Claxton",
+    "Pos": "C",
+    "Tm": "BRK",
+    "ORtg": 132,
+    "DRtg": 108,
+    "Player-additional": "claxtni01"
+  },
+  {
+    "Rk": 95,
+    "Player": "Amir Coffey",
+    "Pos": "SG",
+    "Tm": "LAC",
+    "ORtg": 108,
+    "DRtg": 120,
+    "Player-additional": "coffeam01"
+  },
+  {
+    "Rk": 96,
+    "Player": "John Collins",
+    "Pos": "PF",
+    "Tm": "ATL",
+    "ORtg": 117,
+    "DRtg": 115,
+    "Player-additional": "collijo01"
+  },
+  {
+    "Rk": 97,
+    "Player": "Zach Collins",
+    "Pos": "C",
+    "Tm": "SAS",
+    "ORtg": 112,
+    "DRtg": 118,
+    "Player-additional": "colliza01"
+  },
+  {
+    "Rk": 98,
+    "Player": "Mike Conley",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 125,
+    "DRtg": 118,
+    "Player-additional": "conlemi01"
+  },
+  {
+    "Rk": 98,
+    "Player": "Mike Conley",
+    "Pos": "PG",
+    "Tm": "UTA",
+    "ORtg": 123,
+    "DRtg": 119,
+    "Player-additional": "conlemi01"
+  },
+  {
+    "Rk": 98,
+    "Player": "Mike Conley",
+    "Pos": "PG",
+    "Tm": "MIN",
+    "ORtg": 130,
+    "DRtg": 116,
+    "Player-additional": "conlemi01"
+  },
+  {
+    "Rk": 99,
+    "Player": "Pat Connaughton",
+    "Pos": "SG",
+    "Tm": "MIL",
+    "ORtg": 112,
+    "DRtg": 113,
+    "Player-additional": "connapa01"
+  },
+  {
+    "Rk": 100,
+    "Player": "Xavier Cooks",
+    "Pos": "PF",
+    "Tm": "WAS",
+    "ORtg": 113,
+    "DRtg": 112,
+    "Player-additional": "cooksxa01"
+  },
+  {
+    "Rk": 101,
+    "Player": "Robert Covington",
+    "Pos": "PF",
+    "Tm": "LAC",
+    "ORtg": 116,
+    "DRtg": 110,
+    "Player-additional": "covinro01"
+  },
+  {
+    "Rk": 102,
+    "Player": "Torrey Craig",
+    "Pos": "SF",
+    "Tm": "PHO",
+    "ORtg": 116,
+    "DRtg": 113,
+    "Player-additional": "craigto01"
+  },
+  {
+    "Rk": 103,
+    "Player": "Jae Crowder",
+    "Pos": "SF",
+    "Tm": "MIL",
+    "ORtg": 133,
+    "DRtg": 111,
+    "Player-additional": "crowdja01"
+  },
+  {
+    "Rk": 104,
+    "Player": "Jarrett Culver",
+    "Pos": "SG",
+    "Tm": "ATL",
+    "ORtg": 96,
+    "DRtg": 113,
+    "Player-additional": "culveja01"
+  },
+  {
+    "Rk": 105,
+    "Player": "Cade Cunningham",
+    "Pos": "PG",
+    "Tm": "DET",
+    "ORtg": 100,
+    "DRtg": 119,
+    "Player-additional": "cunnica01"
+  },
+  {
+    "Rk": 106,
+    "Player": "Seth Curry",
+    "Pos": "SG",
+    "Tm": "BRK",
+    "ORtg": 113,
+    "DRtg": 117,
+    "Player-additional": "curryse01"
+  },
+  {
+    "Rk": 107,
+    "Player": "Stephen Curry",
+    "Pos": "PG",
+    "Tm": "GSW",
+    "ORtg": 123,
+    "DRtg": 115,
+    "Player-additional": "curryst01"
+  },
+  {
+    "Rk": 108,
+    "Player": "Dyson Daniels",
+    "Pos": "PG",
+    "Tm": "NOP",
+    "ORtg": 105,
+    "DRtg": 112,
+    "Player-additional": "daniedy01"
+  },
+  {
+    "Rk": 109,
+    "Player": "Anthony Davis",
+    "Pos": "C",
+    "Tm": "LAL",
+    "ORtg": 124,
+    "DRtg": 108,
+    "Player-additional": "davisan02"
+  },
+  {
+    "Rk": 110,
+    "Player": "Johnny Davis",
+    "Pos": "SG",
+    "Tm": "WAS",
+    "ORtg": 92,
+    "DRtg": 117,
+    "Player-additional": "davisjo06"
+  },
+  {
+    "Rk": 111,
+    "Player": "Terence Davis",
+    "Pos": "SG",
+    "Tm": "SAC",
+    "ORtg": 106,
+    "DRtg": 114,
+    "Player-additional": "daviste02"
+  },
+  {
+    "Rk": 112,
+    "Player": "JD Davison",
+    "Pos": "PG",
+    "Tm": "BOS",
+    "ORtg": 104,
+    "DRtg": 112,
+    "Player-additional": "davisjd01"
+  },
+  {
+    "Rk": 113,
+    "Player": "Darius Days",
+    "Pos": "PF",
+    "Tm": "HOU",
+    "ORtg": 132,
+    "DRtg": 120,
+    "Player-additional": "daysda01"
+  },
+  {
+    "Rk": 114,
+    "Player": "Dewayne Dedmon",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 112,
+    "DRtg": 110,
+    "Player-additional": "dedmode01"
+  },
+  {
+    "Rk": 114,
+    "Player": "Dewayne Dedmon",
+    "Pos": "C",
+    "Tm": "MIA",
+    "ORtg": 113,
+    "DRtg": 110,
+    "Player-additional": "dedmode01"
+  },
+  {
+    "Rk": 114,
+    "Player": "Dewayne Dedmon",
+    "Pos": "C",
+    "Tm": "PHI",
+    "ORtg": 110,
+    "DRtg": 108,
+    "Player-additional": "dedmode01"
+  },
+  {
+    "Rk": 115,
+    "Player": "Matthew Dellavedova",
+    "Pos": "PG",
+    "Tm": "SAC",
+    "ORtg": 105,
+    "DRtg": 119,
+    "Player-additional": "dellama01"
+  },
+  {
+    "Rk": 116,
+    "Player": "DeMar DeRozan",
+    "Pos": "SF",
+    "Tm": "CHI",
+    "ORtg": 119,
+    "DRtg": 113,
+    "Player-additional": "derozde01"
+  },
+  {
+    "Rk": 117,
+    "Player": "Moussa Diabaté",
+    "Pos": "PF",
+    "Tm": "LAC",
+    "ORtg": 117,
+    "DRtg": 114,
+    "Player-additional": "diabamo01"
+  },
+  {
+    "Rk": 118,
+    "Player": "Mamadi Diakite",
+    "Pos": "PF",
+    "Tm": "CLE",
+    "ORtg": 99,
+    "DRtg": 109,
+    "Player-additional": "diakima01"
+  },
+  {
+    "Rk": 119,
+    "Player": "Hamidou Diallo",
+    "Pos": "SG",
+    "Tm": "DET",
+    "ORtg": 109,
+    "DRtg": 116,
+    "Player-additional": "diallha01"
+  },
+  {
+    "Rk": 120,
+    "Player": "Gorgui Dieng",
+    "Pos": "C",
+    "Tm": "SAS",
+    "ORtg": 100,
+    "DRtg": 118,
+    "Player-additional": "dienggo01"
+  },
+  {
+    "Rk": 121,
+    "Player": "Ousmane Dieng",
+    "Pos": "SF",
+    "Tm": "OKC",
+    "ORtg": 103,
+    "DRtg": 115,
+    "Player-additional": "diengou01"
+  },
+  {
+    "Rk": 122,
+    "Player": "Spencer Dinwiddie",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 118,
+    "DRtg": 118,
+    "Player-additional": "dinwisp01"
+  },
+  {
+    "Rk": 122,
+    "Player": "Spencer Dinwiddie",
+    "Pos": "PG",
+    "Tm": "DAL",
+    "ORtg": 120,
+    "DRtg": 119,
+    "Player-additional": "dinwisp01"
+  },
+  {
+    "Rk": 122,
+    "Player": "Spencer Dinwiddie",
+    "Pos": "PG",
+    "Tm": "BRK",
+    "ORtg": 115,
+    "DRtg": 116,
+    "Player-additional": "dinwisp01"
+  },
+  {
+    "Rk": 123,
+    "Player": "Donte DiVincenzo",
+    "Pos": "SG",
+    "Tm": "GSW",
+    "ORtg": 117,
+    "DRtg": 113,
+    "Player-additional": "divindo01"
+  },
+  {
+    "Rk": 124,
+    "Player": "Luka Dončić",
+    "Pos": "PG",
+    "Tm": "DAL",
+    "ORtg": 120,
+    "DRtg": 113,
+    "Player-additional": "doncilu01"
+  },
+  {
+    "Rk": 125,
+    "Player": "Tyler Dorsey",
+    "Pos": "SG",
+    "Tm": "DAL",
+    "ORtg": 170,
+    "DRtg": 121,
+    "Player-additional": "dorsety01"
+  },
+  {
+    "Rk": 126,
+    "Player": "Luguentz Dort",
+    "Pos": "SG",
+    "Tm": "OKC",
+    "ORtg": 109,
+    "DRtg": 116,
+    "Player-additional": "dortlu01"
+  },
+  {
+    "Rk": 127,
+    "Player": "Ayo Dosunmu",
+    "Pos": "SG",
+    "Tm": "CHI",
+    "ORtg": 109,
+    "DRtg": 115,
+    "Player-additional": "dosunay01"
+  },
+  {
+    "Rk": 128,
+    "Player": "Devon Dotson",
+    "Pos": "PG",
+    "Tm": "WAS",
+    "ORtg": 81,
+    "DRtg": 112,
+    "Player-additional": "dotsode01"
+  },
+  {
+    "Rk": 129,
+    "Player": "Jeff Dowtin",
+    "Pos": "PG",
+    "Tm": "TOR",
+    "ORtg": 118,
+    "DRtg": 117,
+    "Player-additional": "dowtije01"
+  },
+  {
+    "Rk": 130,
+    "Player": "PJ Dozier",
+    "Pos": "SG",
+    "Tm": "SAC",
+    "ORtg": 76,
+    "DRtg": 111,
+    "Player-additional": "doziepj01"
+  },
+  {
+    "Rk": 131,
+    "Player": "Goran Dragić",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 103,
+    "DRtg": 117,
+    "Player-additional": "dragigo01"
+  },
+  {
+    "Rk": 131,
+    "Player": "Goran Dragić",
+    "Pos": "PG",
+    "Tm": "CHI",
+    "ORtg": 103,
+    "DRtg": 117,
+    "Player-additional": "dragigo01"
+  },
+  {
+    "Rk": 131,
+    "Player": "Goran Dragić",
+    "Pos": "PG",
+    "Tm": "MIL",
+    "ORtg": 104,
+    "DRtg": 115,
+    "Player-additional": "dragigo01"
+  },
+  {
+    "Rk": 132,
+    "Player": "Andre Drummond",
+    "Pos": "C",
+    "Tm": "CHI",
+    "ORtg": 113,
+    "DRtg": 103,
+    "Player-additional": "drumman01"
+  },
+  {
+    "Rk": 133,
+    "Player": "Chris Duarte",
+    "Pos": "SF",
+    "Tm": "IND",
+    "ORtg": 101,
+    "DRtg": 120,
+    "Player-additional": "duartch01"
+  },
+  {
+    "Rk": 134,
+    "Player": "David Duke Jr.",
+    "Pos": "SG",
+    "Tm": "BRK",
+    "ORtg": 96,
+    "DRtg": 116,
+    "Player-additional": "dukeda01"
+  },
+  {
+    "Rk": 135,
+    "Player": "Kris Dunn",
+    "Pos": "PG",
+    "Tm": "UTA",
+    "ORtg": 125,
+    "DRtg": 114,
+    "Player-additional": "dunnkr01"
+  },
+  {
+    "Rk": 136,
+    "Player": "Kevin Durant",
+    "Pos": "PF-SF",
+    "Tm": "TOT",
+    "ORtg": 123,
+    "DRtg": 113,
+    "Player-additional": "duranke01"
+  },
+  {
+    "Rk": 136,
+    "Player": "Kevin Durant",
+    "Pos": "PF",
+    "Tm": "BRK",
+    "ORtg": 122,
+    "DRtg": 113,
+    "Player-additional": "duranke01"
+  },
+  {
+    "Rk": 136,
+    "Player": "Kevin Durant",
+    "Pos": "SF",
+    "Tm": "PHO",
+    "ORtg": 127,
+    "DRtg": 114,
+    "Player-additional": "duranke01"
+  },
+  {
+    "Rk": 137,
+    "Player": "Jalen Duren",
+    "Pos": "C",
+    "Tm": "DET",
+    "ORtg": 126,
+    "DRtg": 116,
+    "Player-additional": "durenja01"
+  },
+  {
+    "Rk": 138,
+    "Player": "Tari Eason",
+    "Pos": "PF",
+    "Tm": "HOU",
+    "ORtg": 110,
+    "DRtg": 115,
+    "Player-additional": "easonta01"
+  },
+  {
+    "Rk": 139,
+    "Player": "Anthony Edwards",
+    "Pos": "SG",
+    "Tm": "MIN",
+    "ORtg": 106,
+    "DRtg": 113,
+    "Player-additional": "edwaran01"
+  },
+  {
+    "Rk": 140,
+    "Player": "Kessler Edwards",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 108,
+    "DRtg": 117,
+    "Player-additional": "edwarke02"
+  },
+  {
+    "Rk": 140,
+    "Player": "Kessler Edwards",
+    "Pos": "SF",
+    "Tm": "BRK",
+    "ORtg": 71,
+    "DRtg": 115,
+    "Player-additional": "edwarke02"
+  },
+  {
+    "Rk": 140,
+    "Player": "Kessler Edwards",
+    "Pos": "SF",
+    "Tm": "SAC",
+    "ORtg": 120,
+    "DRtg": 117,
+    "Player-additional": "edwarke02"
+  },
+  {
+    "Rk": 141,
+    "Player": "Keon Ellis",
+    "Pos": "SG",
+    "Tm": "SAC",
+    "ORtg": 138,
+    "DRtg": 114,
+    "Player-additional": "elliske01"
+  },
+  {
+    "Rk": 142,
+    "Player": "Joel Embiid",
+    "Pos": "C",
+    "Tm": "PHI",
+    "ORtg": 124,
+    "DRtg": 109,
+    "Player-additional": "embiijo01"
+  },
+  {
+    "Rk": 143,
+    "Player": "Drew Eubanks",
+    "Pos": "C",
+    "Tm": "POR",
+    "ORtg": 130,
+    "DRtg": 115,
+    "Player-additional": "eubandr01"
+  },
+  {
+    "Rk": 144,
+    "Player": "Bruno Fernando",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 118,
+    "DRtg": 115,
+    "Player-additional": "fernabr01"
+  },
+  {
+    "Rk": 144,
+    "Player": "Bruno Fernando",
+    "Pos": "C",
+    "Tm": "HOU",
+    "ORtg": 119,
+    "DRtg": 115,
+    "Player-additional": "fernabr01"
+  },
+  {
+    "Rk": 144,
+    "Player": "Bruno Fernando",
+    "Pos": "C",
+    "Tm": "ATL",
+    "ORtg": 110,
+    "DRtg": 114,
+    "Player-additional": "fernabr01"
+  },
+  {
+    "Rk": 145,
+    "Player": "Dorian Finney-Smith",
+    "Pos": "PF",
+    "Tm": "TOT",
+    "ORtg": 109,
+    "DRtg": 117,
+    "Player-additional": "finnedo01"
+  },
+  {
+    "Rk": 145,
+    "Player": "Dorian Finney-Smith",
+    "Pos": "PF",
+    "Tm": "DAL",
+    "ORtg": 114,
+    "DRtg": 118,
+    "Player-additional": "finnedo01"
+  },
+  {
+    "Rk": 145,
+    "Player": "Dorian Finney-Smith",
+    "Pos": "PF",
+    "Tm": "BRK",
+    "ORtg": 101,
+    "DRtg": 116,
+    "Player-additional": "finnedo01"
+  },
+  {
+    "Rk": 146,
+    "Player": "Malachi Flynn",
+    "Pos": "PG",
+    "Tm": "TOR",
+    "ORtg": 105,
+    "DRtg": 117,
+    "Player-additional": "flynnma01"
+  },
+  {
+    "Rk": 147,
+    "Player": "Simone Fontecchio",
+    "Pos": "SF",
+    "Tm": "UTA",
+    "ORtg": 101,
+    "DRtg": 120,
+    "Player-additional": "fontesi01"
+  },
+  {
+    "Rk": 148,
+    "Player": "Bryn Forbes",
+    "Pos": "SG",
+    "Tm": "MIN",
+    "ORtg": 99,
+    "DRtg": 118,
+    "Player-additional": "forbebr01"
+  },
+  {
+    "Rk": 149,
+    "Player": "Trent Forrest",
+    "Pos": "PG",
+    "Tm": "ATL",
+    "ORtg": 93,
+    "DRtg": 118,
+    "Player-additional": "forretr01"
+  },
+  {
+    "Rk": 150,
+    "Player": "Michael Foster Jr.",
+    "Pos": "PF",
+    "Tm": "PHI",
+    "ORtg": "",
+    "DRtg": 122,
+    "Player-additional": "fostemi02"
+  },
+  {
+    "Rk": 151,
+    "Player": "Evan Fournier",
+    "Pos": "SG",
+    "Tm": "NYK",
+    "ORtg": 98,
+    "DRtg": 116,
+    "Player-additional": "fournev01"
+  },
+  {
+    "Rk": 152,
+    "Player": "De'Aaron Fox",
+    "Pos": "PG",
+    "Tm": "SAC",
+    "ORtg": 119,
+    "DRtg": 117,
+    "Player-additional": "foxde01"
+  },
+  {
+    "Rk": 153,
+    "Player": "Markelle Fultz",
+    "Pos": "PG",
+    "Tm": "ORL",
+    "ORtg": 113,
+    "DRtg": 114,
+    "Player-additional": "fultzma01"
+  },
+  {
+    "Rk": 154,
+    "Player": "Wenyen Gabriel",
+    "Pos": "PF",
+    "Tm": "LAL",
+    "ORtg": 123,
+    "DRtg": 113,
+    "Player-additional": "gabriwe01"
+  },
+  {
+    "Rk": 155,
+    "Player": "Daniel Gafford",
+    "Pos": "C",
+    "Tm": "WAS",
+    "ORtg": 135,
+    "DRtg": 113,
+    "Player-additional": "gaffoda01"
+  },
+  {
+    "Rk": 156,
+    "Player": "Darius Garland",
+    "Pos": "PG",
+    "Tm": "CLE",
+    "ORtg": 118,
+    "DRtg": 113,
+    "Player-additional": "garlada01"
+  },
+  {
+    "Rk": 157,
+    "Player": "Usman Garuba",
+    "Pos": "PF",
+    "Tm": "HOU",
+    "ORtg": 119,
+    "DRtg": 115,
+    "Player-additional": "garubus01"
+  },
+  {
+    "Rk": 158,
+    "Player": "Luka Garza",
+    "Pos": "C",
+    "Tm": "MIN",
+    "ORtg": 130,
+    "DRtg": 117,
+    "Player-additional": "garzalu01"
+  },
+  {
+    "Rk": 159,
+    "Player": "Rudy Gay",
+    "Pos": "PF",
+    "Tm": "UTA",
+    "ORtg": 101,
+    "DRtg": 117,
+    "Player-additional": "gayru01"
+  },
+  {
+    "Rk": 160,
+    "Player": "Paul George",
+    "Pos": "SG",
+    "Tm": "LAC",
+    "ORtg": 113,
+    "DRtg": 113,
+    "Player-additional": "georgpa01"
+  },
+  {
+    "Rk": 161,
+    "Player": "Taj Gibson",
+    "Pos": "C",
+    "Tm": "WAS",
+    "ORtg": 114,
+    "DRtg": 115,
+    "Player-additional": "gibsota01"
+  },
+  {
+    "Rk": 162,
+    "Player": "Josh Giddey",
+    "Pos": "SG",
+    "Tm": "OKC",
+    "ORtg": 109,
+    "DRtg": 114,
+    "Player-additional": "giddejo01"
+  },
+  {
+    "Rk": 163,
+    "Player": "Shai Gilgeous-Alexander",
+    "Pos": "PG",
+    "Tm": "OKC",
+    "ORtg": 125,
+    "DRtg": 113,
+    "Player-additional": "gilgesh01"
+  },
+  {
+    "Rk": 164,
+    "Player": "Anthony Gill",
+    "Pos": "PF",
+    "Tm": "WAS",
+    "ORtg": 127,
+    "DRtg": 119,
+    "Player-additional": "gillan01"
+  },
+  {
+    "Rk": 165,
+    "Player": "Jacob Gilyard",
+    "Pos": "PG",
+    "Tm": "MEM",
+    "ORtg": 108,
+    "DRtg": 110,
+    "Player-additional": "gilyaja01"
+  },
+  {
+    "Rk": 166,
+    "Player": "Rudy Gobert",
+    "Pos": "C",
+    "Tm": "MIN",
+    "ORtg": 127,
+    "DRtg": 109,
+    "Player-additional": "goberru01"
+  },
+  {
+    "Rk": 167,
+    "Player": "Jordan Goodwin",
+    "Pos": "PG",
+    "Tm": "WAS",
+    "ORtg": 113,
+    "DRtg": 113,
+    "Player-additional": "goodwjo01"
+  },
+  {
+    "Rk": 168,
+    "Player": "Aaron Gordon",
+    "Pos": "PF",
+    "Tm": "DEN",
+    "ORtg": 124,
+    "DRtg": 115,
+    "Player-additional": "gordoaa01"
+  },
+  {
+    "Rk": 169,
+    "Player": "Eric Gordon",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 115,
+    "DRtg": 122,
+    "Player-additional": "gordoer01"
+  },
+  {
+    "Rk": 169,
+    "Player": "Eric Gordon",
+    "Pos": "SG",
+    "Tm": "HOU",
+    "ORtg": 113,
+    "DRtg": 123,
+    "Player-additional": "gordoer01"
+  },
+  {
+    "Rk": 169,
+    "Player": "Eric Gordon",
+    "Pos": "SG",
+    "Tm": "LAC",
+    "ORtg": 122,
+    "DRtg": 118,
+    "Player-additional": "gordoer01"
+  },
+  {
+    "Rk": 170,
+    "Player": "Devonte' Graham",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 117,
+    "DRtg": 117,
+    "Player-additional": "grahade01"
+  },
+  {
+    "Rk": 170,
+    "Player": "Devonte' Graham",
+    "Pos": "PG",
+    "Tm": "NOP",
+    "ORtg": 118,
+    "DRtg": 114,
+    "Player-additional": "grahade01"
+  },
+  {
+    "Rk": 170,
+    "Player": "Devonte' Graham",
+    "Pos": "PG",
+    "Tm": "SAS",
+    "ORtg": 116,
+    "DRtg": 122,
+    "Player-additional": "grahade01"
+  },
+  {
+    "Rk": 171,
+    "Player": "Jerami Grant",
+    "Pos": "PF",
+    "Tm": "POR",
+    "ORtg": 117,
+    "DRtg": 120,
+    "Player-additional": "grantje01"
+  },
+  {
+    "Rk": 172,
+    "Player": "RaiQuan Gray",
+    "Pos": "PF",
+    "Tm": "BRK",
+    "ORtg": 115,
+    "DRtg": 116,
+    "Player-additional": "grayra01"
+  },
+  {
+    "Rk": 173,
+    "Player": "A.J. Green",
+    "Pos": "SG",
+    "Tm": "MIL",
+    "ORtg": 121,
+    "DRtg": 115,
+    "Player-additional": "greenaj01"
+  },
+  {
+    "Rk": 174,
+    "Player": "Danny Green",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 103,
+    "DRtg": 111,
+    "Player-additional": "greenda02"
+  },
+  {
+    "Rk": 174,
+    "Player": "Danny Green",
+    "Pos": "SG",
+    "Tm": "MEM",
+    "ORtg": 77,
+    "DRtg": 116,
+    "Player-additional": "greenda02"
+  },
+  {
+    "Rk": 174,
+    "Player": "Danny Green",
+    "Pos": "SG",
+    "Tm": "CLE",
+    "ORtg": 111,
+    "DRtg": 109,
+    "Player-additional": "greenda02"
+  },
+  {
+    "Rk": 175,
+    "Player": "Draymond Green",
+    "Pos": "PF",
+    "Tm": "GSW",
+    "ORtg": 114,
+    "DRtg": 112,
+    "Player-additional": "greendr01"
+  },
+  {
+    "Rk": 176,
+    "Player": "Jalen Green",
+    "Pos": "SG",
+    "Tm": "HOU",
+    "ORtg": 109,
+    "DRtg": 122,
+    "Player-additional": "greenja05"
+  },
+  {
+    "Rk": 177,
+    "Player": "JaMychal Green",
+    "Pos": "PF",
+    "Tm": "GSW",
+    "ORtg": 121,
+    "DRtg": 113,
+    "Player-additional": "greenja01"
+  },
+  {
+    "Rk": 178,
+    "Player": "Javonte Green",
+    "Pos": "SG",
+    "Tm": "CHI",
+    "ORtg": 122,
+    "DRtg": 109,
+    "Player-additional": "greenja02"
+  },
+  {
+    "Rk": 179,
+    "Player": "Jeff Green",
+    "Pos": "PF",
+    "Tm": "DEN",
+    "ORtg": 114,
+    "DRtg": 117,
+    "Player-additional": "greenje02"
+  },
+  {
+    "Rk": 180,
+    "Player": "Josh Green",
+    "Pos": "SG",
+    "Tm": "DAL",
+    "ORtg": 119,
+    "DRtg": 119,
+    "Player-additional": "greenjo02"
+  },
+  {
+    "Rk": 181,
+    "Player": "AJ Griffin",
+    "Pos": "SF",
+    "Tm": "ATL",
+    "ORtg": 116,
+    "DRtg": 119,
+    "Player-additional": "griffaj01"
+  },
+  {
+    "Rk": 182,
+    "Player": "Blake Griffin",
+    "Pos": "C",
+    "Tm": "BOS",
+    "ORtg": 127,
+    "DRtg": 111,
+    "Player-additional": "griffbl01"
+  },
+  {
+    "Rk": 183,
+    "Player": "Quentin Grimes",
+    "Pos": "SG",
+    "Tm": "NYK",
+    "ORtg": 125,
+    "DRtg": 117,
+    "Player-additional": "grimequ01"
+  },
+  {
+    "Rk": 184,
+    "Player": "Rui Hachimura",
+    "Pos": "PF",
+    "Tm": "TOT",
+    "ORtg": 109,
+    "DRtg": 116,
+    "Player-additional": "hachiru01"
+  },
+  {
+    "Rk": 184,
+    "Player": "Rui Hachimura",
+    "Pos": "PF",
+    "Tm": "WAS",
+    "ORtg": 106,
+    "DRtg": 117,
+    "Player-additional": "hachiru01"
+  },
+  {
+    "Rk": 184,
+    "Player": "Rui Hachimura",
+    "Pos": "PF",
+    "Tm": "LAL",
+    "ORtg": 113,
+    "DRtg": 115,
+    "Player-additional": "hachiru01"
+  },
+  {
+    "Rk": 185,
+    "Player": "Tyrese Haliburton",
+    "Pos": "PG",
+    "Tm": "IND",
+    "ORtg": 129,
+    "DRtg": 118,
+    "Player-additional": "halibty01"
+  },
+  {
+    "Rk": 186,
+    "Player": "Jordan Hall",
+    "Pos": "SF",
+    "Tm": "SAS",
+    "ORtg": 91,
+    "DRtg": 124,
+    "Player-additional": "halljo02"
+  },
+  {
+    "Rk": 187,
+    "Player": "R.J. Hampton",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 107,
+    "DRtg": 118,
+    "Player-additional": "hamptrj01"
+  },
+  {
+    "Rk": 187,
+    "Player": "R.J. Hampton",
+    "Pos": "PG",
+    "Tm": "ORL",
+    "ORtg": 111,
+    "DRtg": 115,
+    "Player-additional": "hamptrj01"
+  },
+  {
+    "Rk": 187,
+    "Player": "R.J. Hampton",
+    "Pos": "PG",
+    "Tm": "DET",
+    "ORtg": 103,
+    "DRtg": 120,
+    "Player-additional": "hamptrj01"
+  },
+  {
+    "Rk": 188,
+    "Player": "Tim Hardaway Jr.",
+    "Pos": "SG",
+    "Tm": "DAL",
+    "ORtg": 110,
+    "DRtg": 119,
+    "Player-additional": "hardati02"
+  },
+  {
+    "Rk": 189,
+    "Player": "James Harden",
+    "Pos": "PG",
+    "Tm": "PHI",
+    "ORtg": 123,
+    "DRtg": 113,
+    "Player-additional": "hardeja01"
+  },
+  {
+    "Rk": 190,
+    "Player": "Jaden Hardy",
+    "Pos": "SG",
+    "Tm": "DAL",
+    "ORtg": 108,
+    "DRtg": 118,
+    "Player-additional": "hardyja02"
+  },
+  {
+    "Rk": 191,
+    "Player": "Ron Harper Jr.",
+    "Pos": "SF",
+    "Tm": "TOR",
+    "ORtg": 140,
+    "DRtg": 120,
+    "Player-additional": "harpero02"
+  },
+  {
+    "Rk": 192,
+    "Player": "Montrezl Harrell",
+    "Pos": "C",
+    "Tm": "PHI",
+    "ORtg": 124,
+    "DRtg": 113,
+    "Player-additional": "harremo01"
+  },
+  {
+    "Rk": 193,
+    "Player": "Gary Harris",
+    "Pos": "SG",
+    "Tm": "ORL",
+    "ORtg": 122,
+    "DRtg": 116,
+    "Player-additional": "harriga01"
+  },
+  {
+    "Rk": 194,
+    "Player": "Joe Harris",
+    "Pos": "SG",
+    "Tm": "BRK",
+    "ORtg": 119,
+    "DRtg": 117,
+    "Player-additional": "harrijo01"
+  },
+  {
+    "Rk": 195,
+    "Player": "Kevon Harris",
+    "Pos": "SG",
+    "Tm": "ORL",
+    "ORtg": 110,
+    "DRtg": 115,
+    "Player-additional": "harrike01"
+  },
+  {
+    "Rk": 196,
+    "Player": "Tobias Harris",
+    "Pos": "PF",
+    "Tm": "PHI",
+    "ORtg": 118,
+    "DRtg": 114,
+    "Player-additional": "harrito02"
+  },
+  {
+    "Rk": 197,
+    "Player": "Shaquille Harrison",
+    "Pos": "SG",
+    "Tm": "POR",
+    "ORtg": 118,
+    "DRtg": 111,
+    "Player-additional": "harrish01"
+  },
+  {
+    "Rk": 198,
+    "Player": "Josh Hart",
+    "Pos": "SF-SG",
+    "Tm": "TOT",
+    "ORtg": 125,
+    "DRtg": 116,
+    "Player-additional": "hartjo01"
+  },
+  {
+    "Rk": 198,
+    "Player": "Josh Hart",
+    "Pos": "SF",
+    "Tm": "POR",
+    "ORtg": 121,
+    "DRtg": 118,
+    "Player-additional": "hartjo01"
+  },
+  {
+    "Rk": 198,
+    "Player": "Josh Hart",
+    "Pos": "SG",
+    "Tm": "NYK",
+    "ORtg": 136,
+    "DRtg": 112,
+    "Player-additional": "hartjo01"
+  },
+  {
+    "Rk": 199,
+    "Player": "Isaiah Hartenstein",
+    "Pos": "C",
+    "Tm": "NYK",
+    "ORtg": 124,
+    "DRtg": 111,
+    "Player-additional": "harteis01"
+  },
+  {
+    "Rk": 200,
+    "Player": "Udonis Haslem",
+    "Pos": "C",
+    "Tm": "MIA",
+    "ORtg": 94,
+    "DRtg": 115,
+    "Player-additional": "hasleud01"
+  },
+  {
+    "Rk": 201,
+    "Player": "Sam Hauser",
+    "Pos": "PF",
+    "Tm": "BOS",
+    "ORtg": 124,
+    "DRtg": 113,
+    "Player-additional": "hausesa01"
+  },
+  {
+    "Rk": 202,
+    "Player": "Jaxson Hayes",
+    "Pos": "C",
+    "Tm": "NOP",
+    "ORtg": 117,
+    "DRtg": 111,
+    "Player-additional": "hayesja02"
+  },
+  {
+    "Rk": 203,
+    "Player": "Killian Hayes",
+    "Pos": "PG",
+    "Tm": "DET",
+    "ORtg": 98,
+    "DRtg": 118,
+    "Player-additional": "hayeski01"
+  },
+  {
+    "Rk": 204,
+    "Player": "Gordon Hayward",
+    "Pos": "SF",
+    "Tm": "CHO",
+    "ORtg": 110,
+    "DRtg": 118,
+    "Player-additional": "haywago01"
+  },
+  {
+    "Rk": 205,
+    "Player": "Juancho Hernangómez",
+    "Pos": "PF",
+    "Tm": "TOR",
+    "ORtg": 108,
+    "DRtg": 115,
+    "Player-additional": "hernaju01"
+  },
+  {
+    "Rk": 206,
+    "Player": "Willy Hernangómez",
+    "Pos": "C",
+    "Tm": "NOP",
+    "ORtg": 118,
+    "DRtg": 108,
+    "Player-additional": "hernawi01"
+  },
+  {
+    "Rk": 207,
+    "Player": "Tyler Herro",
+    "Pos": "SG",
+    "Tm": "MIA",
+    "ORtg": 109,
+    "DRtg": 115,
+    "Player-additional": "herroty01"
+  },
+  {
+    "Rk": 208,
+    "Player": "Buddy Hield",
+    "Pos": "SF",
+    "Tm": "IND",
+    "ORtg": 115,
+    "DRtg": 118,
+    "Player-additional": "hieldbu01"
+  },
+  {
+    "Rk": 209,
+    "Player": "Haywood Highsmith",
+    "Pos": "SF",
+    "Tm": "MIA",
+    "ORtg": 101,
+    "DRtg": 112,
+    "Player-additional": "highsha01"
+  },
+  {
+    "Rk": 210,
+    "Player": "George Hill",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 124,
+    "DRtg": 115,
+    "Player-additional": "hillge01"
+  },
+  {
+    "Rk": 210,
+    "Player": "George Hill",
+    "Pos": "PG",
+    "Tm": "MIL",
+    "ORtg": 121,
+    "DRtg": 115,
+    "Player-additional": "hillge01"
+  },
+  {
+    "Rk": 210,
+    "Player": "George Hill",
+    "Pos": "PG",
+    "Tm": "IND",
+    "ORtg": 138,
+    "DRtg": 118,
+    "Player-additional": "hillge01"
+  },
+  {
+    "Rk": 211,
+    "Player": "Malcolm Hill",
+    "Pos": "SF",
+    "Tm": "CHI",
+    "ORtg": 119,
+    "DRtg": 112,
+    "Player-additional": "hillma01"
+  },
+  {
+    "Rk": 212,
+    "Player": "Aaron Holiday",
+    "Pos": "PG",
+    "Tm": "ATL",
+    "ORtg": 110,
+    "DRtg": 117,
+    "Player-additional": "holidaa01"
+  },
+  {
+    "Rk": 213,
+    "Player": "Jrue Holiday",
+    "Pos": "PG",
+    "Tm": "MIL",
+    "ORtg": 118,
+    "DRtg": 112,
+    "Player-additional": "holidjr01"
+  },
+  {
+    "Rk": 214,
+    "Player": "Justin Holiday",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 99,
+    "DRtg": 118,
+    "Player-additional": "holidju01"
+  },
+  {
+    "Rk": 214,
+    "Player": "Justin Holiday",
+    "Pos": "SG",
+    "Tm": "ATL",
+    "ORtg": 102,
+    "DRtg": 120,
+    "Player-additional": "holidju01"
+  },
+  {
+    "Rk": 214,
+    "Player": "Justin Holiday",
+    "Pos": "SG",
+    "Tm": "DAL",
+    "ORtg": 94,
+    "DRtg": 114,
+    "Player-additional": "holidju01"
+  },
+  {
+    "Rk": 215,
+    "Player": "Richaun Holmes",
+    "Pos": "C",
+    "Tm": "SAC",
+    "ORtg": 127,
+    "DRtg": 118,
+    "Player-additional": "holmeri01"
+  },
+  {
+    "Rk": 216,
+    "Player": "Al Horford",
+    "Pos": "C",
+    "Tm": "BOS",
+    "ORtg": 133,
+    "DRtg": 112,
+    "Player-additional": "horfoal01"
+  },
+  {
+    "Rk": 217,
+    "Player": "Talen Horton-Tucker",
+    "Pos": "SG",
+    "Tm": "UTA",
+    "ORtg": 104,
+    "DRtg": 117,
+    "Player-additional": "hortota01"
+  },
+  {
+    "Rk": 218,
+    "Player": "Danuel House Jr.",
+    "Pos": "SF",
+    "Tm": "PHI",
+    "ORtg": 115,
+    "DRtg": 116,
+    "Player-additional": "houseda01"
+  },
+  {
+    "Rk": 219,
+    "Player": "Caleb Houstan",
+    "Pos": "SF",
+    "Tm": "ORL",
+    "ORtg": 108,
+    "DRtg": 118,
+    "Player-additional": "houstca01"
+  },
+  {
+    "Rk": 220,
+    "Player": "Trevor Hudgins",
+    "Pos": "PG",
+    "Tm": "HOU",
+    "ORtg": 103,
+    "DRtg": 128,
+    "Player-additional": "hudgitr01"
+  },
+  {
+    "Rk": 221,
+    "Player": "Kevin Huerter",
+    "Pos": "SG",
+    "Tm": "SAC",
+    "ORtg": 119,
+    "DRtg": 117,
+    "Player-additional": "huertke01"
+  },
+  {
+    "Rk": 222,
+    "Player": "Jay Huff",
+    "Pos": "C",
+    "Tm": "WAS",
+    "ORtg": 149,
+    "DRtg": 114,
+    "Player-additional": "huffja01"
+  },
+  {
+    "Rk": 223,
+    "Player": "De'Andre Hunter",
+    "Pos": "SF",
+    "Tm": "ATL",
+    "ORtg": 112,
+    "DRtg": 119,
+    "Player-additional": "huntede01"
+  },
+  {
+    "Rk": 224,
+    "Player": "Bones Hyland",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 107,
+    "DRtg": 115,
+    "Player-additional": "hylanbo01"
+  },
+  {
+    "Rk": 224,
+    "Player": "Bones Hyland",
+    "Pos": "PG",
+    "Tm": "DEN",
+    "ORtg": 106,
+    "DRtg": 115,
+    "Player-additional": "hylanbo01"
+  },
+  {
+    "Rk": 224,
+    "Player": "Bones Hyland",
+    "Pos": "PG",
+    "Tm": "LAC",
+    "ORtg": 111,
+    "DRtg": 114,
+    "Player-additional": "hylanbo01"
+  },
+  {
+    "Rk": 225,
+    "Player": "Serge Ibaka",
+    "Pos": "C",
+    "Tm": "MIL",
+    "ORtg": 105,
+    "DRtg": 112,
+    "Player-additional": "ibakase01"
+  },
+  {
+    "Rk": 226,
+    "Player": "Andre Iguodala",
+    "Pos": "SF",
+    "Tm": "GSW",
+    "ORtg": 102,
+    "DRtg": 114,
+    "Player-additional": "iguodan01"
+  },
+  {
+    "Rk": 227,
+    "Player": "Joe Ingles",
+    "Pos": "SF",
+    "Tm": "MIL",
+    "ORtg": 120,
+    "DRtg": 114,
+    "Player-additional": "inglejo01"
+  },
+  {
+    "Rk": 228,
+    "Player": "Brandon Ingram",
+    "Pos": "SF",
+    "Tm": "NOP",
+    "ORtg": 112,
+    "DRtg": 114,
+    "Player-additional": "ingrabr01"
+  },
+  {
+    "Rk": 229,
+    "Player": "Kyrie Irving",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 121,
+    "DRtg": 116,
+    "Player-additional": "irvinky01"
+  },
+  {
+    "Rk": 229,
+    "Player": "Kyrie Irving",
+    "Pos": "PG",
+    "Tm": "BRK",
+    "ORtg": 118,
+    "DRtg": 115,
+    "Player-additional": "irvinky01"
+  },
+  {
+    "Rk": 229,
+    "Player": "Kyrie Irving",
+    "Pos": "PG",
+    "Tm": "DAL",
+    "ORtg": 127,
+    "DRtg": 117,
+    "Player-additional": "irvinky01"
+  },
+  {
+    "Rk": 230,
+    "Player": "Jonathan Isaac",
+    "Pos": "PF",
+    "Tm": "ORL",
+    "ORtg": 108,
+    "DRtg": 102,
+    "Player-additional": "isaacjo01"
+  },
+  {
+    "Rk": 231,
+    "Player": "Jaden Ivey",
+    "Pos": "SG",
+    "Tm": "DET",
+    "ORtg": 103,
+    "DRtg": 121,
+    "Player-additional": "iveyja01"
+  },
+  {
+    "Rk": 232,
+    "Player": "Frank Jackson",
+    "Pos": "PG",
+    "Tm": "UTA",
+    "ORtg": 48,
+    "DRtg": 119,
+    "Player-additional": "jacksfr01"
+  },
+  {
+    "Rk": 233,
+    "Player": "Isaiah Jackson",
+    "Pos": "C",
+    "Tm": "IND",
+    "ORtg": 120,
+    "DRtg": 114,
+    "Player-additional": "jacksis01"
+  },
+  {
+    "Rk": 234,
+    "Player": "Jaren Jackson Jr.",
+    "Pos": "C",
+    "Tm": "MEM",
+    "ORtg": 118,
+    "DRtg": 105,
+    "Player-additional": "jacksja02"
+  },
+  {
+    "Rk": 235,
+    "Player": "Justin Jackson",
+    "Pos": "SF",
+    "Tm": "BOS",
+    "ORtg": 89,
+    "DRtg": 110,
+    "Player-additional": "jacksju01"
+  },
+  {
+    "Rk": 236,
+    "Player": "Quenton Jackson",
+    "Pos": "PG",
+    "Tm": "WAS",
+    "ORtg": 117,
+    "DRtg": 119,
+    "Player-additional": "jacksqu01"
+  },
+  {
+    "Rk": 237,
+    "Player": "Reggie Jackson",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 103,
+    "DRtg": 118,
+    "Player-additional": "jacksre01"
+  },
+  {
+    "Rk": 237,
+    "Player": "Reggie Jackson",
+    "Pos": "PG",
+    "Tm": "LAC",
+    "ORtg": 103,
+    "DRtg": 118,
+    "Player-additional": "jacksre01"
+  },
+  {
+    "Rk": 237,
+    "Player": "Reggie Jackson",
+    "Pos": "PG",
+    "Tm": "DEN",
+    "ORtg": 101,
+    "DRtg": 117,
+    "Player-additional": "jacksre01"
+  },
+  {
+    "Rk": 238,
+    "Player": "LeBron James",
+    "Pos": "PF",
+    "Tm": "LAL",
+    "ORtg": 114,
+    "DRtg": 113,
+    "Player-additional": "jamesle01"
+  },
+  {
+    "Rk": 239,
+    "Player": "Ty Jerome",
+    "Pos": "SG",
+    "Tm": "GSW",
+    "ORtg": 126,
+    "DRtg": 117,
+    "Player-additional": "jeromty01"
+  },
+  {
+    "Rk": 240,
+    "Player": "Isaiah Joe",
+    "Pos": "SG",
+    "Tm": "OKC",
+    "ORtg": 125,
+    "DRtg": 116,
+    "Player-additional": "joeis01"
+  },
+  {
+    "Rk": 241,
+    "Player": "Alize Johnson",
+    "Pos": "PF",
+    "Tm": "SAS",
+    "ORtg": 74,
+    "DRtg": 117,
+    "Player-additional": "johnsal02"
+  },
+  {
+    "Rk": 242,
+    "Player": "Cameron Johnson",
+    "Pos": "PF",
+    "Tm": "TOT",
+    "ORtg": 122,
+    "DRtg": 114,
+    "Player-additional": "johnsca02"
+  },
+  {
+    "Rk": 242,
+    "Player": "Cameron Johnson",
+    "Pos": "PF",
+    "Tm": "PHO",
+    "ORtg": 127,
+    "DRtg": 114,
+    "Player-additional": "johnsca02"
+  },
+  {
+    "Rk": 242,
+    "Player": "Cameron Johnson",
+    "Pos": "PF",
+    "Tm": "BRK",
+    "ORtg": 120,
+    "DRtg": 114,
+    "Player-additional": "johnsca02"
+  },
+  {
+    "Rk": 243,
+    "Player": "Jalen Johnson",
+    "Pos": "SF",
+    "Tm": "ATL",
+    "ORtg": 114,
+    "DRtg": 113,
+    "Player-additional": "johnsja05"
+  },
+  {
+    "Rk": 244,
+    "Player": "James Johnson",
+    "Pos": "PF",
+    "Tm": "IND",
+    "ORtg": 98,
+    "DRtg": 115,
+    "Player-additional": "johnsja01"
+  },
+  {
+    "Rk": 245,
+    "Player": "Keldon Johnson",
+    "Pos": "SF",
+    "Tm": "SAS",
+    "ORtg": 108,
+    "DRtg": 122,
+    "Player-additional": "johnske04"
+  },
+  {
+    "Rk": 246,
+    "Player": "Keon Johnson",
+    "Pos": "SG",
+    "Tm": "POR",
+    "ORtg": 93,
+    "DRtg": 119,
+    "Player-additional": "johnske07"
+  },
+  {
+    "Rk": 247,
+    "Player": "Stanley Johnson",
+    "Pos": "SF",
+    "Tm": "SAS",
+    "ORtg": 117,
+    "DRtg": 119,
+    "Player-additional": "johnsst04"
+  },
+  {
+    "Rk": 248,
+    "Player": "Nikola Jokić",
+    "Pos": "C",
+    "Tm": "DEN",
+    "ORtg": 134,
+    "DRtg": 110,
+    "Player-additional": "jokicni01"
+  },
+  {
+    "Rk": 249,
+    "Player": "Carlik Jones",
+    "Pos": "PG",
+    "Tm": "CHI",
+    "ORtg": 112,
+    "DRtg": 115,
+    "Player-additional": "jonesca03"
+  },
+  {
+    "Rk": 250,
+    "Player": "Damian Jones",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 128,
+    "DRtg": 115,
+    "Player-additional": "jonesda03"
+  },
+  {
+    "Rk": 250,
+    "Player": "Damian Jones",
+    "Pos": "C",
+    "Tm": "LAL",
+    "ORtg": 117,
+    "DRtg": 110,
+    "Player-additional": "jonesda03"
+  },
+  {
+    "Rk": 250,
+    "Player": "Damian Jones",
+    "Pos": "C",
+    "Tm": "UTA",
+    "ORtg": 137,
+    "DRtg": 117,
+    "Player-additional": "jonesda03"
+  },
+  {
+    "Rk": 251,
+    "Player": "Derrick Jones Jr.",
+    "Pos": "SF",
+    "Tm": "CHI",
+    "ORtg": 122,
+    "DRtg": 112,
+    "Player-additional": "jonesde02"
+  },
+  {
+    "Rk": 252,
+    "Player": "Herbert Jones",
+    "Pos": "SF",
+    "Tm": "NOP",
+    "ORtg": 115,
+    "DRtg": 112,
+    "Player-additional": "joneshe01"
+  },
+  {
+    "Rk": 253,
+    "Player": "Kai Jones",
+    "Pos": "C",
+    "Tm": "CHO",
+    "ORtg": 106,
+    "DRtg": 113,
+    "Player-additional": "joneska01"
+  },
+  {
+    "Rk": 254,
+    "Player": "Tre Jones",
+    "Pos": "PG",
+    "Tm": "SAS",
+    "ORtg": 117,
+    "DRtg": 120,
+    "Player-additional": "jonestr01"
+  },
+  {
+    "Rk": 255,
+    "Player": "Tyus Jones",
+    "Pos": "PG",
+    "Tm": "MEM",
+    "ORtg": 122,
+    "DRtg": 113,
+    "Player-additional": "jonesty01"
+  },
+  {
+    "Rk": 256,
+    "Player": "DeAndre Jordan",
+    "Pos": "C",
+    "Tm": "DEN",
+    "ORtg": 116,
+    "DRtg": 111,
+    "Player-additional": "jordade01"
+  },
+  {
+    "Rk": 257,
+    "Player": "Cory Joseph",
+    "Pos": "PG",
+    "Tm": "DET",
+    "ORtg": 119,
+    "DRtg": 122,
+    "Player-additional": "josepco01"
+  },
+  {
+    "Rk": 258,
+    "Player": "Nikola Jović",
+    "Pos": "PF",
+    "Tm": "MIA",
+    "ORtg": 105,
+    "DRtg": 114,
+    "Player-additional": "jovicni01"
+  },
+  {
+    "Rk": 259,
+    "Player": "Johnny Juzang",
+    "Pos": "SF",
+    "Tm": "UTA",
+    "ORtg": 93,
+    "DRtg": 119,
+    "Player-additional": "juzanjo01"
+  },
+  {
+    "Rk": 260,
+    "Player": "Mfiondu Kabengele",
+    "Pos": "PF",
+    "Tm": "BOS",
+    "ORtg": 103,
+    "DRtg": 110,
+    "Player-additional": "kabenmf01"
+  },
+  {
+    "Rk": 261,
+    "Player": "Frank Kaminsky",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 131,
+    "DRtg": 116,
+    "Player-additional": "kaminfr01"
+  },
+  {
+    "Rk": 261,
+    "Player": "Frank Kaminsky",
+    "Pos": "C",
+    "Tm": "ATL",
+    "ORtg": 133,
+    "DRtg": 116,
+    "Player-additional": "kaminfr01"
+  },
+  {
+    "Rk": 261,
+    "Player": "Frank Kaminsky",
+    "Pos": "C",
+    "Tm": "HOU",
+    "ORtg": 126,
+    "DRtg": 117,
+    "Player-additional": "kaminfr01"
+  },
+  {
+    "Rk": 262,
+    "Player": "Trevor Keels",
+    "Pos": "SG",
+    "Tm": "NYK",
+    "ORtg": 84,
+    "DRtg": 116,
+    "Player-additional": "keelstr01"
+  },
+  {
+    "Rk": 263,
+    "Player": "Luke Kennard",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 128,
+    "DRtg": 116,
+    "Player-additional": "kennalu01"
+  },
+  {
+    "Rk": 263,
+    "Player": "Luke Kennard",
+    "Pos": "SG",
+    "Tm": "LAC",
+    "ORtg": 114,
+    "DRtg": 117,
+    "Player-additional": "kennalu01"
+  },
+  {
+    "Rk": 263,
+    "Player": "Luke Kennard",
+    "Pos": "SG",
+    "Tm": "MEM",
+    "ORtg": 146,
+    "DRtg": 115,
+    "Player-additional": "kennalu01"
+  },
+  {
+    "Rk": 264,
+    "Player": "Walker Kessler",
+    "Pos": "C",
+    "Tm": "UTA",
+    "ORtg": 140,
+    "DRtg": 111,
+    "Player-additional": "kesslwa01"
+  },
+  {
+    "Rk": 265,
+    "Player": "Braxton Key",
+    "Pos": "SF",
+    "Tm": "DET",
+    "ORtg": 227,
+    "DRtg": 124,
+    "Player-additional": "keybr01"
+  },
+  {
+    "Rk": 266,
+    "Player": "Louis King",
+    "Pos": "SF",
+    "Tm": "PHI",
+    "ORtg": 125,
+    "DRtg": 116,
+    "Player-additional": "kinglo02"
+  },
+  {
+    "Rk": 267,
+    "Player": "Corey Kispert",
+    "Pos": "SF",
+    "Tm": "WAS",
+    "ORtg": 124,
+    "DRtg": 120,
+    "Player-additional": "kispeco01"
+  },
+  {
+    "Rk": 268,
+    "Player": "Maxi Kleber",
+    "Pos": "C",
+    "Tm": "DAL",
+    "ORtg": 117,
+    "DRtg": 118,
+    "Player-additional": "klebima01"
+  },
+  {
+    "Rk": 269,
+    "Player": "Nathan Knight",
+    "Pos": "PF",
+    "Tm": "MIN",
+    "ORtg": 118,
+    "DRtg": 114,
+    "Player-additional": "knighna01"
+  },
+  {
+    "Rk": 270,
+    "Player": "Kevin Knox",
+    "Pos": "PF-SF",
+    "Tm": "TOT",
+    "ORtg": 107,
+    "DRtg": 119,
+    "Player-additional": "knoxke01"
+  },
+  {
+    "Rk": 270,
+    "Player": "Kevin Knox",
+    "Pos": "PF",
+    "Tm": "DET",
+    "ORtg": 109,
+    "DRtg": 119,
+    "Player-additional": "knoxke01"
+  },
+  {
+    "Rk": 270,
+    "Player": "Kevin Knox",
+    "Pos": "SF",
+    "Tm": "POR",
+    "ORtg": 105,
+    "DRtg": 120,
+    "Player-additional": "knoxke01"
+  },
+  {
+    "Rk": 271,
+    "Player": "Christian Koloko",
+    "Pos": "C",
+    "Tm": "TOR",
+    "ORtg": 119,
+    "DRtg": 113,
+    "Player-additional": "kolokch01"
+  },
+  {
+    "Rk": 272,
+    "Player": "John Konchar",
+    "Pos": "SG",
+    "Tm": "MEM",
+    "ORtg": 117,
+    "DRtg": 109,
+    "Player-additional": "konchjo01"
+  },
+  {
+    "Rk": 273,
+    "Player": "Furkan Korkmaz",
+    "Pos": "SG",
+    "Tm": "PHI",
+    "ORtg": 100,
+    "DRtg": 115,
+    "Player-additional": "korkmfu01"
+  },
+  {
+    "Rk": 274,
+    "Player": "Luke Kornet",
+    "Pos": "C",
+    "Tm": "BOS",
+    "ORtg": 143,
+    "DRtg": 111,
+    "Player-additional": "kornelu01"
+  },
+  {
+    "Rk": 275,
+    "Player": "Vit Krejci",
+    "Pos": "PG",
+    "Tm": "ATL",
+    "ORtg": 108,
+    "DRtg": 118,
+    "Player-additional": "krejcvi01"
+  },
+  {
+    "Rk": 276,
+    "Player": "Jonathan Kuminga",
+    "Pos": "PF",
+    "Tm": "GSW",
+    "ORtg": 112,
+    "DRtg": 115,
+    "Player-additional": "kuminjo01"
+  },
+  {
+    "Rk": 277,
+    "Player": "Kyle Kuzma",
+    "Pos": "PF",
+    "Tm": "WAS",
+    "ORtg": 103,
+    "DRtg": 117,
+    "Player-additional": "kuzmaky01"
+  },
+  {
+    "Rk": 278,
+    "Player": "Anthony Lamb",
+    "Pos": "SF",
+    "Tm": "GSW",
+    "ORtg": 119,
+    "DRtg": 115,
+    "Player-additional": "lamban01"
+  },
+  {
+    "Rk": 279,
+    "Player": "Jock Landale",
+    "Pos": "C",
+    "Tm": "PHO",
+    "ORtg": 119,
+    "DRtg": 113,
+    "Player-additional": "landajo01"
+  },
+  {
+    "Rk": 280,
+    "Player": "Romeo Langford",
+    "Pos": "SG",
+    "Tm": "SAS",
+    "ORtg": 110,
+    "DRtg": 122,
+    "Player-additional": "langfro01"
+  },
+  {
+    "Rk": 281,
+    "Player": "Jake LaRavia",
+    "Pos": "PF",
+    "Tm": "MEM",
+    "ORtg": 105,
+    "DRtg": 114,
+    "Player-additional": "laravja01"
+  },
+  {
+    "Rk": 282,
+    "Player": "Zach LaVine",
+    "Pos": "SG",
+    "Tm": "CHI",
+    "ORtg": 116,
+    "DRtg": 115,
+    "Player-additional": "lavinza01"
+  },
+  {
+    "Rk": 283,
+    "Player": "A.J. Lawson",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 112,
+    "DRtg": 118,
+    "Player-additional": "lawsoaj01"
+  },
+  {
+    "Rk": 283,
+    "Player": "A.J. Lawson",
+    "Pos": "SG",
+    "Tm": "MIN",
+    "ORtg": 200,
+    "DRtg": 107,
+    "Player-additional": "lawsoaj01"
+  },
+  {
+    "Rk": 283,
+    "Player": "A.J. Lawson",
+    "Pos": "SG",
+    "Tm": "DAL",
+    "ORtg": 111,
+    "DRtg": 119,
+    "Player-additional": "lawsoaj01"
+  },
+  {
+    "Rk": 284,
+    "Player": "Damion Lee",
+    "Pos": "SG",
+    "Tm": "PHO",
+    "ORtg": 114,
+    "DRtg": 116,
+    "Player-additional": "leeda03"
+  },
+  {
+    "Rk": 285,
+    "Player": "Saben Lee",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 111,
+    "DRtg": 113,
+    "Player-additional": "leesa01"
+  },
+  {
+    "Rk": 285,
+    "Player": "Saben Lee",
+    "Pos": "PG",
+    "Tm": "PHI",
+    "ORtg": 86,
+    "DRtg": 111,
+    "Player-additional": "leesa01"
+  },
+  {
+    "Rk": 285,
+    "Player": "Saben Lee",
+    "Pos": "PG",
+    "Tm": "PHO",
+    "ORtg": 112,
+    "DRtg": 114,
+    "Player-additional": "leesa01"
+  },
+  {
+    "Rk": 286,
+    "Player": "Alex Len",
+    "Pos": "C",
+    "Tm": "SAC",
+    "ORtg": 109,
+    "DRtg": 112,
+    "Player-additional": "lenal01"
+  },
+  {
+    "Rk": 287,
+    "Player": "Kawhi Leonard",
+    "Pos": "SF",
+    "Tm": "LAC",
+    "ORtg": 125,
+    "DRtg": 113,
+    "Player-additional": "leonaka01"
+  },
+  {
+    "Rk": 288,
+    "Player": "Meyers Leonard",
+    "Pos": "C",
+    "Tm": "MIL",
+    "ORtg": 123,
+    "DRtg": 113,
+    "Player-additional": "leoname01"
+  },
+  {
+    "Rk": 289,
+    "Player": "Caris LeVert",
+    "Pos": "SG",
+    "Tm": "CLE",
+    "ORtg": 111,
+    "DRtg": 112,
+    "Player-additional": "leverca01"
+  },
+  {
+    "Rk": 290,
+    "Player": "Kira Lewis Jr.",
+    "Pos": "PG",
+    "Tm": "NOP",
+    "ORtg": 118,
+    "DRtg": 113,
+    "Player-additional": "lewiski01"
+  },
+  {
+    "Rk": 291,
+    "Player": "Damian Lillard",
+    "Pos": "PG",
+    "Tm": "POR",
+    "ORtg": 126,
+    "DRtg": 121,
+    "Player-additional": "lillada01"
+  },
+  {
+    "Rk": 292,
+    "Player": "Nassir Little",
+    "Pos": "SF",
+    "Tm": "POR",
+    "ORtg": 108,
+    "DRtg": 120,
+    "Player-additional": "littlna01"
+  },
+  {
+    "Rk": 293,
+    "Player": "Isaiah Livers",
+    "Pos": "PF",
+    "Tm": "DET",
+    "ORtg": 113,
+    "DRtg": 120,
+    "Player-additional": "liveris01"
+  },
+  {
+    "Rk": 294,
+    "Player": "Kenneth Lofton Jr.",
+    "Pos": "PF",
+    "Tm": "MEM",
+    "ORtg": 116,
+    "DRtg": 111,
+    "Player-additional": "loftoke01"
+  },
+  {
+    "Rk": 295,
+    "Player": "Kevon Looney",
+    "Pos": "C",
+    "Tm": "GSW",
+    "ORtg": 147,
+    "DRtg": 111,
+    "Player-additional": "looneke01"
+  },
+  {
+    "Rk": 296,
+    "Player": "Brook Lopez",
+    "Pos": "C",
+    "Tm": "MIL",
+    "ORtg": 122,
+    "DRtg": 109,
+    "Player-additional": "lopezbr01"
+  },
+  {
+    "Rk": 297,
+    "Player": "Robin Lopez",
+    "Pos": "C",
+    "Tm": "CLE",
+    "ORtg": 114,
+    "DRtg": 114,
+    "Player-additional": "lopezro01"
+  },
+  {
+    "Rk": 298,
+    "Player": "Kevin Love",
+    "Pos": "PF",
+    "Tm": "TOT",
+    "ORtg": 110,
+    "DRtg": 110,
+    "Player-additional": "loveke01"
+  },
+  {
+    "Rk": 298,
+    "Player": "Kevin Love",
+    "Pos": "PF",
+    "Tm": "CLE",
+    "ORtg": 111,
+    "DRtg": 109,
+    "Player-additional": "loveke01"
+  },
+  {
+    "Rk": 298,
+    "Player": "Kevin Love",
+    "Pos": "PF",
+    "Tm": "MIA",
+    "ORtg": 107,
+    "DRtg": 112,
+    "Player-additional": "loveke01"
+  },
+  {
+    "Rk": 299,
+    "Player": "Kyle Lowry",
+    "Pos": "PG",
+    "Tm": "MIA",
+    "ORtg": 114,
+    "DRtg": 114,
+    "Player-additional": "lowryky01"
+  },
+  {
+    "Rk": 300,
+    "Player": "Trey Lyles",
+    "Pos": "PF",
+    "Tm": "SAC",
+    "ORtg": 117,
+    "DRtg": 116,
+    "Player-additional": "lylestr01"
+  },
+  {
+    "Rk": 301,
+    "Player": "Théo Maledon",
+    "Pos": "PG",
+    "Tm": "CHO",
+    "ORtg": 105,
+    "DRtg": 115,
+    "Player-additional": "maledth01"
+  },
+  {
+    "Rk": 302,
+    "Player": "Sandro Mamukelashvili",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 111,
+    "DRtg": 117,
+    "Player-additional": "mamuksa01"
+  },
+  {
+    "Rk": 302,
+    "Player": "Sandro Mamukelashvili",
+    "Pos": "C",
+    "Tm": "MIL",
+    "ORtg": 102,
+    "DRtg": 112,
+    "Player-additional": "mamuksa01"
+  },
+  {
+    "Rk": 302,
+    "Player": "Sandro Mamukelashvili",
+    "Pos": "C",
+    "Tm": "SAS",
+    "ORtg": 114,
+    "DRtg": 120,
+    "Player-additional": "mamuksa01"
+  },
+  {
+    "Rk": 303,
+    "Player": "Terance Mann",
+    "Pos": "SG",
+    "Tm": "LAC",
+    "ORtg": 123,
+    "DRtg": 117,
+    "Player-additional": "mannte01"
+  },
+  {
+    "Rk": 304,
+    "Player": "Tre Mann",
+    "Pos": "PG",
+    "Tm": "OKC",
+    "ORtg": 101,
+    "DRtg": 116,
+    "Player-additional": "manntr01"
+  },
+  {
+    "Rk": 305,
+    "Player": "Boban Marjanović",
+    "Pos": "C",
+    "Tm": "HOU",
+    "ORtg": 127,
+    "DRtg": 117,
+    "Player-additional": "marjabo01"
+  },
+  {
+    "Rk": 306,
+    "Player": "Lauri Markkanen",
+    "Pos": "SF",
+    "Tm": "UTA",
+    "ORtg": 125,
+    "DRtg": 116,
+    "Player-additional": "markkla01"
+  },
+  {
+    "Rk": 307,
+    "Player": "Naji Marshall",
+    "Pos": "SF",
+    "Tm": "NOP",
+    "ORtg": 109,
+    "DRtg": 114,
+    "Player-additional": "marshna01"
+  },
+  {
+    "Rk": 308,
+    "Player": "Caleb Martin",
+    "Pos": "PF",
+    "Tm": "MIA",
+    "ORtg": 113,
+    "DRtg": 113,
+    "Player-additional": "martica02"
+  },
+  {
+    "Rk": 309,
+    "Player": "Cody Martin",
+    "Pos": "SF",
+    "Tm": "CHO",
+    "ORtg": 108,
+    "DRtg": 117,
+    "Player-additional": "martico01"
+  },
+  {
+    "Rk": 310,
+    "Player": "Kenyon Martin Jr.",
+    "Pos": "SF",
+    "Tm": "HOU",
+    "ORtg": 126,
+    "DRtg": 121,
+    "Player-additional": "martike04"
+  },
+  {
+    "Rk": 311,
+    "Player": "Tyrese Martin",
+    "Pos": "SG",
+    "Tm": "ATL",
+    "ORtg": 98,
+    "DRtg": 120,
+    "Player-additional": "martity01"
+  },
+  {
+    "Rk": 312,
+    "Player": "Garrison Mathews",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 119,
+    "DRtg": 121,
+    "Player-additional": "mathega01"
+  },
+  {
+    "Rk": 312,
+    "Player": "Garrison Mathews",
+    "Pos": "SG",
+    "Tm": "HOU",
+    "ORtg": 117,
+    "DRtg": 121,
+    "Player-additional": "mathega01"
+  },
+  {
+    "Rk": 312,
+    "Player": "Garrison Mathews",
+    "Pos": "SG",
+    "Tm": "ATL",
+    "ORtg": 129,
+    "DRtg": 119,
+    "Player-additional": "mathega01"
+  },
+  {
+    "Rk": 313,
+    "Player": "Bennedict Mathurin",
+    "Pos": "SF",
+    "Tm": "IND",
+    "ORtg": 109,
+    "DRtg": 121,
+    "Player-additional": "mathube01"
+  },
+  {
+    "Rk": 314,
+    "Player": "Wesley Matthews",
+    "Pos": "SG",
+    "Tm": "MIL",
+    "ORtg": 113,
+    "DRtg": 114,
+    "Player-additional": "matthwe02"
+  },
+  {
+    "Rk": 315,
+    "Player": "Tyrese Maxey",
+    "Pos": "SG",
+    "Tm": "PHI",
+    "ORtg": 120,
+    "DRtg": 117,
+    "Player-additional": "maxeyty01"
+  },
+  {
+    "Rk": 316,
+    "Player": "Skylar Mays",
+    "Pos": "SG",
+    "Tm": "POR",
+    "ORtg": 132,
+    "DRtg": 121,
+    "Player-additional": "mayssk01"
+  },
+  {
+    "Rk": 317,
+    "Player": "Miles McBride",
+    "Pos": "PG",
+    "Tm": "NYK",
+    "ORtg": 106,
+    "DRtg": 116,
+    "Player-additional": "mcbrimi01"
+  },
+  {
+    "Rk": 318,
+    "Player": "Mac McClung",
+    "Pos": "SG",
+    "Tm": "PHI",
+    "ORtg": 119,
+    "DRtg": 117,
+    "Player-additional": "mccluma01"
+  },
+  {
+    "Rk": 319,
+    "Player": "CJ McCollum",
+    "Pos": "SG",
+    "Tm": "NOP",
+    "ORtg": 110,
+    "DRtg": 115,
+    "Player-additional": "mccolcj01"
+  },
+  {
+    "Rk": 320,
+    "Player": "T.J. McConnell",
+    "Pos": "PG",
+    "Tm": "IND",
+    "ORtg": 116,
+    "DRtg": 117,
+    "Player-additional": "mccontj01"
+  },
+  {
+    "Rk": 321,
+    "Player": "Jaden McDaniels",
+    "Pos": "SF",
+    "Tm": "MIN",
+    "ORtg": 115,
+    "DRtg": 115,
+    "Player-additional": "mcdanja02"
+  },
+  {
+    "Rk": 322,
+    "Player": "Jalen McDaniels",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 108,
+    "DRtg": 114,
+    "Player-additional": "mcdanja01"
+  },
+  {
+    "Rk": 322,
+    "Player": "Jalen McDaniels",
+    "Pos": "SF",
+    "Tm": "CHO",
+    "ORtg": 106,
+    "DRtg": 114,
+    "Player-additional": "mcdanja01"
+  },
+  {
+    "Rk": 322,
+    "Player": "Jalen McDaniels",
+    "Pos": "SF",
+    "Tm": "PHI",
+    "ORtg": 117,
+    "DRtg": 113,
+    "Player-additional": "mcdanja01"
+  },
+  {
+    "Rk": 323,
+    "Player": "Doug McDermott",
+    "Pos": "SF",
+    "Tm": "SAS",
+    "ORtg": 113,
+    "DRtg": 124,
+    "Player-additional": "mcderdo01"
+  },
+  {
+    "Rk": 324,
+    "Player": "JaVale McGee",
+    "Pos": "C",
+    "Tm": "DAL",
+    "ORtg": 108,
+    "DRtg": 112,
+    "Player-additional": "mcgeeja01"
+  },
+  {
+    "Rk": 325,
+    "Player": "Bryce McGowens",
+    "Pos": "SG",
+    "Tm": "CHO",
+    "ORtg": 100,
+    "DRtg": 119,
+    "Player-additional": "mcgowbr01"
+  },
+  {
+    "Rk": 326,
+    "Player": "Rodney McGruder",
+    "Pos": "SG",
+    "Tm": "DET",
+    "ORtg": 119,
+    "DRtg": 121,
+    "Player-additional": "mcgruro01"
+  },
+  {
+    "Rk": 327,
+    "Player": "Jordan McLaughlin",
+    "Pos": "PG",
+    "Tm": "MIN",
+    "ORtg": 118,
+    "DRtg": 115,
+    "Player-additional": "mclaujo01"
+  },
+  {
+    "Rk": 328,
+    "Player": "De'Anthony Melton",
+    "Pos": "PG",
+    "Tm": "PHI",
+    "ORtg": 111,
+    "DRtg": 111,
+    "Player-additional": "meltode01"
+  },
+  {
+    "Rk": 329,
+    "Player": "Sam Merrill",
+    "Pos": "SG",
+    "Tm": "CLE",
+    "ORtg": 121,
+    "DRtg": 107,
+    "Player-additional": "merrisa01"
+  },
+  {
+    "Rk": 330,
+    "Player": "Chimezie Metu",
+    "Pos": "C",
+    "Tm": "SAC",
+    "ORtg": 124,
+    "DRtg": 113,
+    "Player-additional": "metuch01"
+  },
+  {
+    "Rk": 331,
+    "Player": "Khris Middleton",
+    "Pos": "SF",
+    "Tm": "MIL",
+    "ORtg": 113,
+    "DRtg": 113,
+    "Player-additional": "middlkh01"
+  },
+  {
+    "Rk": 332,
+    "Player": "Patty Mills",
+    "Pos": "PG",
+    "Tm": "BRK",
+    "ORtg": 106,
+    "DRtg": 118,
+    "Player-additional": "millspa02"
+  },
+  {
+    "Rk": 333,
+    "Player": "Shake Milton",
+    "Pos": "SG",
+    "Tm": "PHI",
+    "ORtg": 115,
+    "DRtg": 117,
+    "Player-additional": "miltosh01"
+  },
+  {
+    "Rk": 334,
+    "Player": "Justin Minaya",
+    "Pos": "SF",
+    "Tm": "POR",
+    "ORtg": 77,
+    "DRtg": 117,
+    "Player-additional": "minayju01"
+  },
+  {
+    "Rk": 335,
+    "Player": "Josh Minott",
+    "Pos": "SF",
+    "Tm": "MIN",
+    "ORtg": 119,
+    "DRtg": 109,
+    "Player-additional": "minotjo01"
+  },
+  {
+    "Rk": 336,
+    "Player": "Davion Mitchell",
+    "Pos": "PG",
+    "Tm": "SAC",
+    "ORtg": 111,
+    "DRtg": 119,
+    "Player-additional": "mitchda01"
+  },
+  {
+    "Rk": 337,
+    "Player": "Donovan Mitchell",
+    "Pos": "SG",
+    "Tm": "CLE",
+    "ORtg": 118,
+    "DRtg": 111,
+    "Player-additional": "mitchdo01"
+  },
+  {
+    "Rk": 338,
+    "Player": "Evan Mobley",
+    "Pos": "PF",
+    "Tm": "CLE",
+    "ORtg": 117,
+    "DRtg": 108,
+    "Player-additional": "mobleev01"
+  },
+  {
+    "Rk": 339,
+    "Player": "Isaiah Mobley",
+    "Pos": "PF",
+    "Tm": "CLE",
+    "ORtg": 114,
+    "DRtg": 106,
+    "Player-additional": "mobleis01"
+  },
+  {
+    "Rk": 340,
+    "Player": "Chima Moneke",
+    "Pos": "SF",
+    "Tm": "SAC",
+    "ORtg": 72,
+    "DRtg": 124,
+    "Player-additional": "monekch01"
+  },
+  {
+    "Rk": 341,
+    "Player": "Malik Monk",
+    "Pos": "SG",
+    "Tm": "SAC",
+    "ORtg": 114,
+    "DRtg": 118,
+    "Player-additional": "monkma01"
+  },
+  {
+    "Rk": 342,
+    "Player": "Moses Moody",
+    "Pos": "SG",
+    "Tm": "GSW",
+    "ORtg": 116,
+    "DRtg": 117,
+    "Player-additional": "moodymo01"
+  },
+  {
+    "Rk": 343,
+    "Player": "Xavier Moon",
+    "Pos": "SG",
+    "Tm": "LAC",
+    "ORtg": 96,
+    "DRtg": 119,
+    "Player-additional": "moonxa01"
+  },
+  {
+    "Rk": 344,
+    "Player": "Wendell Moore Jr.",
+    "Pos": "SG",
+    "Tm": "MIN",
+    "ORtg": 98,
+    "DRtg": 113,
+    "Player-additional": "moorewe01"
+  },
+  {
+    "Rk": 345,
+    "Player": "Ja Morant",
+    "Pos": "PG",
+    "Tm": "MEM",
+    "ORtg": 114,
+    "DRtg": 112,
+    "Player-additional": "moranja01"
+  },
+  {
+    "Rk": 346,
+    "Player": "Marcus Morris",
+    "Pos": "PF",
+    "Tm": "LAC",
+    "ORtg": 108,
+    "DRtg": 116,
+    "Player-additional": "morrima03"
+  },
+  {
+    "Rk": 347,
+    "Player": "Markieff Morris",
+    "Pos": "PF",
+    "Tm": "TOT",
+    "ORtg": 108,
+    "DRtg": 115,
+    "Player-additional": "morrima02"
+  },
+  {
+    "Rk": 347,
+    "Player": "Markieff Morris",
+    "Pos": "PF",
+    "Tm": "BRK",
+    "ORtg": 110,
+    "DRtg": 114,
+    "Player-additional": "morrima02"
+  },
+  {
+    "Rk": 347,
+    "Player": "Markieff Morris",
+    "Pos": "PF",
+    "Tm": "DAL",
+    "ORtg": 100,
+    "DRtg": 118,
+    "Player-additional": "morrima02"
+  },
+  {
+    "Rk": 348,
+    "Player": "Monte Morris",
+    "Pos": "PG",
+    "Tm": "WAS",
+    "ORtg": 125,
+    "DRtg": 118,
+    "Player-additional": "morrimo01"
+  },
+  {
+    "Rk": 349,
+    "Player": "Trey Murphy III",
+    "Pos": "SF",
+    "Tm": "NOP",
+    "ORtg": 128,
+    "DRtg": 114,
+    "Player-additional": "murphtr02"
+  },
+  {
+    "Rk": 350,
+    "Player": "Dejounte Murray",
+    "Pos": "SG",
+    "Tm": "ATL",
+    "ORtg": 112,
+    "DRtg": 116,
+    "Player-additional": "murrade01"
+  },
+  {
+    "Rk": 351,
+    "Player": "Jamal Murray",
+    "Pos": "PG",
+    "Tm": "DEN",
+    "ORtg": 116,
+    "DRtg": 116,
+    "Player-additional": "murraja01"
+  },
+  {
+    "Rk": 352,
+    "Player": "Keegan Murray",
+    "Pos": "SF",
+    "Tm": "SAC",
+    "ORtg": 119,
+    "DRtg": 117,
+    "Player-additional": "murrake02"
+  },
+  {
+    "Rk": 353,
+    "Player": "Mike Muscala",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 124,
+    "DRtg": 113,
+    "Player-additional": "muscami01"
+  },
+  {
+    "Rk": 353,
+    "Player": "Mike Muscala",
+    "Pos": "C",
+    "Tm": "OKC",
+    "ORtg": 125,
+    "DRtg": 114,
+    "Player-additional": "muscami01"
+  },
+  {
+    "Rk": 353,
+    "Player": "Mike Muscala",
+    "Pos": "C",
+    "Tm": "BOS",
+    "ORtg": 121,
+    "DRtg": 113,
+    "Player-additional": "muscami01"
+  },
+  {
+    "Rk": 354,
+    "Player": "Svi Mykhailiuk",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 115,
+    "DRtg": 118,
+    "Player-additional": "mykhasv01"
+  },
+  {
+    "Rk": 354,
+    "Player": "Svi Mykhailiuk",
+    "Pos": "SF",
+    "Tm": "NYK",
+    "ORtg": 128,
+    "DRtg": 115,
+    "Player-additional": "mykhasv01"
+  },
+  {
+    "Rk": 354,
+    "Player": "Svi Mykhailiuk",
+    "Pos": "SF",
+    "Tm": "CHO",
+    "ORtg": 114,
+    "DRtg": 118,
+    "Player-additional": "mykhasv01"
+  },
+  {
+    "Rk": 355,
+    "Player": "Larry Nance Jr.",
+    "Pos": "PF",
+    "Tm": "NOP",
+    "ORtg": 134,
+    "DRtg": 110,
+    "Player-additional": "nancela02"
+  },
+  {
+    "Rk": 356,
+    "Player": "Andrew Nembhard",
+    "Pos": "SG",
+    "Tm": "IND",
+    "ORtg": 108,
+    "DRtg": 120,
+    "Player-additional": "nembhan01"
+  },
+  {
+    "Rk": 357,
+    "Player": "Aaron Nesmith",
+    "Pos": "SF",
+    "Tm": "IND",
+    "ORtg": 111,
+    "DRtg": 119,
+    "Player-additional": "nesmiaa01"
+  },
+  {
+    "Rk": 358,
+    "Player": "Raul Neto",
+    "Pos": "PG",
+    "Tm": "CLE",
+    "ORtg": 126,
+    "DRtg": 113,
+    "Player-additional": "netora01"
+  },
+  {
+    "Rk": 359,
+    "Player": "Georges Niang",
+    "Pos": "PF",
+    "Tm": "PHI",
+    "ORtg": 114,
+    "DRtg": 116,
+    "Player-additional": "niangge01"
+  },
+  {
+    "Rk": 360,
+    "Player": "Daishen Nix",
+    "Pos": "PG",
+    "Tm": "HOU",
+    "ORtg": 88,
+    "DRtg": 121,
+    "Player-additional": "nixda01"
+  },
+  {
+    "Rk": 361,
+    "Player": "Zeke Nnaji",
+    "Pos": "PF",
+    "Tm": "DEN",
+    "ORtg": 120,
+    "DRtg": 115,
+    "Player-additional": "nnajize01"
+  },
+  {
+    "Rk": 362,
+    "Player": "Nerlens Noel",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 84,
+    "DRtg": 109,
+    "Player-additional": "noelne01"
+  },
+  {
+    "Rk": 362,
+    "Player": "Nerlens Noel",
+    "Pos": "C",
+    "Tm": "DET",
+    "ORtg": 92,
+    "DRtg": 108,
+    "Player-additional": "noelne01"
+  },
+  {
+    "Rk": 362,
+    "Player": "Nerlens Noel",
+    "Pos": "C",
+    "Tm": "BRK",
+    "ORtg": 56,
+    "DRtg": 110,
+    "Player-additional": "noelne01"
+  },
+  {
+    "Rk": 363,
+    "Player": "Jaylen Nowell",
+    "Pos": "SG",
+    "Tm": "MIN",
+    "ORtg": 106,
+    "DRtg": 116,
+    "Player-additional": "nowelja01"
+  },
+  {
+    "Rk": 364,
+    "Player": "Frank Ntilikina",
+    "Pos": "PG",
+    "Tm": "DAL",
+    "ORtg": 94,
+    "DRtg": 118,
+    "Player-additional": "ntilila01"
+  },
+  {
+    "Rk": 365,
+    "Player": "Kendrick Nunn",
+    "Pos": "SG-PG",
+    "Tm": "TOT",
+    "ORtg": 100,
+    "DRtg": 117,
+    "Player-additional": "nunnke01"
+  },
+  {
+    "Rk": 365,
+    "Player": "Kendrick Nunn",
+    "Pos": "SG",
+    "Tm": "LAL",
+    "ORtg": 96,
+    "DRtg": 117,
+    "Player-additional": "nunnke01"
+  },
+  {
+    "Rk": 365,
+    "Player": "Kendrick Nunn",
+    "Pos": "PG",
+    "Tm": "WAS",
+    "ORtg": 106,
+    "DRtg": 117,
+    "Player-additional": "nunnke01"
+  },
+  {
+    "Rk": 366,
+    "Player": "Jusuf Nurkić",
+    "Pos": "C",
+    "Tm": "POR",
+    "ORtg": 112,
+    "DRtg": 114,
+    "Player-additional": "nurkiju01"
+  },
+  {
+    "Rk": 367,
+    "Player": "Jordan Nwora",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 109,
+    "DRtg": 116,
+    "Player-additional": "nworajo01"
+  },
+  {
+    "Rk": 367,
+    "Player": "Jordan Nwora",
+    "Pos": "SF",
+    "Tm": "MIL",
+    "ORtg": 106,
+    "DRtg": 113,
+    "Player-additional": "nworajo01"
+  },
+  {
+    "Rk": 367,
+    "Player": "Jordan Nwora",
+    "Pos": "SF",
+    "Tm": "IND",
+    "ORtg": 113,
+    "DRtg": 119,
+    "Player-additional": "nworajo01"
+  },
+  {
+    "Rk": 368,
+    "Player": "Royce O'Neale",
+    "Pos": "SF",
+    "Tm": "BRK",
+    "ORtg": 108,
+    "DRtg": 115,
+    "Player-additional": "onealro01"
+  },
+  {
+    "Rk": 369,
+    "Player": "Chuma Okeke",
+    "Pos": "SF",
+    "Tm": "ORL",
+    "ORtg": 107,
+    "DRtg": 114,
+    "Player-additional": "okekech01"
+  },
+  {
+    "Rk": 370,
+    "Player": "Josh Okogie",
+    "Pos": "SG",
+    "Tm": "PHO",
+    "ORtg": 114,
+    "DRtg": 113,
+    "Player-additional": "okogijo01"
+  },
+  {
+    "Rk": 371,
+    "Player": "Onyeka Okongwu",
+    "Pos": "C",
+    "Tm": "ATL",
+    "ORtg": 134,
+    "DRtg": 112,
+    "Player-additional": "okongon01"
+  },
+  {
+    "Rk": 372,
+    "Player": "Isaac Okoro",
+    "Pos": "SF",
+    "Tm": "CLE",
+    "ORtg": 123,
+    "DRtg": 112,
+    "Player-additional": "okorois01"
+  },
+  {
+    "Rk": 373,
+    "Player": "KZ Okpala",
+    "Pos": "PF",
+    "Tm": "SAC",
+    "ORtg": 113,
+    "DRtg": 117,
+    "Player-additional": "okpalkz01"
+  },
+  {
+    "Rk": 374,
+    "Player": "Victor Oladipo",
+    "Pos": "SG",
+    "Tm": "MIA",
+    "ORtg": 99,
+    "DRtg": 112,
+    "Player-additional": "oladivi01"
+  },
+  {
+    "Rk": 375,
+    "Player": "Kelly Olynyk",
+    "Pos": "C",
+    "Tm": "UTA",
+    "ORtg": 118,
+    "DRtg": 115,
+    "Player-additional": "olynyke01"
+  },
+  {
+    "Rk": 376,
+    "Player": "Eugene Omoruyi",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 106,
+    "DRtg": 117,
+    "Player-additional": "omorueu01"
+  },
+  {
+    "Rk": 376,
+    "Player": "Eugene Omoruyi",
+    "Pos": "SF",
+    "Tm": "OKC",
+    "ORtg": 105,
+    "DRtg": 114,
+    "Player-additional": "omorueu01"
+  },
+  {
+    "Rk": 376,
+    "Player": "Eugene Omoruyi",
+    "Pos": "SF",
+    "Tm": "DET",
+    "ORtg": 107,
+    "DRtg": 119,
+    "Player-additional": "omorueu01"
+  },
+  {
+    "Rk": 377,
+    "Player": "Cedi Osman",
+    "Pos": "SF",
+    "Tm": "CLE",
+    "ORtg": 115,
+    "DRtg": 113,
+    "Player-additional": "osmande01"
+  },
+  {
+    "Rk": 378,
+    "Player": "Kelly Oubre Jr.",
+    "Pos": "SF",
+    "Tm": "CHO",
+    "ORtg": 106,
+    "DRtg": 115,
+    "Player-additional": "oubreke01"
+  },
+  {
+    "Rk": 379,
+    "Player": "Chris Paul",
+    "Pos": "PG",
+    "Tm": "PHO",
+    "ORtg": 122,
+    "DRtg": 112,
+    "Player-additional": "paulch01"
+  },
+  {
+    "Rk": 380,
+    "Player": "Cameron Payne",
+    "Pos": "PG",
+    "Tm": "PHO",
+    "ORtg": 106,
+    "DRtg": 115,
+    "Player-additional": "payneca01"
+  },
+  {
+    "Rk": 381,
+    "Player": "Gary Payton II",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 131,
+    "DRtg": 115,
+    "Player-additional": "paytoga02"
+  },
+  {
+    "Rk": 381,
+    "Player": "Gary Payton II",
+    "Pos": "PG",
+    "Tm": "POR",
+    "ORtg": 126,
+    "DRtg": 116,
+    "Player-additional": "paytoga02"
+  },
+  {
+    "Rk": 381,
+    "Player": "Gary Payton II",
+    "Pos": "PG",
+    "Tm": "GSW",
+    "ORtg": 138,
+    "DRtg": 111,
+    "Player-additional": "paytoga02"
+  },
+  {
+    "Rk": 382,
+    "Player": "Theo Pinson",
+    "Pos": "SG",
+    "Tm": "DAL",
+    "ORtg": 114,
+    "DRtg": 117,
+    "Player-additional": "pinsoth01"
+  },
+  {
+    "Rk": 383,
+    "Player": "Scotty Pippen Jr.",
+    "Pos": "PG",
+    "Tm": "LAL",
+    "ORtg": 93,
+    "DRtg": 112,
+    "Player-additional": "pippesc02"
+  },
+  {
+    "Rk": 384,
+    "Player": "Mason Plumlee",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 134,
+    "DRtg": 114,
+    "Player-additional": "plumlma01"
+  },
+  {
+    "Rk": 384,
+    "Player": "Mason Plumlee",
+    "Pos": "C",
+    "Tm": "CHO",
+    "ORtg": 133,
+    "DRtg": 114,
+    "Player-additional": "plumlma01"
+  },
+  {
+    "Rk": 384,
+    "Player": "Mason Plumlee",
+    "Pos": "C",
+    "Tm": "LAC",
+    "ORtg": 136,
+    "DRtg": 111,
+    "Player-additional": "plumlma01"
+  },
+  {
+    "Rk": 385,
+    "Player": "Jakob Poeltl",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 123,
+    "DRtg": 114,
+    "Player-additional": "poeltja01"
+  },
+  {
+    "Rk": 385,
+    "Player": "Jakob Poeltl",
+    "Pos": "C",
+    "Tm": "SAS",
+    "ORtg": 119,
+    "DRtg": 116,
+    "Player-additional": "poeltja01"
+  },
+  {
+    "Rk": 385,
+    "Player": "Jakob Poeltl",
+    "Pos": "C",
+    "Tm": "TOR",
+    "ORtg": 132,
+    "DRtg": 110,
+    "Player-additional": "poeltja01"
+  },
+  {
+    "Rk": 386,
+    "Player": "Aleksej Pokusevski",
+    "Pos": "PF",
+    "Tm": "OKC",
+    "ORtg": 105,
+    "DRtg": 112,
+    "Player-additional": "pokusal01"
+  },
+  {
+    "Rk": 387,
+    "Player": "Jordan Poole",
+    "Pos": "PG",
+    "Tm": "GSW",
+    "ORtg": 109,
+    "DRtg": 117,
+    "Player-additional": "poolejo01"
+  },
+  {
+    "Rk": 388,
+    "Player": "Kevin Porter Jr.",
+    "Pos": "PG",
+    "Tm": "HOU",
+    "ORtg": 112,
+    "DRtg": 120,
+    "Player-additional": "porteke02"
+  },
+  {
+    "Rk": 389,
+    "Player": "Michael Porter Jr.",
+    "Pos": "SF",
+    "Tm": "DEN",
+    "ORtg": 118,
+    "DRtg": 115,
+    "Player-additional": "portemi01"
+  },
+  {
+    "Rk": 390,
+    "Player": "Otto Porter Jr.",
+    "Pos": "SF",
+    "Tm": "TOR",
+    "ORtg": 132,
+    "DRtg": 112,
+    "Player-additional": "porteot01"
+  },
+  {
+    "Rk": 391,
+    "Player": "Bobby Portis",
+    "Pos": "PF",
+    "Tm": "MIL",
+    "ORtg": 117,
+    "DRtg": 110,
+    "Player-additional": "portibo01"
+  },
+  {
+    "Rk": 392,
+    "Player": "Kristaps Porziņģis",
+    "Pos": "C",
+    "Tm": "WAS",
+    "ORtg": 121,
+    "DRtg": 113,
+    "Player-additional": "porzikr01"
+  },
+  {
+    "Rk": 393,
+    "Player": "Micah Potter",
+    "Pos": "PF",
+    "Tm": "UTA",
+    "ORtg": 145,
+    "DRtg": 116,
+    "Player-additional": "pottemi01"
+  },
+  {
+    "Rk": 394,
+    "Player": "Dwight Powell",
+    "Pos": "C",
+    "Tm": "DAL",
+    "ORtg": 140,
+    "DRtg": 116,
+    "Player-additional": "poweldw01"
+  },
+  {
+    "Rk": 395,
+    "Player": "Norman Powell",
+    "Pos": "SG",
+    "Tm": "LAC",
+    "ORtg": 115,
+    "DRtg": 116,
+    "Player-additional": "powelno01"
+  },
+  {
+    "Rk": 396,
+    "Player": "Jason Preston",
+    "Pos": "PG",
+    "Tm": "LAC",
+    "ORtg": 102,
+    "DRtg": 117,
+    "Player-additional": "prestja01"
+  },
+  {
+    "Rk": 397,
+    "Player": "Joshua Primo",
+    "Pos": "SG",
+    "Tm": "SAS",
+    "ORtg": 90,
+    "DRtg": 122,
+    "Player-additional": "primojo01"
+  },
+  {
+    "Rk": 398,
+    "Player": "Taurean Prince",
+    "Pos": "SF",
+    "Tm": "MIN",
+    "ORtg": 108,
+    "DRtg": 117,
+    "Player-additional": "princta02"
+  },
+  {
+    "Rk": 399,
+    "Player": "Payton Pritchard",
+    "Pos": "PG",
+    "Tm": "BOS",
+    "ORtg": 105,
+    "DRtg": 115,
+    "Player-additional": "pritcpa01"
+  },
+  {
+    "Rk": 400,
+    "Player": "Trevelin Queen",
+    "Pos": "SG",
+    "Tm": "IND",
+    "ORtg": 78,
+    "DRtg": 116,
+    "Player-additional": "queentr01"
+  },
+  {
+    "Rk": 401,
+    "Player": "Neemias Queta",
+    "Pos": "C",
+    "Tm": "SAC",
+    "ORtg": 127,
+    "DRtg": 114,
+    "Player-additional": "quetane01"
+  },
+  {
+    "Rk": 402,
+    "Player": "Immanuel Quickley",
+    "Pos": "PG",
+    "Tm": "NYK",
+    "ORtg": 122,
+    "DRtg": 115,
+    "Player-additional": "quickim01"
+  },
+  {
+    "Rk": 403,
+    "Player": "Lester Quinones",
+    "Pos": "SG",
+    "Tm": "GSW",
+    "ORtg": 87,
+    "DRtg": 114,
+    "Player-additional": "quinole01"
+  },
+  {
+    "Rk": 404,
+    "Player": "Julius Randle",
+    "Pos": "PF",
+    "Tm": "NYK",
+    "ORtg": 117,
+    "DRtg": 114,
+    "Player-additional": "randlju01"
+  },
+  {
+    "Rk": 405,
+    "Player": "Austin Reaves",
+    "Pos": "SG",
+    "Tm": "LAL",
+    "ORtg": 129,
+    "DRtg": 117,
+    "Player-additional": "reaveau01"
+  },
+  {
+    "Rk": 406,
+    "Player": "Cam Reddish",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 109,
+    "DRtg": 118,
+    "Player-additional": "reddica01"
+  },
+  {
+    "Rk": 406,
+    "Player": "Cam Reddish",
+    "Pos": "SF",
+    "Tm": "NYK",
+    "ORtg": 113,
+    "DRtg": 117,
+    "Player-additional": "reddica01"
+  },
+  {
+    "Rk": 406,
+    "Player": "Cam Reddish",
+    "Pos": "SF",
+    "Tm": "POR",
+    "ORtg": 105,
+    "DRtg": 119,
+    "Player-additional": "reddica01"
+  },
+  {
+    "Rk": 407,
+    "Player": "Davon Reed",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 93,
+    "DRtg": 113,
+    "Player-additional": "reedda01"
+  },
+  {
+    "Rk": 407,
+    "Player": "Davon Reed",
+    "Pos": "SG",
+    "Tm": "DEN",
+    "ORtg": 89,
+    "DRtg": 113,
+    "Player-additional": "reedda01"
+  },
+  {
+    "Rk": 407,
+    "Player": "Davon Reed",
+    "Pos": "SG",
+    "Tm": "LAL",
+    "ORtg": 155,
+    "DRtg": 111,
+    "Player-additional": "reedda01"
+  },
+  {
+    "Rk": 408,
+    "Player": "Paul Reed",
+    "Pos": "C",
+    "Tm": "PHI",
+    "ORtg": 122,
+    "DRtg": 105,
+    "Player-additional": "reedpa01"
+  },
+  {
+    "Rk": 409,
+    "Player": "Naz Reid",
+    "Pos": "C",
+    "Tm": "MIN",
+    "ORtg": 112,
+    "DRtg": 110,
+    "Player-additional": "reidna01"
+  },
+  {
+    "Rk": 410,
+    "Player": "Jared Rhoden",
+    "Pos": "SG",
+    "Tm": "DET",
+    "ORtg": 108,
+    "DRtg": 121,
+    "Player-additional": "rhodeja01"
+  },
+  {
+    "Rk": 411,
+    "Player": "Nick Richards",
+    "Pos": "C",
+    "Tm": "CHO",
+    "ORtg": 130,
+    "DRtg": 113,
+    "Player-additional": "richani01"
+  },
+  {
+    "Rk": 412,
+    "Player": "Josh Richardson",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 110,
+    "DRtg": 118,
+    "Player-additional": "richajo01"
+  },
+  {
+    "Rk": 412,
+    "Player": "Josh Richardson",
+    "Pos": "SG",
+    "Tm": "SAS",
+    "ORtg": 111,
+    "DRtg": 120,
+    "Player-additional": "richajo01"
+  },
+  {
+    "Rk": 412,
+    "Player": "Josh Richardson",
+    "Pos": "SG",
+    "Tm": "NOP",
+    "ORtg": 107,
+    "DRtg": 112,
+    "Player-additional": "richajo01"
+  },
+  {
+    "Rk": 413,
+    "Player": "Austin Rivers",
+    "Pos": "SG",
+    "Tm": "MIN",
+    "ORtg": 115,
+    "DRtg": 117,
+    "Player-additional": "riverau01"
+  },
+  {
+    "Rk": 414,
+    "Player": "Duncan Robinson",
+    "Pos": "SF",
+    "Tm": "MIA",
+    "ORtg": 105,
+    "DRtg": 117,
+    "Player-additional": "robindu01"
+  },
+  {
+    "Rk": 415,
+    "Player": "Mitchell Robinson",
+    "Pos": "C",
+    "Tm": "NYK",
+    "ORtg": 142,
+    "DRtg": 110,
+    "Player-additional": "robinmi01"
+  },
+  {
+    "Rk": 416,
+    "Player": "Orlando Robinson",
+    "Pos": "C",
+    "Tm": "MIA",
+    "ORtg": 122,
+    "DRtg": 111,
+    "Player-additional": "robinor01"
+  },
+  {
+    "Rk": 417,
+    "Player": "Jeremiah Robinson-Earl",
+    "Pos": "PF",
+    "Tm": "OKC",
+    "ORtg": 121,
+    "DRtg": 115,
+    "Player-additional": "robinje02"
+  },
+  {
+    "Rk": 418,
+    "Player": "Isaiah Roby",
+    "Pos": "PF",
+    "Tm": "SAS",
+    "ORtg": 97,
+    "DRtg": 118,
+    "Player-additional": "robyis01"
+  },
+  {
+    "Rk": 419,
+    "Player": "David Roddy",
+    "Pos": "PF",
+    "Tm": "MEM",
+    "ORtg": 103,
+    "DRtg": 114,
+    "Player-additional": "roddyda01"
+  },
+  {
+    "Rk": 420,
+    "Player": "Ryan Rollins",
+    "Pos": "PG",
+    "Tm": "GSW",
+    "ORtg": 70,
+    "DRtg": 116,
+    "Player-additional": "rolliry01"
+  },
+  {
+    "Rk": 421,
+    "Player": "Derrick Rose",
+    "Pos": "PG",
+    "Tm": "NYK",
+    "ORtg": 99,
+    "DRtg": 117,
+    "Player-additional": "rosede01"
+  },
+  {
+    "Rk": 422,
+    "Player": "Terrence Ross",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 110,
+    "DRtg": 116,
+    "Player-additional": "rosste01"
+  },
+  {
+    "Rk": 422,
+    "Player": "Terrence Ross",
+    "Pos": "SG",
+    "Tm": "ORL",
+    "ORtg": 104,
+    "DRtg": 117,
+    "Player-additional": "rosste01"
+  },
+  {
+    "Rk": 422,
+    "Player": "Terrence Ross",
+    "Pos": "SG",
+    "Tm": "PHO",
+    "ORtg": 120,
+    "DRtg": 114,
+    "Player-additional": "rosste01"
+  },
+  {
+    "Rk": 423,
+    "Player": "Terry Rozier",
+    "Pos": "SG",
+    "Tm": "CHO",
+    "ORtg": 106,
+    "DRtg": 117,
+    "Player-additional": "roziete01"
+  },
+  {
+    "Rk": 424,
+    "Player": "Ricky Rubio",
+    "Pos": "PG",
+    "Tm": "CLE",
+    "ORtg": 103,
+    "DRtg": 110,
+    "Player-additional": "rubiori01"
+  },
+  {
+    "Rk": 425,
+    "Player": "D'Angelo Russell",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 116,
+    "DRtg": 116,
+    "Player-additional": "russeda01"
+  },
+  {
+    "Rk": 425,
+    "Player": "D'Angelo Russell",
+    "Pos": "PG",
+    "Tm": "MIN",
+    "ORtg": 115,
+    "DRtg": 116,
+    "Player-additional": "russeda01"
+  },
+  {
+    "Rk": 425,
+    "Player": "D'Angelo Russell",
+    "Pos": "PG",
+    "Tm": "LAL",
+    "ORtg": 118,
+    "DRtg": 117,
+    "Player-additional": "russeda01"
+  },
+  {
+    "Rk": 426,
+    "Player": "Matt Ryan",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 109,
+    "DRtg": 119,
+    "Player-additional": "ryanma01"
+  },
+  {
+    "Rk": 426,
+    "Player": "Matt Ryan",
+    "Pos": "SF",
+    "Tm": "LAL",
+    "ORtg": 95,
+    "DRtg": 118,
+    "Player-additional": "ryanma01"
+  },
+  {
+    "Rk": 426,
+    "Player": "Matt Ryan",
+    "Pos": "SF",
+    "Tm": "MIN",
+    "ORtg": 120,
+    "DRtg": 119,
+    "Player-additional": "ryanma01"
+  },
+  {
+    "Rk": 427,
+    "Player": "Domantas Sabonis",
+    "Pos": "C",
+    "Tm": "SAC",
+    "ORtg": 132,
+    "DRtg": 114,
+    "Player-additional": "sabondo01"
+  },
+  {
+    "Rk": 428,
+    "Player": "Luka Šamanić",
+    "Pos": "PF",
+    "Tm": "UTA",
+    "ORtg": 105,
+    "DRtg": 115,
+    "Player-additional": "samanlu01"
+  },
+  {
+    "Rk": 429,
+    "Player": "Dario Šarić",
+    "Pos": "PF",
+    "Tm": "TOT",
+    "ORtg": 113,
+    "DRtg": 113,
+    "Player-additional": "saricda01"
+  },
+  {
+    "Rk": 429,
+    "Player": "Dario Šarić",
+    "Pos": "PF",
+    "Tm": "PHO",
+    "ORtg": 110,
+    "DRtg": 113,
+    "Player-additional": "saricda01"
+  },
+  {
+    "Rk": 429,
+    "Player": "Dario Šarić",
+    "Pos": "PF",
+    "Tm": "OKC",
+    "ORtg": 119,
+    "DRtg": 114,
+    "Player-additional": "saricda01"
+  },
+  {
+    "Rk": 430,
+    "Player": "Olivier Sarr",
+    "Pos": "C",
+    "Tm": "OKC",
+    "ORtg": 116,
+    "DRtg": 114,
+    "Player-additional": "sarrol01"
+  },
+  {
+    "Rk": 431,
+    "Player": "Jordan Schakel",
+    "Pos": "SF",
+    "Tm": "WAS",
+    "ORtg": 161,
+    "DRtg": 106,
+    "Player-additional": "schakjo01"
+  },
+  {
+    "Rk": 432,
+    "Player": "Admiral Schofield",
+    "Pos": "PF",
+    "Tm": "ORL",
+    "ORtg": 120,
+    "DRtg": 117,
+    "Player-additional": "schofad01"
+  },
+  {
+    "Rk": 433,
+    "Player": "Dennis Schröder",
+    "Pos": "PG",
+    "Tm": "LAL",
+    "ORtg": 112,
+    "DRtg": 117,
+    "Player-additional": "schrode01"
+  },
+  {
+    "Rk": 434,
+    "Player": "Jay Scrubb",
+    "Pos": "SG",
+    "Tm": "ORL",
+    "ORtg": 108,
+    "DRtg": 110,
+    "Player-additional": "scrubja01"
+  },
+  {
+    "Rk": 435,
+    "Player": "Dereon Seabron",
+    "Pos": "SG",
+    "Tm": "NOP",
+    "ORtg": 95,
+    "DRtg": 121,
+    "Player-additional": "seabrde01"
+  },
+  {
+    "Rk": 436,
+    "Player": "Alperen Şengün",
+    "Pos": "C",
+    "Tm": "HOU",
+    "ORtg": 118,
+    "DRtg": 117,
+    "Player-additional": "sengual01"
+  },
+  {
+    "Rk": 437,
+    "Player": "Collin Sexton",
+    "Pos": "SG",
+    "Tm": "UTA",
+    "ORtg": 119,
+    "DRtg": 120,
+    "Player-additional": "sextoco01"
+  },
+  {
+    "Rk": 438,
+    "Player": "Landry Shamet",
+    "Pos": "SG",
+    "Tm": "PHO",
+    "ORtg": 111,
+    "DRtg": 116,
+    "Player-additional": "shamela01"
+  },
+  {
+    "Rk": 439,
+    "Player": "Day'Ron Sharpe",
+    "Pos": "C",
+    "Tm": "BRK",
+    "ORtg": 118,
+    "DRtg": 111,
+    "Player-additional": "sharpda01"
+  },
+  {
+    "Rk": 440,
+    "Player": "Shaedon Sharpe",
+    "Pos": "SG",
+    "Tm": "POR",
+    "ORtg": 109,
+    "DRtg": 121,
+    "Player-additional": "sharpsh01"
+  },
+  {
+    "Rk": 441,
+    "Player": "Pascal Siakam",
+    "Pos": "C",
+    "Tm": "TOR",
+    "ORtg": 118,
+    "DRtg": 115,
+    "Player-additional": "siakapa01"
+  },
+  {
+    "Rk": 442,
+    "Player": "Chris Silva",
+    "Pos": "PF",
+    "Tm": "DAL",
+    "ORtg": 66,
+    "DRtg": 123,
+    "Player-additional": "silvach01"
+  },
+  {
+    "Rk": 443,
+    "Player": "Ben Simmons",
+    "Pos": "PG",
+    "Tm": "BRK",
+    "ORtg": 110,
+    "DRtg": 110,
+    "Player-additional": "simmobe01"
+  },
+  {
+    "Rk": 444,
+    "Player": "Kobi Simmons",
+    "Pos": "PG",
+    "Tm": "CHO",
+    "ORtg": 101,
+    "DRtg": 117,
+    "Player-additional": "simmoko01"
+  },
+  {
+    "Rk": 445,
+    "Player": "Marko Simonovic",
+    "Pos": "C",
+    "Tm": "CHI",
+    "ORtg": 88,
+    "DRtg": 119,
+    "Player-additional": "simonma01"
+  },
+  {
+    "Rk": 446,
+    "Player": "Anfernee Simons",
+    "Pos": "SG",
+    "Tm": "POR",
+    "ORtg": 113,
+    "DRtg": 123,
+    "Player-additional": "simonan01"
+  },
+  {
+    "Rk": 447,
+    "Player": "Jericho Sims",
+    "Pos": "C",
+    "Tm": "NYK",
+    "ORtg": 146,
+    "DRtg": 114,
+    "Player-additional": "simsje01"
+  },
+  {
+    "Rk": 448,
+    "Player": "Marcus Smart",
+    "Pos": "PG",
+    "Tm": "BOS",
+    "ORtg": 111,
+    "DRtg": 112,
+    "Player-additional": "smartma01"
+  },
+  {
+    "Rk": 449,
+    "Player": "Dennis Smith Jr.",
+    "Pos": "PG",
+    "Tm": "CHO",
+    "ORtg": 103,
+    "DRtg": 114,
+    "Player-additional": "smithde03"
+  },
+  {
+    "Rk": 450,
+    "Player": "Dru Smith",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 111,
+    "DRtg": 110,
+    "Player-additional": "smithdr01"
+  },
+  {
+    "Rk": 450,
+    "Player": "Dru Smith",
+    "Pos": "SG",
+    "Tm": "MIA",
+    "ORtg": 94,
+    "DRtg": 108,
+    "Player-additional": "smithdr01"
+  },
+  {
+    "Rk": 450,
+    "Player": "Dru Smith",
+    "Pos": "SG",
+    "Tm": "BRK",
+    "ORtg": 118,
+    "DRtg": 110,
+    "Player-additional": "smithdr01"
+  },
+  {
+    "Rk": 451,
+    "Player": "Ish Smith",
+    "Pos": "PG",
+    "Tm": "DEN",
+    "ORtg": 89,
+    "DRtg": 116,
+    "Player-additional": "smithis01"
+  },
+  {
+    "Rk": 452,
+    "Player": "Jabari Smith Jr.",
+    "Pos": "PF",
+    "Tm": "HOU",
+    "ORtg": 108,
+    "DRtg": 119,
+    "Player-additional": "smithja05"
+  },
+  {
+    "Rk": 453,
+    "Player": "Jalen Smith",
+    "Pos": "PF",
+    "Tm": "IND",
+    "ORtg": 113,
+    "DRtg": 116,
+    "Player-additional": "smithja04"
+  },
+  {
+    "Rk": 454,
+    "Player": "Xavier Sneed",
+    "Pos": "SF",
+    "Tm": "CHO",
+    "ORtg": 124,
+    "DRtg": 120,
+    "Player-additional": "sneedxa01"
+  },
+  {
+    "Rk": 455,
+    "Player": "Jeremy Sochan",
+    "Pos": "PF",
+    "Tm": "SAS",
+    "ORtg": 103,
+    "DRtg": 120,
+    "Player-additional": "sochaje01"
+  },
+  {
+    "Rk": 456,
+    "Player": "Jaden Springer",
+    "Pos": "SG",
+    "Tm": "PHI",
+    "ORtg": 116,
+    "DRtg": 108,
+    "Player-additional": "sprinja01"
+  },
+  {
+    "Rk": 457,
+    "Player": "Lamar Stevens",
+    "Pos": "PF",
+    "Tm": "CLE",
+    "ORtg": 109,
+    "DRtg": 111,
+    "Player-additional": "stevela01"
+  },
+  {
+    "Rk": 458,
+    "Player": "Isaiah Stewart",
+    "Pos": "C",
+    "Tm": "DET",
+    "ORtg": 113,
+    "DRtg": 118,
+    "Player-additional": "stewais01"
+  },
+  {
+    "Rk": 459,
+    "Player": "Max Strus",
+    "Pos": "SF",
+    "Tm": "MIA",
+    "ORtg": 113,
+    "DRtg": 117,
+    "Player-additional": "strusma01"
+  },
+  {
+    "Rk": 460,
+    "Player": "Jalen Suggs",
+    "Pos": "PG",
+    "Tm": "ORL",
+    "ORtg": 104,
+    "DRtg": 113,
+    "Player-additional": "suggsja01"
+  },
+  {
+    "Rk": 461,
+    "Player": "Edmond Sumner",
+    "Pos": "SG",
+    "Tm": "BRK",
+    "ORtg": 112,
+    "DRtg": 115,
+    "Player-additional": "sumneed01"
+  },
+  {
+    "Rk": 462,
+    "Player": "Cole Swider",
+    "Pos": "SF",
+    "Tm": "LAL",
+    "ORtg": 124,
+    "DRtg": 118,
+    "Player-additional": "swideco01"
+  },
+  {
+    "Rk": 463,
+    "Player": "Jae'Sean Tate",
+    "Pos": "SF",
+    "Tm": "HOU",
+    "ORtg": 111,
+    "DRtg": 120,
+    "Player-additional": "tateja01"
+  },
+  {
+    "Rk": 464,
+    "Player": "Jayson Tatum",
+    "Pos": "PF",
+    "Tm": "BOS",
+    "ORtg": 118,
+    "DRtg": 110,
+    "Player-additional": "tatumja01"
+  },
+  {
+    "Rk": 465,
+    "Player": "Terry Taylor",
+    "Pos": "PF",
+    "Tm": "TOT",
+    "ORtg": 115,
+    "DRtg": 121,
+    "Player-additional": "taylote01"
+  },
+  {
+    "Rk": 465,
+    "Player": "Terry Taylor",
+    "Pos": "PF",
+    "Tm": "IND",
+    "ORtg": 108,
+    "DRtg": 122,
+    "Player-additional": "taylote01"
+  },
+  {
+    "Rk": 465,
+    "Player": "Terry Taylor",
+    "Pos": "PF",
+    "Tm": "CHI",
+    "ORtg": 171,
+    "DRtg": 117,
+    "Player-additional": "taylote01"
+  },
+  {
+    "Rk": 466,
+    "Player": "Garrett Temple",
+    "Pos": "SG",
+    "Tm": "NOP",
+    "ORtg": 114,
+    "DRtg": 112,
+    "Player-additional": "templga01"
+  },
+  {
+    "Rk": 467,
+    "Player": "Dalen Terry",
+    "Pos": "SG",
+    "Tm": "CHI",
+    "ORtg": 112,
+    "DRtg": 110,
+    "Player-additional": "terryda01"
+  },
+  {
+    "Rk": 468,
+    "Player": "Daniel Theis",
+    "Pos": "C",
+    "Tm": "IND",
+    "ORtg": 108,
+    "DRtg": 118,
+    "Player-additional": "theisda01"
+  },
+  {
+    "Rk": 469,
+    "Player": "Cam Thomas",
+    "Pos": "SG",
+    "Tm": "BRK",
+    "ORtg": 108,
+    "DRtg": 118,
+    "Player-additional": "thomaca02"
+  },
+  {
+    "Rk": 470,
+    "Player": "Klay Thompson",
+    "Pos": "SG",
+    "Tm": "GSW",
+    "ORtg": 110,
+    "DRtg": 117,
+    "Player-additional": "thompkl01"
+  },
+  {
+    "Rk": 471,
+    "Player": "JT Thor",
+    "Pos": "PF",
+    "Tm": "CHO",
+    "ORtg": 97,
+    "DRtg": 117,
+    "Player-additional": "thorjt01"
+  },
+  {
+    "Rk": 472,
+    "Player": "Matisse Thybulle",
+    "Pos": "SG",
+    "Tm": "TOT",
+    "ORtg": 114,
+    "DRtg": 113,
+    "Player-additional": "thybuma01"
+  },
+  {
+    "Rk": 472,
+    "Player": "Matisse Thybulle",
+    "Pos": "SG",
+    "Tm": "PHI",
+    "ORtg": 115,
+    "DRtg": 110,
+    "Player-additional": "thybuma01"
+  },
+  {
+    "Rk": 472,
+    "Player": "Matisse Thybulle",
+    "Pos": "SG",
+    "Tm": "POR",
+    "ORtg": 114,
+    "DRtg": 116,
+    "Player-additional": "thybuma01"
+  },
+  {
+    "Rk": 473,
+    "Player": "Xavier Tillman Sr.",
+    "Pos": "PF",
+    "Tm": "MEM",
+    "ORtg": 129,
+    "DRtg": 109,
+    "Player-additional": "tillmxa01"
+  },
+  {
+    "Rk": 474,
+    "Player": "Isaiah Todd",
+    "Pos": "PF",
+    "Tm": "WAS",
+    "ORtg": 65,
+    "DRtg": 118,
+    "Player-additional": "toddis01"
+  },
+  {
+    "Rk": 475,
+    "Player": "Obi Toppin",
+    "Pos": "PF",
+    "Tm": "NYK",
+    "ORtg": 116,
+    "DRtg": 116,
+    "Player-additional": "toppiob01"
+  },
+  {
+    "Rk": 476,
+    "Player": "Juan Toscano-Anderson",
+    "Pos": "SF",
+    "Tm": "TOT",
+    "ORtg": 104,
+    "DRtg": 116,
+    "Player-additional": "toscaju01"
+  },
+  {
+    "Rk": 476,
+    "Player": "Juan Toscano-Anderson",
+    "Pos": "SF",
+    "Tm": "LAL",
+    "ORtg": 107,
+    "DRtg": 114,
+    "Player-additional": "toscaju01"
+  },
+  {
+    "Rk": 476,
+    "Player": "Juan Toscano-Anderson",
+    "Pos": "SF",
+    "Tm": "UTA",
+    "ORtg": 102,
+    "DRtg": 118,
+    "Player-additional": "toscaju01"
+  },
+  {
+    "Rk": 477,
+    "Player": "Karl-Anthony Towns",
+    "Pos": "PF",
+    "Tm": "MIN",
+    "ORtg": 117,
+    "DRtg": 114,
+    "Player-additional": "townska01"
+  },
+  {
+    "Rk": 478,
+    "Player": "Gary Trent Jr.",
+    "Pos": "SG",
+    "Tm": "TOR",
+    "ORtg": 116,
+    "DRtg": 116,
+    "Player-additional": "trentga02"
+  },
+  {
+    "Rk": 479,
+    "Player": "P.J. Tucker",
+    "Pos": "PF",
+    "Tm": "PHI",
+    "ORtg": 117,
+    "DRtg": 116,
+    "Player-additional": "tuckepj01"
+  },
+  {
+    "Rk": 480,
+    "Player": "Myles Turner",
+    "Pos": "C",
+    "Tm": "IND",
+    "ORtg": 121,
+    "DRtg": 114,
+    "Player-additional": "turnemy01"
+  },
+  {
+    "Rk": 481,
+    "Player": "Stanley Umude",
+    "Pos": "SG",
+    "Tm": "DET",
+    "ORtg": 126,
+    "DRtg": 44,
+    "Player-additional": "umudest01"
+  },
+  {
+    "Rk": 482,
+    "Player": "Jonas Valančiūnas",
+    "Pos": "C",
+    "Tm": "NOP",
+    "ORtg": 116,
+    "DRtg": 110,
+    "Player-additional": "valanjo01"
+  },
+  {
+    "Rk": 483,
+    "Player": "Jarred Vanderbilt",
+    "Pos": "PF",
+    "Tm": "TOT",
+    "ORtg": 123,
+    "DRtg": 112,
+    "Player-additional": "vandeja01"
+  },
+  {
+    "Rk": 483,
+    "Player": "Jarred Vanderbilt",
+    "Pos": "PF",
+    "Tm": "UTA",
+    "ORtg": 124,
+    "DRtg": 113,
+    "Player-additional": "vandeja01"
+  },
+  {
+    "Rk": 483,
+    "Player": "Jarred Vanderbilt",
+    "Pos": "PF",
+    "Tm": "LAL",
+    "ORtg": 119,
+    "DRtg": 111,
+    "Player-additional": "vandeja01"
+  },
+  {
+    "Rk": 484,
+    "Player": "Fred VanVleet",
+    "Pos": "PG",
+    "Tm": "TOR",
+    "ORtg": 117,
+    "DRtg": 114,
+    "Player-additional": "vanvlfr01"
+  },
+  {
+    "Rk": 485,
+    "Player": "Devin Vassell",
+    "Pos": "SG",
+    "Tm": "SAS",
+    "ORtg": 110,
+    "DRtg": 120,
+    "Player-additional": "vassede01"
+  },
+  {
+    "Rk": 486,
+    "Player": "Gabe Vincent",
+    "Pos": "PG",
+    "Tm": "MIA",
+    "ORtg": 104,
+    "DRtg": 115,
+    "Player-additional": "vincega01"
+  },
+  {
+    "Rk": 487,
+    "Player": "Noah Vonleh",
+    "Pos": "C",
+    "Tm": "BOS",
+    "ORtg": 101,
+    "DRtg": 110,
+    "Player-additional": "vonleno01"
+  },
+  {
+    "Rk": 488,
+    "Player": "Nikola Vučević",
+    "Pos": "C",
+    "Tm": "CHI",
+    "ORtg": 117,
+    "DRtg": 110,
+    "Player-additional": "vucevni01"
+  },
+  {
+    "Rk": 489,
+    "Player": "Dean Wade",
+    "Pos": "PF",
+    "Tm": "CLE",
+    "ORtg": 113,
+    "DRtg": 110,
+    "Player-additional": "wadede01"
+  },
+  {
+    "Rk": 490,
+    "Player": "Franz Wagner",
+    "Pos": "SF",
+    "Tm": "ORL",
+    "ORtg": 115,
+    "DRtg": 116,
+    "Player-additional": "wagnefr01"
+  },
+  {
+    "Rk": 491,
+    "Player": "Moritz Wagner",
+    "Pos": "C",
+    "Tm": "ORL",
+    "ORtg": 122,
+    "DRtg": 114,
+    "Player-additional": "wagnemo01"
+  },
+  {
+    "Rk": 492,
+    "Player": "Ish Wainright",
+    "Pos": "SF",
+    "Tm": "PHO",
+    "ORtg": 114,
+    "DRtg": 113,
+    "Player-additional": "wainris01"
+  },
+  {
+    "Rk": 493,
+    "Player": "Jabari Walker",
+    "Pos": "SF",
+    "Tm": "POR",
+    "ORtg": 104,
+    "DRtg": 120,
+    "Player-additional": "walkeja01"
+  },
+  {
+    "Rk": 494,
+    "Player": "Kemba Walker",
+    "Pos": "PG",
+    "Tm": "DAL",
+    "ORtg": 118,
+    "DRtg": 119,
+    "Player-additional": "walkeke02"
+  },
+  {
+    "Rk": 495,
+    "Player": "Lonnie Walker IV",
+    "Pos": "SG",
+    "Tm": "LAL",
+    "ORtg": 111,
+    "DRtg": 117,
+    "Player-additional": "walkelo01"
+  },
+  {
+    "Rk": 496,
+    "Player": "John Wall",
+    "Pos": "PG",
+    "Tm": "LAC",
+    "ORtg": 102,
+    "DRtg": 115,
+    "Player-additional": "walljo01"
+  },
+  {
+    "Rk": 497,
+    "Player": "T.J. Warren",
+    "Pos": "PF-SF",
+    "Tm": "TOT",
+    "ORtg": 111,
+    "DRtg": 114,
+    "Player-additional": "warretj01"
+  },
+  {
+    "Rk": 497,
+    "Player": "T.J. Warren",
+    "Pos": "PF",
+    "Tm": "BRK",
+    "ORtg": 112,
+    "DRtg": 115,
+    "Player-additional": "warretj01"
+  },
+  {
+    "Rk": 497,
+    "Player": "T.J. Warren",
+    "Pos": "SF",
+    "Tm": "PHO",
+    "ORtg": 108,
+    "DRtg": 111,
+    "Player-additional": "warretj01"
+  },
+  {
+    "Rk": 498,
+    "Player": "Duane Washington Jr.",
+    "Pos": "SG",
+    "Tm": "PHO",
+    "ORtg": 93,
+    "DRtg": 117,
+    "Player-additional": "washidu02"
+  },
+  {
+    "Rk": 499,
+    "Player": "P.J. Washington",
+    "Pos": "PF",
+    "Tm": "CHO",
+    "ORtg": 107,
+    "DRtg": 116,
+    "Player-additional": "washipj01"
+  },
+  {
+    "Rk": 500,
+    "Player": "TyTy Washington Jr.",
+    "Pos": "PG",
+    "Tm": "HOU",
+    "ORtg": 99,
+    "DRtg": 121,
+    "Player-additional": "washity02"
+  },
+  {
+    "Rk": 501,
+    "Player": "Yuta Watanabe",
+    "Pos": "SF",
+    "Tm": "BRK",
+    "ORtg": 125,
+    "DRtg": 116,
+    "Player-additional": "watanyu01"
+  },
+  {
+    "Rk": 502,
+    "Player": "Lindy Waters III",
+    "Pos": "SG",
+    "Tm": "OKC",
+    "ORtg": 120,
+    "DRtg": 116,
+    "Player-additional": "waterli01"
+  },
+  {
+    "Rk": 503,
+    "Player": "Trendon Watford",
+    "Pos": "PF",
+    "Tm": "POR",
+    "ORtg": 118,
+    "DRtg": 119,
+    "Player-additional": "watfotr01"
+  },
+  {
+    "Rk": 504,
+    "Player": "Peyton Watson",
+    "Pos": "SG",
+    "Tm": "DEN",
+    "ORtg": 109,
+    "DRtg": 114,
+    "Player-additional": "watsope01"
+  },
+  {
+    "Rk": 505,
+    "Player": "Blake Wesley",
+    "Pos": "SG",
+    "Tm": "SAS",
+    "ORtg": 80,
+    "DRtg": 120,
+    "Player-additional": "weslebl01"
+  },
+  {
+    "Rk": 506,
+    "Player": "Russell Westbrook",
+    "Pos": "PG",
+    "Tm": "TOT",
+    "ORtg": 104,
+    "DRtg": 113,
+    "Player-additional": "westbru01"
+  },
+  {
+    "Rk": 506,
+    "Player": "Russell Westbrook",
+    "Pos": "PG",
+    "Tm": "LAL",
+    "ORtg": 101,
+    "DRtg": 113,
+    "Player-additional": "westbru01"
+  },
+  {
+    "Rk": 506,
+    "Player": "Russell Westbrook",
+    "Pos": "PG",
+    "Tm": "LAC",
+    "ORtg": 111,
+    "DRtg": 115,
+    "Player-additional": "westbru01"
+  },
+  {
+    "Rk": 507,
+    "Player": "Coby White",
+    "Pos": "SG",
+    "Tm": "CHI",
+    "ORtg": 113,
+    "DRtg": 114,
+    "Player-additional": "whiteco01"
+  },
+  {
+    "Rk": 508,
+    "Player": "Derrick White",
+    "Pos": "SG",
+    "Tm": "BOS",
+    "ORtg": 124,
+    "DRtg": 112,
+    "Player-additional": "whitede01"
+  },
+  {
+    "Rk": 509,
+    "Player": "Jack White",
+    "Pos": "SF",
+    "Tm": "DEN",
+    "ORtg": 115,
+    "DRtg": 111,
+    "Player-additional": "whiteja03"
+  },
+  {
+    "Rk": 510,
+    "Player": "Joe Wieskamp",
+    "Pos": "SF",
+    "Tm": "TOR",
+    "ORtg": 77,
+    "DRtg": 121,
+    "Player-additional": "wieskjo01"
+  },
+  {
+    "Rk": 511,
+    "Player": "Aaron Wiggins",
+    "Pos": "SG",
+    "Tm": "OKC",
+    "ORtg": 119,
+    "DRtg": 116,
+    "Player-additional": "wiggiaa01"
+  },
+  {
+    "Rk": 512,
+    "Player": "Andrew Wiggins",
+    "Pos": "SF",
+    "Tm": "GSW",
+    "ORtg": 113,
+    "DRtg": 114,
+    "Player-additional": "wiggian01"
+  },
+  {
+    "Rk": 513,
+    "Player": "Lindell Wigginton",
+    "Pos": "PG",
+    "Tm": "MIL",
+    "ORtg": 104,
+    "DRtg": 117,
+    "Player-additional": "wiggili01"
+  },
+  {
+    "Rk": 514,
+    "Player": "Alondes Williams",
+    "Pos": "SG",
+    "Tm": "BRK",
+    "ORtg": 0,
+    "DRtg": 117,
+    "Player-additional": "willial06"
+  },
+  {
+    "Rk": 515,
+    "Player": "Donovan Williams",
+    "Pos": "SG",
+    "Tm": "ATL",
+    "ORtg": 81,
+    "DRtg": 111,
+    "Player-additional": "willido02"
+  },
+  {
+    "Rk": 516,
+    "Player": "Grant Williams",
+    "Pos": "PF",
+    "Tm": "BOS",
+    "ORtg": 118,
+    "DRtg": 113,
+    "Player-additional": "willigr01"
+  },
+  {
+    "Rk": 517,
+    "Player": "Jalen Williams",
+    "Pos": "SG",
+    "Tm": "OKC",
+    "ORtg": 118,
+    "DRtg": 114,
+    "Player-additional": "willija06"
+  },
+  {
+    "Rk": 518,
+    "Player": "Jaylin Williams",
+    "Pos": "PF",
+    "Tm": "OKC",
+    "ORtg": 115,
+    "DRtg": 112,
+    "Player-additional": "willija07"
+  },
+  {
+    "Rk": 519,
+    "Player": "Jeenathan Williams",
+    "Pos": "SG",
+    "Tm": "POR",
+    "ORtg": 132,
+    "DRtg": 122,
+    "Player-additional": "willije02"
+  },
+  {
+    "Rk": 520,
+    "Player": "Kenrich Williams",
+    "Pos": "PF",
+    "Tm": "OKC",
+    "ORtg": 126,
+    "DRtg": 114,
+    "Player-additional": "willike04"
+  },
+  {
+    "Rk": 521,
+    "Player": "Mark Williams",
+    "Pos": "C",
+    "Tm": "CHO",
+    "ORtg": 125,
+    "DRtg": 110,
+    "Player-additional": "willima07"
+  },
+  {
+    "Rk": 522,
+    "Player": "Patrick Williams",
+    "Pos": "PF",
+    "Tm": "CHI",
+    "ORtg": 108,
+    "DRtg": 113,
+    "Player-additional": "willipa01"
+  },
+  {
+    "Rk": 523,
+    "Player": "Robert Williams",
+    "Pos": "C",
+    "Tm": "BOS",
+    "ORtg": 143,
+    "DRtg": 107,
+    "Player-additional": "williro04"
+  },
+  {
+    "Rk": 524,
+    "Player": "Vince Williams Jr.",
+    "Pos": "SG",
+    "Tm": "MEM",
+    "ORtg": 79,
+    "DRtg": 110,
+    "Player-additional": "willivi01"
+  },
+  {
+    "Rk": 525,
+    "Player": "Ziaire Williams",
+    "Pos": "SF",
+    "Tm": "MEM",
+    "ORtg": 97,
+    "DRtg": 114,
+    "Player-additional": "willizi02"
+  },
+  {
+    "Rk": 526,
+    "Player": "Zion Williamson",
+    "Pos": "PF",
+    "Tm": "NOP",
+    "ORtg": 120,
+    "DRtg": 112,
+    "Player-additional": "willizi01"
+  },
+  {
+    "Rk": 527,
+    "Player": "Dylan Windler",
+    "Pos": "SF",
+    "Tm": "CLE",
+    "ORtg": 119,
+    "DRtg": 108,
+    "Player-additional": "windldy01"
+  },
+  {
+    "Rk": 528,
+    "Player": "Justise Winslow",
+    "Pos": "SF",
+    "Tm": "POR",
+    "ORtg": 104,
+    "DRtg": 118,
+    "Player-additional": "winslju01"
+  },
+  {
+    "Rk": 529,
+    "Player": "James Wiseman",
+    "Pos": "C",
+    "Tm": "TOT",
+    "ORtg": 112,
+    "DRtg": 116,
+    "Player-additional": "wisemja01"
+  },
+  {
+    "Rk": 529,
+    "Player": "James Wiseman",
+    "Pos": "C",
+    "Tm": "GSW",
+    "ORtg": 123,
+    "DRtg": 114,
+    "Player-additional": "wisemja01"
+  },
+  {
+    "Rk": 529,
+    "Player": "James Wiseman",
+    "Pos": "C",
+    "Tm": "DET",
+    "ORtg": 108,
+    "DRtg": 118,
+    "Player-additional": "wisemja01"
+  },
+  {
+    "Rk": 530,
+    "Player": "Christian Wood",
+    "Pos": "C",
+    "Tm": "DAL",
+    "ORtg": 116,
+    "DRtg": 113,
+    "Player-additional": "woodch01"
+  },
+  {
+    "Rk": 531,
+    "Player": "Delon Wright",
+    "Pos": "PG",
+    "Tm": "WAS",
+    "ORtg": 127,
+    "DRtg": 112,
+    "Player-additional": "wrighde01"
+  },
+  {
+    "Rk": 532,
+    "Player": "McKinley Wright IV",
+    "Pos": "PG",
+    "Tm": "DAL",
+    "ORtg": 113,
+    "DRtg": 118,
+    "Player-additional": "wrighmc01"
+  },
+  {
+    "Rk": 533,
+    "Player": "Gabe York",
+    "Pos": "SG",
+    "Tm": "IND",
+    "ORtg": 122,
+    "DRtg": 120,
+    "Player-additional": "yorkga01"
+  },
+  {
+    "Rk": 534,
+    "Player": "Thaddeus Young",
+    "Pos": "PF",
+    "Tm": "TOR",
+    "ORtg": 117,
+    "DRtg": 112,
+    "Player-additional": "youngth01"
+  },
+  {
+    "Rk": 535,
+    "Player": "Trae Young",
+    "Pos": "PG",
+    "Tm": "ATL",
+    "ORtg": 116,
+    "DRtg": 119,
+    "Player-additional": "youngtr01"
+  },
+  {
+    "Rk": 536,
+    "Player": "Omer Yurtseven",
+    "Pos": "C",
+    "Tm": "MIA",
+    "ORtg": 126,
+    "DRtg": 112,
+    "Player-additional": "yurtsom01"
+  },
+  {
+    "Rk": 537,
+    "Player": "Cody Zeller",
+    "Pos": "C",
+    "Tm": "MIA",
+    "ORtg": 124,
+    "DRtg": 114,
+    "Player-additional": "zelleco01"
+  },
+  {
+    "Rk": 538,
+    "Player": "Ivica Zubac",
+    "Pos": "C",
+    "Tm": "LAC",
+    "ORtg": 125,
+    "DRtg": 112,
+    "Player-additional": "zubaciv01"
+  }
+]

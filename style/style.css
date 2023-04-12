@@ -1,0 +1,129 @@
+body {
+    font-family: monospace;
+    font-size: 16px;
+    color: #b0ffff;
+    fill: #b0ffff;
+}
+
+/*https://www.w3docs.com/snippets/css/how-to-create-a-multicolor-text-in-html-and-css.html*/
+.multicolortext {
+    background-image: linear-gradient(to left, rgb(202, 69, 67), indigo,  blue,  red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+.drt_text{
+    color: #3A0231;
+    font-weight: 700;
+    background-color: white;
+  }
+  
+.ort_text{
+   color: #00C0BA;
+   font-weight: 700;
+   background-color: white;
+}
+
+#netr_axis{
+    right:20%;
+    position: absolute;
+    height: 700px;
+    width: 150px;
+    top:15%;
+}
+#bubble_svg{
+    width: 70%;
+    height: 60%;
+    position:absolute;
+    top: 100px;
+}
+
+#rating_svg{
+    width: 70%;
+    height: 125px;
+    position:absolute;
+    bottom: 20%;
+}
+
+#page_title{
+    font-size:40px;
+    padding-left:5%;
+}
+
+#player_menu{
+    width: 20%;
+    height: 500px;
+    right: 2%;
+    top: 10%;
+    position: absolute;
+}
+
+#pm_title{
+    margin: 2px auto;
+    position: relative;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#button_container{
+    position: absolute;
+    border-color: black;
+    border-radius: 10px;
+    border-width: .5px;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: beige;
+    color:#3A0231;
+    font-size: 14px;
+}
+
+checkbox {
+    margin: 0 auto;
+}
+
+label{
+    padding-left: 5px;
+}
+
+#netr_axis{
+    color: #b0ffff;
+}
+
+.axis_label{
+    color: #b0ffff;
+}
+
+#description_container{
+    position: absolute;
+    width:65%;
+    left: 10px;
+    bottom:5%;
+    display: block;
+}
+
+.tooltip {
+    position: absolute;
+    visibility: hidden;
+    font-size: 14px;
+    background-color:rgb(171, 255, 247);
+    padding: 2px;
+    border: 2px solid grey;
+    border-radius:10px;
+    pointer-events: none;
+    opacity: 1;
+    color: black;
+}
+
+#sources_container{
+    position: absolute;
+    bottom: 2px;
+    font-size: 8px;
+    right: 12px;
+}
+

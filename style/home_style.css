@@ -1,0 +1,56 @@
+#bubble_svg{
+    min-width: 600px;
+    height: 600px;
+    position:absolute;
+    top: 100px;
+    left:20%;
+    right:20%;
+    margin: auto;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+.title{
+    margin: auto;
+    left: 20%;
+    position: absolute;
+}
+.tooltip {
+    position: absolute;
+    visibility: hidden;
+    font-size: 14px;
+    background-color:rgb(171, 255, 247);
+    padding: 2px;
+    border: 2px solid grey;
+    border-radius:10px;
+    pointer-events: none;
+    opacity: 1;
+}
+
+
+
+#bubbles{
+    left: 10px;
+    position: absolute;
+}
+
+#description_container{
+    position: absolute;
+    width:20%;
+    height: 70%;
+    right: 10px;
+    bottom:5%;
+    display: block;
+}
+
+#button_container{
+    position: absolute;
+    left:10px;
+    top:200px;
+}

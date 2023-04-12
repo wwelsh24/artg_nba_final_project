@@ -1,0 +1,8 @@
+#normal_visualization_div{
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+}

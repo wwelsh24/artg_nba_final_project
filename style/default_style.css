@@ -1,0 +1,65 @@
+body{
+  margin: 0px auto;
+  font-weight: 500;
+  padding: 0px;
+  line-height:1;
+}
+
+.topnav {
+    font-size: 26px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: inline-block;
+  }
+
+#team_dropdown{
+  font-size: 20px;
+  float: left;
+  color: #b0ffff;
+  border: none;
+  margin: -3px;
+  }
+
+.dropdown-menu{
+  font-size: 16px;
+  float: left;
+  color: #b0ffff;
+  border: none;
+}
+#team_dropdown_div{
+  overflow-y: scroll;
+  height:50%;
+}
+  #Projects_Dropdown{
+    font-size: 20px;
+    margin: -5px;
+    float: left;
+    margin-top:2px;
+    color: #145C5C;
+  }
+  /* styles page navigation links */
+  .nav_link {
+    font-size: 20px;
+    margin: 5px;
+    float: left;
+    color: #b0ffff;
+    background-color: transparent;
+    border: none;
+}
+
+
+  .title{
+    margin: 10px;
+  }
+
+  body {
+    font-family: monospace;
+    font-size: 18px;
+    background-color: black;
+    color: rgb(217, 255, 242);
+}
+
+li{
+    font-size: 26px;
+    color:rgb(0, 41, 44)
+}
