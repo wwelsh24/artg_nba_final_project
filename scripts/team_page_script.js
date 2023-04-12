@@ -71,7 +71,7 @@ function parse_roster(d){
 }
 
 function get_roster(sel_team){
-    d3.csv("Player_List.csv", parse_roster).then(function(player_data) {
+    d3.csv("data/Player_List.csv", parse_roster).then(function(player_data) {
         for (p in player_data){
             if(player_data[p].TEAM == sel_team){
             Add_Button(player_data[p].PLAYER, player_data[p].POSITION)
@@ -80,7 +80,7 @@ function get_roster(sel_team){
 }
 
 function add_title(sel_team){
-    d3.csv("Team_List.csv").then(function(data) {
+    d3.csv("data/Team_List.csv").then(function(data) {
         for (t in data){
         if(data[t].Team_ID == sel_team){
         let page_title = document.getElementById('page_title')
@@ -95,7 +95,7 @@ get_roster(url_split[1]);
 add_title(url_split[1])
 
 
-d3.csv("Five_Man_Lineups.csv", parseCsv5).then(function(data) {
+d3.csv("data/Five_Man_Lineups.csv", parseCsv5).then(function(data) {
     let clicked = false;
     let Players = [];
 
@@ -341,7 +341,7 @@ d3.csv("Five_Man_Lineups.csv", parseCsv5).then(function(data) {
       
 
         function update_caption(player_list){
-            d3.csv("76ers Lineup Data 3.12.23.csv", parseCsv).then(function(data_2) {
+            d3.csv("data/76ers Lineup Data 3.12.23.csv", parseCsv).then(function(data_2) {
             
             let chosen_lineup = {"OFFRTG":116.8, "DEFRTG": 112.4, "NETRTG":4.4};
             let relevant_lineups = data_2.filter(function(d){ return d.PLAYER_COUNT == player_list.length });

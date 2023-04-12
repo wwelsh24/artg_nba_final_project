@@ -1,5 +1,5 @@
 function get_teams(){
-    d3.csv("Team_List.csv").then(function(data) {
+    d3.csv("data/Team_List.csv").then(function(data) {
         for (let t =0; t < data.length; t++){
             Add_Link(data[t].NBA_Team_Name, data[t].Team_ID)
         }
