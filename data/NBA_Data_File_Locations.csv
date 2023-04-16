@@ -1,0 +1,31 @@
+Current_BBRef_Team_Name,Current_BBRef_Team_Abbreviation,ESPN_Current_Link_ID,NBA_Current_Link_ID,Spotrac_Current_Link_ID,Data_Location,Roster_Location
+Atlanta Hawks,ATL,ATL,1610612737,atlanta-hawks,data/team_data/4.16.23_atlanta-hawks_Lineup_Data.csv,data/team_rosters/4.16.23_atlanta-hawks_Roster_Data.csv
+Brooklyn Nets,BRK,BKN,1610612751,brooklyn-nets,data/team_data/4.16.23_brooklyn-nets_Lineup_Data.csv,data/team_rosters/4.16.23_brooklyn-nets_Roster_Data.csv
+Boston Celtics,BOS,BOS,1610612738,boston-celtics,data/team_data/4.16.23_boston-celtics_Lineup_Data.csv,data/team_rosters/4.16.23_boston-celtics_Roster_Data.csv
+Charlotte Hornets,CHA,CHA,1610612766,charlotte-hornets,data/team_data/4.16.23_charlotte-hornets_Lineup_Data.csv,data/team_rosters/4.16.23_charlotte-hornets_Roster_Data.csv
+Cleveland Cavaliers,CLE,CLE,1610612739,cleveland-cavaliers,data/team_data/4.16.23_cleveland-cavaliers_Lineup_Data.csv,data/team_rosters/4.16.23_cleveland-cavaliers_Roster_Data.csv
+Chicago Bulls,CHI,CHI,1610612741,chicago-bulls,data/team_data/4.16.23_chicago-bulls_Lineup_Data.csv,data/team_rosters/4.16.23_chicago-bulls_Roster_Data.csv
+Dallas Mavericks,DAL,DAL,1610612742,dallas-mavericks,data/team_data/4.16.23_dallas-mavericks_Lineup_Data.csv,data/team_rosters/4.16.23_dallas-mavericks_Roster_Data.csv
+Denver Nuggets,DEN,DEN,1610612743,denver-nuggets,data/team_data/4.16.23_denver-nuggets_Lineup_Data.csv,data/team_rosters/4.16.23_denver-nuggets_Roster_Data.csv
+Detroit Pistons,DET,DET,1610612765,detroit-pistons,data/team_data/4.16.23_detroit-pistons_Lineup_Data.csv,data/team_rosters/4.16.23_detroit-pistons_Roster_Data.csv
+Golden State Warriors,GSW,GSW,1610612744,golden-state-warriors,data/team_data/4.16.23_golden-state-warriors_Lineup_Data.csv,data/team_rosters/4.16.23_golden-state-warriors_Roster_Data.csv
+Houston Rockets,HOU,HOU,1610612745,houston-rockets,data/team_data/4.16.23_houston-rockets_Lineup_Data.csv,data/team_rosters/4.16.23_houston-rockets_Roster_Data.csv
+Indiana Pacers,IND,IND,1610612754,indiana-pacers,data/team_data/4.16.23_indiana-pacers_Lineup_Data.csv,data/team_rosters/4.16.23_indiana-pacers_Roster_Data.csv
+Los Angeles Clippers,LAC,LAC,1610612746,los-angeles-clippers,data/team_data/4.16.23_los-angeles-clippers_Lineup_Data.csv,data/team_rosters/4.16.23_los-angeles-clippers_Roster_Data.csv
+Los Angeles Lakers,LAL,LAL,1610612747,los-angeles-lakers,data/team_data/4.16.23_los-angeles-lakers_Lineup_Data.csv,data/team_rosters/4.16.23_los-angeles-lakers_Roster_Data.csv
+Memphis Grizzlies,MEM,MEM,1610612763,memphis-grizzlies,data/team_data/4.16.23_memphis-grizzlies_Lineup_Data.csv,data/team_rosters/4.16.23_memphis-grizzlies_Roster_Data.csv
+Miami Heat,MIA,MIA,1610612748,miami-heat,data/team_data/4.16.23_miami-heat_Lineup_Data.csv,data/team_rosters/4.16.23_miami-heat_Roster_Data.csv
+Milwaukee Bucks,MIL,MIL,1610612749,milwaukee-bucks,data/team_data/4.16.23_milwaukee-bucks_Lineup_Data.csv,data/team_rosters/4.16.23_milwaukee-bucks_Roster_Data.csv
+Minnesota Timberwolves,MIN,MIN,1610612750,minnesota-timberwolves,data/team_data/4.16.23_minnesota-timberwolves_Lineup_Data.csv,data/team_rosters/4.16.23_minnesota-timberwolves_Roster_Data.csv
+New York Knicks,NYK,NY,1610612752,new-york-knicks,data/team_data/4.16.23_new-york-knicks_Lineup_Data.csv,data/team_rosters/4.16.23_new-york-knicks_Roster_Data.csv
+New Orleans Pelicans,NOP,NO,1610612740,new-orleans-pelicans,data/team_data/4.16.23_new-orleans-pelicans_Lineup_Data.csv,data/team_rosters/4.16.23_new-orleans-pelicans_Roster_Data.csv
+Oklahoma City Thunder,OKC,OKC,1610612760,oklahoma-city-thunder,data/team_data/4.16.23_oklahoma-city-thunder_Lineup_Data.csv,data/team_rosters/4.16.23_oklahoma-city-thunder_Roster_Data.csv
+Orlando Magic,ORL,ORL,1610612753,orlando-magic,data/team_data/4.16.23_orlando-magic_Lineup_Data.csv,data/team_rosters/4.16.23_orlando-magic_Roster_Data.csv
+Philadelphia 76ers,PHI,PHI,1610612755,philadelphia-76ers,data/team_data/4.16.23_philadelphia-76ers_Lineup_Data.csv,data/team_rosters/4.16.23_philadelphia-76ers_Roster_Data.csv
+Phoenix Suns,PHO,PHX,1610612756,phoenix-suns,data/team_data/4.16.23_phoenix-suns_Lineup_Data.csv,data/team_rosters/4.16.23_phoenix-suns_Roster_Data.csv
+Portland Trail Blazers,POR,POR,1610612757,portland-trail-blazers,data/team_data/4.16.23_portland-trail-blazers_Lineup_Data.csv,data/team_rosters/4.16.23_portland-trail-blazers_Roster_Data.csv
+San Antonio Spurs,SAS,SA,1610612759,san-antonio-spurs,data/team_data/4.16.23_san-antonio-spurs_Lineup_Data.csv,data/team_rosters/4.16.23_san-antonio-spurs_Roster_Data.csv
+Sacramento Kings,SAC,SAC,1610612758,sacramento-kings,data/team_data/4.16.23_sacramento-kings_Lineup_Data.csv,data/team_rosters/4.16.23_sacramento-kings_Roster_Data.csv
+Toronto Raptors,TOR,TOR,1610612761,toronto-raptors,data/team_data/4.16.23_toronto-raptors_Lineup_Data.csv,data/team_rosters/4.16.23_toronto-raptors_Roster_Data.csv
+Utah Jazz,UTA,UTAH,1610612762,utah-jazz,data/team_data/4.16.23_utah-jazz_Lineup_Data.csv,data/team_rosters/4.16.23_utah-jazz_Roster_Data.csv
+Washington Wizards,WAS,WSH,1610612764,washington-wizards,data/team_data/4.16.23_washington-wizards_Lineup_Data.csv,data/team_rosters/4.16.23_washington-wizards_Roster_Data.csv
