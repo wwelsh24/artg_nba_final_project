@@ -1,8 +1,95 @@
-#normal_visualization_div{
-    background-color: aquamarine;
-    border: 2px solid black;
-    width: 80%;
-    height: 300px;
-    margin: auto;
+#first_visualization_div{
+    
+    height:75%;
+    width:60%;
+    position: absolute;
+    border: 1vh solid grey;
+    left: 1%;
+}
+/*
+.court_svg{
+    height:800px;
+    width:400px;
+    left:20px;
+    transform: rotate(90deg);
+    background-size: cover;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/be/Basketball_court_fiba.svg');
+}*/
+
+.court_svg{
+    height:62.5%;
+    width:100%;
+    left: 0px;
+    right:1%;
+    bottom: 0px;
     position: absolute;
 }
+
+.team_container{
+    width: 40%;
+    top:0px;
+    height:37.5%;
+    position: absolute;
+    border: 1vh solid black;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 1.75vh;
+    color: black;
+    font-weight: bold;
+}
+#team_a_container{
+    left:0px;
+    background-color:rgb(206, 255, 206);
+
+}
+
+#team_b_container{
+    right:0px;
+    background-color: rgb(221, 174, 255);
+}
+
+.team_title{
+    font-size:2vw;
+    font-weight: bold;
+    color: black;
+}
+.stat_container{
+    border: 2px solid black;
+    border-radius: 1vh;
+    width:99%;
+    height:12%;
+    padding-left: 1px;
+}
+
+.stat{
+    background-color: antiquewhite;
+    right: 3%;
+    display: inline;
+    margin: auto;
+    min-width: 12%;
+    max-width:20%;
+    align-items: stretch;
+    margin-top: -2px;
+    position: absolute;
+    text-align: right;
+    border: 2px solid black;
+}
+
+.scoreboard{
+    background-color: grey;
+    border: 2px solid black;
+    width: 100%;
+    height: 37.5%;
+}
+
+/*
+.border{
+    height: 1%;
+    width: 100%;
+    background-color: grey;
+    border: 2px solid black;
+    top: 36.5%;
+    position: absolute;
+}
+*/

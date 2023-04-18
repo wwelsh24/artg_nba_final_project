@@ -1,19 +1,23 @@
 body{
-  margin: 0px auto;
+  margin: auto;
   font-weight: 500;
   padding: 0px;
-  line-height:1;
+  line-height:1.25;
+  font-family: monospace;
+  font-size: 18px;
+  background-color: black;
+  color: rgb(217, 255, 242);
 }
 
 .topnav {
-    font-size: 26px;
+    font-size: 3vh;
     padding-bottom: 5px;
     width: 100%;
     display: inline-block;
   }
 
 #team_dropdown{
-  font-size: 20px;
+  font-size: 3vh;
   float: left;
   color: #b0ffff;
   border: none;
@@ -21,7 +25,7 @@ body{
   }
 
 .dropdown-menu{
-  font-size: 16px;
+  font-size: 2vh;
   float: left;
   color: #b0ffff;
   border: none;
@@ -39,7 +43,7 @@ body{
   }
   /* styles page navigation links */
   .nav_link {
-    font-size: 20px;
+    font-size: 3vh;
     margin: 5px;
     float: left;
     color: #b0ffff;
@@ -52,12 +56,7 @@ body{
     margin: 10px;
   }
 
-  body {
-    font-family: monospace;
-    font-size: 18px;
-    background-color: black;
-    color: rgb(217, 255, 242);
-}
+ 
 
 li{
     font-size: 26px;

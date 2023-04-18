@@ -34,29 +34,32 @@
           </div>
     <h1 class = "multicolortext" id = "page_title">_ Lineups in 2022-23</h1>
     <div id="chart"></div>
-    <svg id = "bubble_svg">
+    <svg id = "bubble_svg" viewBox="0 0 900 330">
         <g id = "team_bubbles"></g>
     </svg>
-    <svg id = "rating_svg">
-        <g id = "rating_chart"></g>
-    </svg>
-    <svg id = "netr_axis"></svg>
+    <svg id = "netr_axis" viewBox="0 -10 120 400"></svg>
     <div id = "player_menu">
         <h3 id = "pm_title">Players</h3>
     <div id = "button_container"> 
     </div> 
-    </div>
-    <div id = "description_container"></div>  
     <div id = "sources_container">
-        Sources:<br>
-            Data: https://www.nba.com/stats/players/defense-dash-overall  <br>
-            Visualization Inspiration: <br>
-            https://d3-graph-gallery.com/graph/bubblemap_buttonControl.html<br>
-            https://observablehq.com/@ben-tanen/a-tutorial-to-using-d3-force-from-someone-who-just-learned-ho <br>
-            https://www.d3indepth.com/force-layout/ <br>
-            https://www.statmuse.com/nba/ask/nba-teams-offensive-rating-ranking <br>
+      Sources:<br>
+          Data: https://www.nba.com/stats/players/defense-dash-overall  <br>
+          Visualization Inspiration: <br>
+          https://d3-graph-gallery.com/graph/bubblemap_buttonControl.html<br>
+          https://observablehq.com/@ben-tanen/a-tutorial-to-using-d3-force-from-someone-who-just-learned-ho <br>
+          https://www.d3indepth.com/force-layout/ <br>
+          https://www.statmuse.com/nba/ask/nba-teams-offensive-rating-ranking <br>
 
-    </div>  
+  </div>  
+    </div>
+    <div id = "page_bottom_container">
+      <svg id = "rating_svg" preserveAspectRatio="xMidYMax meet" viewBox="0 0 600 100"> 
+        <g id = "rating_chart"></g>
+    </svg>
+      <div id = "description_container"></div>  
+    </div>
+    
     <script src="scripts/default_script.js"></script>     
     <script src="scripts/team_page_script.js"></script>
     

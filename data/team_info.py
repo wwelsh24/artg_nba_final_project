@@ -23,9 +23,13 @@ NBA_Teams = NBA_Teams[['NBA_Team_Name','Fill_Color','Border_Color',
                                             'Team_1':'Team_ID',
                                             'NBA_Team_Name':'TEAM_NAME'})
                                                     
+                                           
+NBA_Files = pd.read_csv('NBA_Data_File_Locations.csv')  
+NBA_Teams = NBA_Teams.merge(NBA_Files, how = 'outer', on = 'Team_ID')                                                 
 Team_Stats = leaguedashteamstats.LeagueDashTeamStats(measure_type_detailed_defense = 'Advanced',timeout = 60)   
 TS_DF = Team_Stats.get_data_frames()[0]
 TS_DF.loc[TS_DF['TEAM_NAME']=='LA Clippers', 'TEAM_NAME'] = 'Los Angeles Clippers'
 
 Team_DF = NBA_Teams.merge(TS_DF, how ='outer')      
-Team_DF.to_json('Team_Info.json', orient = 'records')                                          
+Team_DF.to_json('Team_Info.json', orient = 'records')         
+Team_DF.to_csv('Team_Info.csv', index = False)                                  

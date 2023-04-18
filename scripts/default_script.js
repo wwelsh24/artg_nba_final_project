@@ -1,7 +1,7 @@
 function get_teams(){
     d3.csv("data/NBA_Data_File_Locations.csv").then(function(data) {
         for (let t =0; t < data.length; t++){
-            Add_Link(data[t].Current_BBRef_Team_Name, data[t].ESPN_Current_Link_ID)
+            Add_Link(data[t].Current_BBRef_Team_Name, data[t].Team_ID)
         }
     });
 }

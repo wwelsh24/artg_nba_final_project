@@ -1,8 +1,10 @@
 let url = window.location.href
 let url_split = url.split('?=')
 
-const width = 700;
+const width = 900;
 const height = 330;
+
+
 
 $.ajaxSetup({
     async: false,
@@ -90,7 +92,6 @@ function get_team_data(t_complete, sel_team){
 
     for (t in t_complete){
         if(t_complete[t].Team_ID == sel_team){
-            console.log(t_complete[t])
             var team_info = {'OFFRTG': t_complete[t].OFF_RATING,
             'DEFRTG': t_complete[t].DEF_RATING,
             'NETRTG': t_complete[t].NET_RATING};
@@ -99,7 +100,6 @@ function get_team_data(t_complete, sel_team){
             //team_info.push(t_complete[t].NET_RATING);
         }
     }
-    console.log(team_info)
     return team_info;
 }
 
@@ -156,20 +156,32 @@ function get_roster(file_loc){
 }
 
 function add_title(sel_team){
-    d3.csv("data/NBA_Data_File_Locations.csv").then(function(data) {
+    d3.csv("data/Team_Info.csv").then(function(data) {
         for (t in data){
         if(data[t].Team_ID == sel_team){
         let page_title = document.getElementById('page_title')
-        page_title.innerText = data[t].Current_BBRef_Team_Name.concat(" Lineups in 2022-23");
+        page_title.innerText = data[t].TEAM_NAME.concat(" Lineups in 2022-23");
+
+        
+        
+
 }}});
 }
 
 function set_page(sel_team){
-    d3.csv("data/NBA_Data_File_Locations.csv").then(function(data) {
+    d3.csv("data/Team_Info.csv").then(function(data) {
+
             for (t in data){
-            if(data[t].ESPN_Current_Link_ID == sel_team){
+            if(data[t].Team_ID == sel_team){
             let page_title = document.getElementById('page_title')
             page_title.innerText = data[t].Current_BBRef_Team_Name.concat(" Lineups in 2022-23");
+
+            let collection = document.getElementsByClassName("multicolortext")[0]
+            let gradient = 'linear-gradient(to left,'
+            + data[t].Color_1 + ', ' + data[t].Color_2 +', '+ data[t].Color_1 + ')';
+
+            collection.style.backgroundImage = gradient;
+
             get_roster(data[t].Roster_Location)
             set_graphic(data[t].Data_Location)
         }}});
@@ -177,12 +189,14 @@ function set_page(sel_team){
 
 
 set_page(url_split[1])
-console.log(get_current_team(t_complete, url_split[1]))
+
 
 function set_graphic(file_location){
+
     d3.csv(file_location, parseCsv5).then(function(data) {
         let clicked = false;
         let Players = [];
+
 
         const tooltip = d3.select("#chart")
             .append("div")
@@ -195,10 +209,6 @@ function set_graphic(file_location){
         var Color_Axis_Scale = d3.scaleLinear()
             .domain([0,280,300,320,600])
             .range(["#009AC0","#19BAE2","#FFFFFF","#FF3F3F","#FF0000"])
-        var Rating_Scale = d3.scaleLinear()
-            .domain([70,150])
-            .range([30,770])
-
         var NSVG = d3.select("#netr_axis")
 
         const CA_Tick = [300,20,0,-20,-300]
@@ -223,13 +233,14 @@ function set_graphic(file_location){
             .attr("text-anchor","middle")
             .attr("x",60)
             .attr("y",15)
-            .text("Net Rating");
+            .text("Net Rating")
+            .attr('class','axis_title');
         
         let TBG = d3.select("#team_bubbles")
             .attr("viewBox", `0 0 ${width} ${height}`)
-            .attr("preserveAspectRatio", "xMidYMid meet");
+            //.attr("preserveAspectRatio", "xMidYMid meet");
 
-        var width = document.getElementById('team_bubbles').innerWidth
+        //var width = document.getElementById('team_bubbles').innerWidth
         var xCenter = [200, 450, 700];
 
         var circles = TBG.selectAll("circle") 
@@ -262,7 +273,6 @@ function set_graphic(file_location){
             const reg2 = /\s/g
             Player_Str = String(d.LINEUP_ID).replaceAll(reg, "").replaceAll(reg2,"")
             Players = Player_Str.split("-")
-            console.log(Players.slice(1, 6))
             update_caption(Players.slice(1, 6), file_location);}
         // document.querySelectorAll('input[name="chkboxes[]"]:checked').length>0
             else{
@@ -275,9 +285,10 @@ function set_graphic(file_location){
                 let x = 300;
                 let y = d3.select(this).attr("cy")+200;
 
+
                 tooltip.style("visibility", "visible")
-                    .style("top", `${y}px`)
-                    .style("left", `${x}px`)
+                    .style("top", `${d.y}px`)
+                    .style("left", `${d.x}px`)
                     .style("z-index", "100")
                     
                     .html(`<b>Lineup: </b><br>
@@ -395,27 +406,26 @@ function set_graphic(file_location){
                     else 	{ return .5 }
                 ;})
 
-                console.log('players',Players)
                 update_caption(Players, file_location);
 
             }
 
             function update_caption(player_list, file_loc){
+                var clientHeight = document.getElementById('page_bottom_container').clientHeight;
+                var clientWidth = document.getElementById('page_bottom_container').clientWidth;
+
                 d3.csv(file_loc, parseCsv).then(function(data_2) {
                 let chosen_lineup = get_team_data(t_complete, url_split[1]);
-                console.log(t_complete[''])
                 let relevant_lineups = data_2.filter(function(d){ return d.PLAYER_COUNT == player_list.length });
-                console.log(relevant_lineups)
                 for (r in relevant_lineups){
                     if(player_filter(Players,String(relevant_lineups[r].LINEUP_ID))){
                         chosen_lineup = relevant_lineups[r];
                     }}
-                console.log(chosen_lineup)
 
                 if(player_list.length==0 && clicked == false){
                     Caption.html(`The <b>${get_current_team(t_complete, url_split[1])}</b> have played <u>82</u> games.<br><br>
-                    The team has an <span class = "ort_text">offensive rating</span> of <u>${chosen_lineup[0]}</u> and a <span class = "drt_text">defensive rating</span> of <u>${chosen_lineup[1]}</u> 
-                    for a net rating of <u>${chosen_lineup[2]}</u>.<br>`);
+                    The team has an <span class = "ort_text">offensive rating</span> of <u>${chosen_lineup.OFFRTG}</u> and a <span class = "drt_text">defensive rating</span> of <u>${chosen_lineup.DEFRTG}</u> 
+                    for a net rating of <u>${chosen_lineup.NETRTG}</u>.<br>`);
                 }
                 if(player_list.length>0 && d3.sum(data, d => d.category) == 0){
                     Caption.html(`There are no lineups including <b>${Player_String(p_complete, player_list)}</b>.`);
@@ -461,6 +471,12 @@ function set_graphic(file_location){
 
                 let rtg = d3.select("#rating_chart");
                 rtg.selectAll("*").remove();
+                RSVG = d3.select("#rating_svg")
+                RSVG.selectAll(".axis").remove();
+                RSVG.selectAll(".axis_label").remove();
+                var Rating_Scale = d3.scaleLinear()
+                .domain([70,150])
+                .range([02,598])
 
                 if(Object.keys(chosen_lineup).length>0){
                 
@@ -503,19 +519,36 @@ function set_graphic(file_location){
                     .scale(Rating_Scale);
                     
                 var RSVG = d3.select("#rating_svg");
+                x = document.getElementById('page_bottom_container').clientWidth*.99;
+                y = document.getElementById('page_bottom_container').clientHeight*.7;
+
+                
 
                     RSVG.append("g")
                         .call(x_axis)
-                        .attr("transform", "translate(0, 70)");
+                        .attr("transform", "translate(0, 68)")
+                        .attr('class','axis');
                     
                     RSVG.append("text")
                         .attr("text-anchor", "end")
-                        .attr("y", 100)
-                        .attr("x",500)
-                        .text("Team Rating");
+                        .attr("y", 96)
+                        .attr("x",600/2-10)
+                        .text("Overall Rating")
+                        .style("text-anchor", "middle");
+
+                        RSVG.attr("width", x).attr("height", y);
+                    
                 })}
 
+        var RSVG = d3.select("#rating_svg");
 
+        function updateWindow(){
+            x = document.getElementById('page_bottom_container').clientWidth*.99;
+            y = document.getElementById('page_bottom_container').clientHeight*.7;
+
+           RSVG.attr("width", x).attr("height", y);
+        }
+        window.addEventListener("resize", updateWindow);
         d3.selectAll(".player_checkbox").on("change",update);
         update(file_location);
         });

@@ -1,4 +1,4 @@
-Current_BBRef_Team_Name,Current_BBRef_Team_Abbreviation,ESPN_Current_Link_ID,NBA_Current_Link_ID,Spotrac_Current_Link_ID,Data_Location,Roster_Location
+Current_BBRef_Team_Name,Team_ID,ESPN_Current_Link_ID,NBA_Current_Link_ID,Spotrac_Current_Link_ID,Data_Location,Roster_Location
 Atlanta Hawks,ATL,ATL,1610612737,atlanta-hawks,data/team_data/4.16.23_atlanta-hawks_Lineup_Data.csv,data/team_rosters/4.16.23_atlanta-hawks_Roster_Data.csv
 Brooklyn Nets,BRK,BKN,1610612751,brooklyn-nets,data/team_data/4.16.23_brooklyn-nets_Lineup_Data.csv,data/team_rosters/4.16.23_brooklyn-nets_Roster_Data.csv
 Boston Celtics,BOS,BOS,1610612738,boston-celtics,data/team_data/4.16.23_boston-celtics_Lineup_Data.csv,data/team_rosters/4.16.23_boston-celtics_Roster_Data.csv

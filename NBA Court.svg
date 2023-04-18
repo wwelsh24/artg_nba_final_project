@@ -1,0 +1,20 @@
+<svg id="edWMpEIuXR11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 125" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+<g class = "court">
+<rect width="200" height="125" rx="0" ry="0" fill="#ffe1bf" stroke="#00e4c1" stroke-width="3"/><rect width="5" height="25" rx="0" ry="0" transform="matrix(-1 0 0-1 200.437409 73.562107)" fill="#d2dbed" stroke="#151515"/>
+<ellipse rx="5" ry="5" transform="translate(190 62.5)" fill="#dbdbdb" stroke="#ffac52"/>
+<line x1="0" y1="-60.173997" x2="0" y2="60.173997" transform="matrix(-1 0 0 1.038654 100 62.5)" fill="none" stroke="#253ba7" stroke-width="2"/>
+<ellipse rx="15" ry="15" transform="translate(100 62.5)" fill="#f5f6f8" stroke="#253ba7"/>
+<g transform="translate(-.000001 0.000001)"><g transform="translate(.000001 0)">
+<path d="M0,114.999999Q39.739111,114.78081,40,115c0,0,30.026212-15.730932,30-52.500001s-30-52.5-30-52.5-39.938915.000573-39.938915.000573" transform="translate(0 0.000001)" fill="none" stroke="#253ba7"/>
+<rect width="40" height="35" rx="0" ry="0" transform="translate(0 45)" fill="#dcfcf4" stroke="#000"/>
+<rect width="5" height="25" rx="0" ry="0" transform="matrix(-1 0 0-1 5.437409 75)" fill="#d2dbed" stroke="#151515"/>
+<ellipse rx="5" ry="5" transform="translate(10.219913 62.5)" fill="#dbdbdb" stroke="#ffac52"/>
+<ellipse rx="17.5" ry="17.5" transform="translate(40 62.5)" fill="rgba(210,219,237,0)" stroke="#000"/>
+</g></g><g transform="matrix(-1 0 0-1 200.000001 125.000001)">
+<g transform="translate(.000001 0)">
+<path d="M0,114.999999Q39.739111,114.78081,40,115c0,0,30.026212-15.730932,30-52.500001s-30-52.5-30-52.5-39.938915.000573-39.938915.000573" transform="translate(0 0.000001)" fill="none" stroke="#253ba7"/>
+<rect width="40" height="35" rx="0" ry="0" transform="translate(0 45)" fill="#dcfcf4" stroke="#000"/>
+<rect width="5" height="25" rx="0" ry="0" transform="matrix(-1 0 0-1 5.437409 75)" fill="#d2dbed" stroke="#151515"/>
+<ellipse rx="5" ry="5" transform="translate(10.219913 62.5)" fill="#dbdbdb" stroke="#ffac52"/>
+<ellipse rx="17.5" ry="17.5" transform="translate(40 62.5)" fill="rgba(210,219,237,0)" stroke="#000"/></g></g>
+<rect width="200" height="125" rx="0" ry="0" fill="none" stroke="#15ffc2" stroke-width="4"/></g></svg>

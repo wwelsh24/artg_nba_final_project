@@ -30,7 +30,7 @@
     "Color 5": "",
     "Fill_Color": "rgb(0, 0, 0)",
     "Border_Color": "rgb(255, 255, 255)",
-    "Team_1": "BKN"
+    "Team_1": "BRK"
   },
   {
     "NBA_Team_Name": "Charlotte Hornets",
@@ -261,7 +261,7 @@
     "Color 5": "Yellow (249, 160, 27)",
     "Fill_Color": "rgb(29, 17, 96)",
     "Border_Color": "rgb(229, 95, 32)",
-    "Team_1": "PHX"
+    "Team_1": "PHO"
   },
   {
     "NBA_Team_Name": "Portland Trail Blazers",
@@ -327,6 +327,6 @@
     "Color 5": "",
     "Fill_Color": "rgb(0, 43, 92)",
     "Border_Color": "rgb(227, 24, 55)",
-    "Team_1": "WSH"
+    "Team_1": "WAS"
   }
 ]

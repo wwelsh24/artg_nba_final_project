@@ -21,6 +21,7 @@ from nba_api.stats.endpoints import playerindex
 
 
 NBA_Teams = pd.read_csv('NBA_Team_IDs.csv')
+NBA_Teams.rename(columns = {'Current_BBRef_Team_Abbreviation':'Team_ID'}, inplace = True)
 
 
 
