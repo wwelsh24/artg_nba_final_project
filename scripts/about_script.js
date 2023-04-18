@@ -129,9 +129,135 @@ function shot(team, shot, success, g_id, rate = 1) {
         
         // this will repeat the animation after waiting 1 second
         };
+
+const timer = ms => new Promise(res => setTimeout(res, ms))
+
+async function first_demonstration(){
+    var game_stats = 
+    {Possession:0,
+    a_pos: 0,
+    b_pos: 0,
+    a_points: 0,
+    b_points: 0,
+    a_off_rat: 0,
+    b_off_rat:0,
+    a_def_rat: 0,
+    b_def_rat:0,
+    a_net_rat: 0,
+    b_net_rat:0}
+
     
-    // Animate the graph for the first time
-    //repeat(path2b, FSG);
-    //repeat(path3a, FSG);
-    shot('b',2,true,FSG)
-    shot('a',2,false,FSG)
+    var shot_1 = {
+        team:'a',
+        points:3,
+        success:true,
+    }
+    var shot_2 = {
+        team:'b',
+        points:2,
+        success:true,
+    }
+
+
+    //var shot_results = [shot_1,shot_2]
+    var shot_results = shot_generator(200)
+    console.log(shot_results)
+    let rate_1 = 30;
+    for (s in shot_results){
+        console.log(shot_results[s])
+        shot(shot_results[s].team,shot_results[s].points,shot_results[s].success,FSG, rate = rate_1);
+        game_stats = update_data(game_stats,shot_results[s])
+        update_scoreboard_1(game_stats)
+        await timer(3400/rate);
+    }
+    
+    /*
+    update_data(game_stats,shot_results)
+    shot(shot_results[1].team,shot_results[1].points,shot_results[1].success,FSG)
+    console.log(game_stats)
+    */
+}
+
+function update_data(gs,sr){
+    gs.Possession+=1
+    if(sr.team=='a'){
+        gs.a_pos+=1
+        if(sr.success==true){
+            gs.a_points+=sr.points
+        }
+    }
+    else{
+        gs.b_pos+=1
+        if(sr.success==true){
+            gs.b_points+=sr.points
+        }
+    }
+    gs.a_off_rat = (gs.a_points/gs.a_pos*100).toFixed(2)
+    gs.b_off_rat = (gs.b_points/gs.b_pos*100).toFixed(2)
+    gs.a_def_rat = (gs.b_points/gs.b_pos*100).toFixed(2)
+    gs.b_def_rat = (gs.a_points/gs.a_pos*100).toFixed(2)
+    gs.a_net_rat = (gs.a_off_rat-gs.a_def_rat).toFixed(2)
+    gs.b_net_rat = (gs.b_off_rat-gs.b_def_rat).toFixed(2)
+    return gs
+}
+function update_scoreboard_1(gs){
+    let pointsa = document.getElementById('points_a1')
+    pointsa.innerText = gs.a_points
+    let pointsb = document.getElementById('points_b1')
+    pointsb.innerText = gs.b_points
+    
+    let opa = document.getElementById('off_poss_a1')
+    opa.innerText = gs.a_pos
+    let opb = document.getElementById('off_poss_b1')
+    opb.innerText = gs.b_pos
+    
+    let dpa = document.getElementById('def_poss_a1')
+    dpa.innerText = gs.b_pos
+    let dpb = document.getElementById('def_poss_b1')
+    dpb.innerText = gs.a_pos
+
+    let ora = document.getElementById('off_rating_a1')
+    ora.innerText = gs.a_off_rat
+    let orb = document.getElementById('off_rating_b1')
+    orb.innerText = gs.b_off_rat
+    
+    let dra = document.getElementById('def_rating_a1')
+    dra.innerText = gs.a_def_rat
+    let drb = document.getElementById('def_rating_b1')
+    drb.innerText = gs.b_def_rat
+    
+    let nra = document.getElementById('net_rating_a1')
+    nra.innerText = gs.a_net_rat
+    let nrb = document.getElementById('net_rating_b1')
+    nrb.innerText = gs.b_net_rat
+}
+
+function shot_generator(shot_count){
+    var overall_results = [];
+    for(let i = 0; i < shot_count; i++){
+        let result=[];
+        result.team = 'a'
+        if(i%2!=0){
+            result.team = 'b'
+        }
+        result.points=2
+        result.success=false
+        let shot_type_indicator = Math.random()
+        let shot_result_indicator = Math.random()
+        if(shot_type_indicator>0.645){
+            result.points=3
+            if(shot_result_indicator<=0.365){
+                result.success=true
+            }
+        }
+        else{
+            if(shot_result_indicator<=0.548){
+                result.success=true
+            }
+        }
+        overall_results.push(result)
+        }
+    return overall_results
+}
+
+console.log(shot_generator(50))
