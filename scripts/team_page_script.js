@@ -519,7 +519,8 @@ function set_graphic(file_location){
                     .attr("y2",50)
                     .attr("stroke", Bubble_Fill_Scale(chosen_lineup.NETRTG))
                     .attr("stroke-width",10);
-                
+
+                if(chosen_lineup.OFFRTG>=70 && chosen_lineup.OFFRTG<=150){
                 let ORT_Circle = rtg.append("circle")          
                     .attr("class", "rating_point")         
                     .attr("cx", Rating_Scale(chosen_lineup.OFFRTG))
@@ -530,7 +531,8 @@ function set_graphic(file_location){
                     .attr("r",10)
                     .attr("stroke","black")
                     .attr("fill", "#00C0BA");
-
+                }
+                if(chosen_lineup.DEFRTG>=70 && chosen_lineup.DEFRTG<=150){
                 let DRT_Circle = rtg.append("circle")          
                     .attr("class", "rating_point")            
                     .attr("cx", Rating_Scale(chosen_lineup.DEFRTG))
@@ -541,7 +543,7 @@ function set_graphic(file_location){
                     .attr("r",10)
                     .attr("stroke","black")
                     .attr("fill", "#3A0231");
-                }
+                }}
                 var x_axis = d3.axisBottom()
                     .scale(Rating_Scale);
                     
