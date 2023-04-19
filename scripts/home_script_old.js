@@ -1,18 +1,16 @@
 function parseCsv_Lineup(d) {
     if (d.Team != 'League Averages'){
     return {
-        "Team":d.TEAM_NAME,
-        "Lineup":d.GROUP_NAME,
-        "Team_ID": d.Team_ID,
-        "Wins": d.W,
-        "Losses": d.L,
-        "Minutes":+d.MIN,
-        "OFFRTG": +d.OFF_RATING,
-        "DEFRTG": +d.DEF_RATING,
-        "NETRTG": +d.NET_RATING,
-        "Color_1":d.Color_1,
-        "Color_2":d.Color_2,
-        'Category':0
+        "Team": d.Team,
+        "PG": d.PG,
+        "SG": d.SG,
+        "SF": d.SF,
+        "PF": d.PF,
+        "C": d.C,
+        "Possessions": +d.Poss,
+        "OFFRTG": +d['OFFENSE: Pts/Poss'],
+        "DEFRTG": +d['DEFENSE: Pts/Poss'],
+        "NETRTG": +d.Diff
     };
 };
 };
@@ -48,38 +46,13 @@ function Fill_Select(team){
 }
 
 
-d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
+d3.csv("data/lineups_four_factors_3_21_2023.csv", parseCsv_Lineup).then(function(data_1) {
     d3.csv("data/Team_Info.csv", parseCsv_Team).then(function(data_2) {
+        console.log(data_2)
 
-        function Add_Button(Team, Team_ID){
-            var checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.id = Team;
-            checkbox.name = Team;
-            checkbox.value = Team_ID;
-            checkbox.className = 'team_checkbox';
-            
-         
-            var label = document.createElement('label')
-            label.htmlFor = Team;
-            label.appendChild(document.createTextNode(Team));
-         
-            var br = document.createElement('br');
-        
-            var container = document.getElementById('team_menu');
-            container.appendChild(checkbox);
-            container.appendChild(label);
-            container.appendChild(br);
-        }
-        
- 
-        for (let t = 0; t < data_2.length; t++){
-            Add_Button(data_2[t].Team, data_2[t].Team_ID)
-        }
-        
-
-        var league_average = 114.8
+        var league_average = 115
         var chart_type = "team";
+        var simulate = false;
 
         const tooltip = d3.select("#description_container")
         .append("div")
@@ -135,9 +108,11 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
                 .html(`<b>Team: </b><br>
                 ${dm.Team}<br>
                 <b>Lineup: </b><br>
-                ${dm.Lineup}
-                <b>Minutes: </b><br>
-                ${dm.Minutes}
+                ${dm.PG},<br>
+                ${dm.SG},<br>
+                ${dm.SF},<br>
+                ${dm.PF},<br>
+                ${dm.C}<br>
                 <b>Offensive Rating: </b><br>
                 ${dm.OFFRTG}<br>
                 <b>Defensive Rating: </b><br>
@@ -184,7 +159,7 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
 
         function Team_Page_Link(team) {
             let url =
-            "https://wwelsh24.github.io/artg_nba_final_project/team_rating.html?=".concat(team.Team_ID)
+            "https://wwelsh24.github.io/artg_nba_final_project/team_rating.html?=".concat(team)
             window.open(url,"_self");
             }
         
@@ -196,7 +171,41 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
         let BG = d3.select('#bubbles')
 
 
-        function drawPlot(data,chart_type){
+        function drawPlot(data, simulate,chart_type){
+        /*
+        let x_axis_prime = BG.append("line")
+        .attr("x1", 20)
+        .attr("x2", 580)
+        .attr("y1",300)
+        .attr("y2",300)
+        .attr("stroke-width",2)
+        .attr("stroke","black");
+
+        let y_axis_prime = BG.append("line")
+        .attr("y1", 20)
+        .attr("y2", 580)
+        .attr("x1",300)
+        .attr("x2",300)
+        .attr("stroke-width",2)
+        .attr("stroke","black");
+        */
+        /*
+        let net_axis_x = BG.append("line")
+        .attr("y1", 600)
+        .attr("y2", 0)
+        .attr("x1",0)
+        .attr("x2",600)
+        .attr("stroke-width",2)
+        .attr("stroke","black");
+
+        let net_axis_y = BG.append("line")
+        .attr("y2", 600)
+        .attr("y1", 0)
+        .attr("x1",0)
+        .attr("x2",600)
+        .attr("stroke-width",2)
+        .attr("stroke","black");
+        */
 
         let scaler = Math.max(league_average-d3.min(data, function(d) { return d.OFFRTG; }),
         league_average-d3.min(data, function(d) { return d.DEFRTG; }),
@@ -207,7 +216,13 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
         .domain([league_average-scaler,league_average+scaler])
         .range([580,20]);
 
-        var radiusScale = d3.scaleSqrt().domain(d3.extent(data_1, function(d) { return d.Minutes; })).range([5, 20]);
+        /*
+        var y_axis_scale = d3.scaleLinear()
+        .domain(d3.extent(data, function(d) { return d.OFFRTG; }))
+        .range([580,20]);
+        */
+
+        var radiusScale = d3.scaleSqrt().domain(d3.extent(data, function(d) { return d.Possessions; })).range([5, 20]);
         
         circles = BG.selectAll("circle") 
         .data(data)                        
@@ -218,7 +233,7 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
         .attr("r", function(d) {
             let rad = 20
             if(data == data_1){
-                rad = radiusScale(d.Minutes) 
+                rad = radiusScale(d.Possessions) 
             }
             if(d.Team == "Average"){
                 rad = 0;
@@ -251,7 +266,44 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
             Mouse_On(d3.select(this),d);
             });
 
+        
+        
+        let sim = d3.forceSimulation()
+            .force("x", d3.forceX(d => axis_scale(d.DEFRTG))) // Each point attacted to its center x and y
+            .force("y", d3.forceY(d => axis_scale(d.OFFRTG)));
+        
+        
+        
+        if (simulate == true){  
+            if (data == data_1){
+                sim.force("collision", d3.forceCollide(d => radiusScale(d.Possessions)))
+            }
+            else{
+                sim.force("collision", d3.forceCollide(d => 20))
+            }
+            sim.nodes(data)
+            .alpha(1)
+            .on('tick', ticked);
+        }
+        else{
+            sim.force("collision", null);
+        }
 
+    /*
+    yAxis = (g) => g
+        .attr('transform', `translate(590,0)`)
+        .call(d3.axisRight(axis_scale)
+        .tickFormat('').ticks(5)
+        .tickSize(580)
+        .tickPadding(10));
+
+    xAxis = (g) => g
+        //.attr('transform', `translate(0, 300)`)
+        .call(d3.axisBottom(axis_scale))
+
+        var ax = BSVG.append('g').call(xAxis).attr("class",'axis');
+        var ay = BSVG.append('g').call(yAxis).attr("class",'axis');
+        */
 
         var xAxis = d3.axisBottom()
             .scale(axis_scale)
@@ -276,18 +328,22 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
         BSVG.selectAll(".domain").remove();
         
         function zoomed(e) {
+        sim.alpha(.04)
         BG.attr("transform", e.transform);
         BSVG.selectAll(".domain").remove();
         ax.call(xAxis.scale(e.transform.rescaleX(axis_scale)));
         ay.call(yAxis.scale(e.transform.rescaleY(axis_scale)));
         BSVG.selectAll(".domain").remove();
+        // update axes with these new boundaries
+        //ax.call(d3.axisBottom(newX))
+        //ay.call(d3.axisLeft(newY))
     
             BG.selectAll("circle")
                 .attr("r", function(d){
                 let rad = 20
                 if(chart_type == "lineup"){
-                    var radiusScale = d3.scaleSqrt().domain(d3.extent(data_1, function(d) { return d.Minutes; })).range([5, 20]);
-                    rad = radiusScale(d.Minutes) 
+                    var radiusScale = d3.scaleSqrt().domain(d3.extent(data_1, function(d) { return d.Possessions; })).range([5, 20]);
+                    rad = radiusScale(d.Possessions) 
                 }
                 if(d.Team == "Average"){
                     rad = 0;
@@ -307,32 +363,59 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
     .on("zoom", zoomed);
     
     BSVG.call(zoom);
+
+        // Draw the grid lines.
+        //svg.append('g').call(xGrid)
+        //svg.append('g').call(yGrid)
+    
+
+        
+            //BG.attr("transform", "rotate(45)")
 }
         
 
 
+    
+        
+
+        function ticked() {
+                circles
+                    .attr('cx', function(d) {
+                        return d.x;
+                    })
+                    .attr('cy', function(d) {
+                        return d.y;
+                    });
+            }
 
         function update(){
-            let line_cb = document.getElementById('lineup_input');
-            if (line_cb.value == "lineup"){
+            sim_cb = d3.select("#sim_input");
+            if (sim_cb.property("checked")){
+                simulate = true;
+            }
+            else{
+                simulate = false;
+            }
+            line_cb = d3.select("#lineup_input");
+            if (line_cb.property("checked")){
                 chart_type = "lineup";
+                console.log(chart_type)
             }
             else{
                 chart_type = "team";
             }
+            console.log(simulate)
             BG.selectAll("*").remove();
             BSVG.selectAll(".axis").remove();
             if (chart_type == "team"){
-                drawPlot(data_2, chart_type);
+                drawPlot(data_2, simulate, chart_type);
                 }
                 else{
-                    drawPlot(data_1,  chart_type);
+                    drawPlot(data_1, simulate, chart_type);
                 }
         }
-        var team_toggle = document.getElementById("lineup_input");
-        const selectors = d3.select('#lineup_input');
-            selectors.on('change', update);
-        update();
+            d3.selectAll(".checkbox").on("change",update);
+            update();
     });
 });
 

@@ -30,26 +30,26 @@
           </div>
         <a class="nav_link" href="project_about.html">About</a>
       </div>
-    <h1 class = "title" id = "page_title"> NBA Rating Visualization Homepage</h1>
-    <div id="chart"></div>
+    <h1 class = "title" id = "page_title"> 2022-2023 NBA Regular Season Team Ratings</h1>
+    <div id="chart">
     <svg id = "bubble_svg">
         <g id = "bubbles"></g>
     </svg>
-    <div id = "player_menu">
+  </div>
+    <div id = main_menu>
     <div id = "button_container">
-            <input class = "checkbox" type = "checkbox" id = "sim_input">
-            <span>No-Overlap Simulation</span> 
-            <br>
-            <input class = "checkbox" type = "checkbox" id = "lineup_input">
-            <span>Lineup Data</span>
-          
-          
-    </div>
+      <span class = "select_label">Graph Type</span>
+      <select name="graph_selector" id="lineup_input" class = "selection">
+        <option value="team">Teams</option>
+        <option value="lineup">Lineups</option>
+      </select>
+      </div>
+      <div id = "team_menu"></div>
     <div id = "description_container">
     </div>
     <script src="scripts/home_script.js"></script>
     <script src="scripts/default_script.js"></script>     
-    
+    </div>
     <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

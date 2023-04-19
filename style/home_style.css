@@ -1,11 +1,7 @@
 #bubble_svg{
-    min-width: 600px;
-    height: 600px;
-    position:absolute;
-    top: 100px;
-    left:20%;
-    right:20%;
-    margin: auto;
+    position: absolute;
+    left:0%;
+    height:100%;
 }
 
 .axis path,
@@ -13,14 +9,19 @@
   fill: none;
   stroke: grey;
   stroke-width: 1;
+  opacity: .25;
   shape-rendering: crispEdges;
 }
 
 .title{
     margin: auto;
     left: 20%;
+    top:5%;
     position: absolute;
+    font-weight: bold;
+    font-size: 3vw;
 }
+
 .tooltip {
     position: absolute;
     visibility: hidden;
@@ -31,26 +32,56 @@
     border-radius:10px;
     pointer-events: none;
     opacity: 1;
+    color:black;
+    stroke: black;
 }
 
 
 
-#bubbles{
-    left: 10px;
-    position: absolute;
-}
-
-#description_container{
-    position: absolute;
-    width:20%;
-    height: 70%;
-    right: 10px;
-    bottom:5%;
+#team_menu{
+    position: relative;
     display: block;
+    background-color: beige;
+    color:#3A0231;
+    font-size: 1.8vmin;
+    max-height: 70%;
+    overflow: scroll;
+    border-color: black;
+    border-radius: 10px;
+    border-width: .5px;
+    border-style: solid;
+}
+
+#main_menu{
+    right: 2%;
+    bottom:10%;
+    position: absolute;
+    height: 70%;
+    width: 30%;
+}
+
+
+#button_container{
+    position: relative;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 3%;
+
 }
 
 #button_container{
+    align-items: center;
+    top:2%;
+    font-size: 2vw;
+}
+
+#chart{
+    top:15%;
+    left:1%;
     position: absolute;
-    left:10px;
-    top:200px;
+    height: 80%;
+    width:80%;
 }
