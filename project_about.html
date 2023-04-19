@@ -35,14 +35,38 @@
     <h1 class = "title" id = "page_title"> Understanding Team Ratings </h1>
     <div class = "page_container">
     <div class = "page_section" id = "part_1">
+      <h3 class = "section_title">Introduction</h3>
+      <div class = "nav_button_container" id = "nav_1">
+        <a href = "#part_1"><div class = "nav_button top">&#8593</div></a>
+        <a href = "#part_1"><div class = "nav_button prev" >&lt;</div></a>
+        <a href = "#part_2"><div class = "nav_button next" href = "#part_2">&gt;</div></a>
+      </div>
       <div class = "description_container">
-        <li><b>Offensive Rating:</b> Points Scored Per Possession X 100</li> <br>
-        <li><b>Defensive Rating:</b> Points Allowed Per Possession X 100</li> <br>
-        <li><b>Net Rating:</b> Offensive Rating - Defensive Rating</li> <br>
-        <li>Offensive, defensive, and net ratings can be calculated for the team as a whole and for individual players/combinations of players when they’re on the court</li> <br>
-        <li>These ratings provide insight into the performance of specific lineups in addition to the team as a whole</li> <br>
+        Offensive, defensive, and net ratings can be calculated for the team as a whole and for individual players/combinations of players when they’re on the court. These ratings provide insight into the performance of specific lineups in addition to the team as a whole. These ratings can be used to compare the efficiency of teams and lineups in a more meaningful way than points and wins, as they adjust for the rate of play. Aggregated over the course of the season, they provide a high-quality measure of team ability across opponents.
+
+        The formulas for the three ratings are shown below:
+        <br><br>
+                <li><b>Offensive Rating:</b> Points Scored Per Possession X 100</li> <br>
+                <li><b>Defensive Rating:</b> Points Allowed Per Possession X 100</li> <br>
+                <li><b>Net Rating:</b> Offensive Rating - Defensive Rating</li> <br> <br>
+        
+        Examples of how these ratings are calculated from the results of a game are shown in the next sections.
+        
+        
       </div></div>
       <div class = "page_section" id = "part_2">
+        <h3 class = "section_title">Calculating Team Rating</h3>
+        <div class = "chart_caption_container">
+          <p class = "chart_caption">In order to better understand how team ratings are calculated, lets look at this example game between the Sharks and the Jets. Once you press play, you can see that the Sharks open the game by making a three point shot. When this happens, the Sharks have an offensive rating of 300, as they average three points per possession, and have no defensive rating, as they have no defensive possessions. On the other hand, the Jets have a defensive rating of 300, and no offensive rating, as they have no offensive possessions.
+            <br><br>
+            On the next possession, the Jets make a two point shot. Their offensive rating becomes 200, while their defensive rating stays at 300, giving the Jets a net rating of -100. The Sharks maintain an offensive rating of 300, as they have not yet had another offensive possession, and their defensive rating becomes 200, giving the Sharks a net rating of 100. However, these results are outliers, and ratings this large tend only to occur in lineups with small sample sizes. In the next section, we can observe a more normal net rating over the course of something closer to one game.
+            </p>
+        </div>
+        <div class = "nav_button_container" id = "nav_2">
+          <a href = "#part_1"><div class = "nav_button top">&#8593</div></a>
+          <a href = "#part_1"><div class = "nav_button prev" >&lt;</div></a>
+          <a href = "#part_3"><div class = "nav_button next" href = "#part_2">&gt;</div></a>
+        </div>
       <div class = "chart_div" id = "first_visualization_div">
         <div class = "scoreboard"> 
           <div class = "team_container" id= "team_a_container">
@@ -123,6 +147,22 @@
       </div>
     </div>
     <div class = "page_section" id = "part_3">
+      <h3 class = "section_title">Team Rating Simulation</h3>
+      <div class = "chart_caption_container">
+        <p class = "chart_caption"></p>
+      </div>
+      <div class = "nav_button_container" id = "nav_3">
+        <a href = "#part_1"><div class = "nav_button top">&#8593</div></a>
+        <a href = "#part_2"><div class = "nav_button prev" >&lt;</div></a>
+        <a href = "#part_3"><div class = "nav_button next" href = "#part_2">&gt;</div></a>
+      </div>
+      <div class = "chart_caption_container">
+        <p class = "chart_caption">
+          This simulation shows how normal team ratings change as the number of possessions increase over something like the course of a game. The two sliders can be used to adjust the simulated possessions and simulation speed. 
+          <br><br>
+          On average, a team has about 100 possessions per game, meaning there are about 200 in total. Shot distribution, i.e., two point vs. three point shot attempt, and shooting accuracy in this simulation are all set to league averages. 
+
+        </p>
       <div class = "chart_div" id = "sim_visualization_div">
         <div class = "scoreboard"> 
           <div class = "team_container" id= "team_a_container">

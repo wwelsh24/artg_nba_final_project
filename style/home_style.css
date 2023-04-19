@@ -15,7 +15,7 @@
 
 .title{
     margin: auto;
-    left: 20%;
+    left: 10%;
     top:5%;
     position: absolute;
     font-weight: bold;
@@ -71,34 +71,33 @@
     margin-right: auto;
     width: 100%;
     padding: 3%;
-
-}
-
-#button_container{
     align-items: center;
     top:2%;
     font-size: 2vw;
+    margin-bottom: 5px;
+
 }
 
 #chart{
     top:15%;
     left:1%;
     position: absolute;
-    height: 80%;
-    min-width: 60%;
-    max-width:70%;
+    height: 84%;
+    width:64%;
 }
 
-option{
-    
+label{
+    font-size: 1.5vw;
 }
+
+
 
 #page_welcome{
     max-width: 40%;
     min-width: 30%;
     position: absolute;
     top:15%;
-    right:1%;
+    right:2%;
     border: 2px solid gold;
     height:25%;
 }

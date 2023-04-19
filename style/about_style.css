@@ -28,6 +28,35 @@
     position: absolute;
 }
 
+#page_title{
+    font-weight: bold;
+    font-size: 4vmax;
+}
+
+.section_title{
+    padding-top: 3%;
+    font-weight: bold;
+    padding-left: 1%;
+    font-size: 6vh;
+    text-decoration: underline;
+}
+
+.chart_caption{
+    height: 67%;
+    right: 1%;
+    bottom: 10%;
+    width: 35%;
+    position: absolute;
+    font-size: 1.5vmax;
+    overflow: scroll;
+}
+
+li{
+    font-size: 2vmax;
+    padding-left: 10%;
+    color: rgb(217, 255, 242);
+    
+}
 .team_container{
     width: 40%;
     top:0px;
@@ -41,6 +70,13 @@
     color: black;
     font-weight: bold;
 }
+
+.description_container{
+    color: rgb(217, 255, 242);
+    font-size: 1.5vmax;
+    padding:1%;
+  }
+
 #team_a_container{
     left:0px;
     background-color:rgb(206, 255, 206);
@@ -48,9 +84,8 @@
 }
 
 .page_container{
-    border:3px solid red;
     position: absolute;
-    height: 290%;
+    height: 300%;
     width: 100%;
 }
 
@@ -58,22 +93,21 @@
     position: absolute;
     left:0%;
     width: 100%;
-    border: 3px dashed chartreuse;
 }
 
 #part_1{
     top:0%;
-    height:30%;
+    height:33.333%;
 }
 
 #part_2{
-    top:30%;
-    height:35%
+    top:33.333%;
+    height:33.333%
 }
 
 #part_3{
-    top:65%;
-    height:35%
+    top:66.67%;
+    height:33.333%
 }
 #team_b_container{
     right:0px;
@@ -178,6 +212,7 @@
     font-weight: bold;
     background-color: antiquewhite;
     border: 2px solid black;
+    top:-2px;
     position: relative;
 }
 
@@ -230,4 +265,41 @@
 #fpc{
     float:right;
     width:20%;
+}
+
+.nav_button_container{
+    position: absolute;
+    right: 0%;
+    bottom:0%;
+    height:7%;
+    width:15%;
+    border:rgb(171, 255, 247) 2px solid;
+}
+
+.nav_button{
+    margin: 0;
+    padding: 0;
+    width:33.3%;
+    height:100%;
+    text-align: center;
+    font-size: 4vh;
+    color: white;
+}
+
+.top{
+    position: absolute;
+    left:0%;
+    background-color: rgb(201, 201, 255);
+}
+
+.prev{
+    position: absolute;
+    left:33.3%;
+    background-color: rgb(255, 127, 138);
+}
+
+.next{
+    position: absolute;
+    right:0%;
+    background-color: aquamarine;
 }
