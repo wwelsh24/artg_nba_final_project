@@ -2,6 +2,9 @@
 var FSVG = d3.select("#c_vis_1")
 var FSG = d3.select("#shot_1")
 
+var SSVG = d3.select("#c_vis_2")
+var SSG = d3.select("#shot_2")
+
 var margin = {
     left: 10,
     right: 10
@@ -67,7 +70,7 @@ function shot(team, shot, success, g_id, rate = 1) {
         let color = "green";
 
         if(team=='a'&& shot == 3){
-            var path = FSG.append("path")
+            var path = g_id.append("path")
                 .attr("d", three_pointer_a(data3))
                 .attr("fill", "none")
                 .attr("stroke-width", 2)
@@ -80,7 +83,7 @@ function shot(team, shot, success, g_id, rate = 1) {
         }
 
         if(team=='b'&& shot == 3){
-            var path = FSG.append("path")
+            var path = g_id.append("path")
                 .attr("d", three_pointer_b(data3))
                 .attr("fill", "none")
                 .attr("stroke-width", 2)
@@ -93,7 +96,7 @@ function shot(team, shot, success, g_id, rate = 1) {
         }
 
         if(team=='a'&& shot == 2){  
-            var path = FSG.append("path")
+            var path = g_id.append("path")
                 .attr("d", two_pointer_a(data3))
                 .attr("fill", "none")
                 .attr("stroke-width", 2)
@@ -106,7 +109,7 @@ function shot(team, shot, success, g_id, rate = 1) {
         }
 
         if(team=='b'&& shot==2){
-            var path  = FSG.append("path")
+            var path  = g_id.append("path")
                 .attr("d", two_pointer_b(data3))
                 .attr("fill", "none")
                 .attr("stroke-width", 2)
@@ -133,6 +136,11 @@ function shot(team, shot, success, g_id, rate = 1) {
 const timer = ms => new Promise(res => setTimeout(res, ms))
 
 async function first_demonstration(){
+
+    const pc = document.getElementById("fpc")
+    const pb = document.getElementById("first_play_button");
+    pb.classList.add("disabled");
+
     var game_stats = 
     {Possession:0,
     a_pos: 0,
@@ -159,23 +167,18 @@ async function first_demonstration(){
     }
 
 
-    //var shot_results = [shot_1,shot_2]
-    var shot_results = shot_generator(200)
+    var shot_results = [shot_1,shot_2]
+    //var shot_results = shot_generator(200)
     console.log(shot_results)
-    let rate_1 = 30;
+    let rate_1 = 1.5;
     for (s in shot_results){
-        console.log(shot_results[s])
+        pc.innerText = parseInt(s)+1
         shot(shot_results[s].team,shot_results[s].points,shot_results[s].success,FSG, rate = rate_1);
         game_stats = update_data(game_stats,shot_results[s])
         update_scoreboard_1(game_stats)
         await timer(3400/rate);
     }
-    
-    /*
-    update_data(game_stats,shot_results)
-    shot(shot_results[1].team,shot_results[1].points,shot_results[1].success,FSG)
-    console.log(game_stats)
-    */
+    pb.classList.remove("disabled");
 }
 
 function update_data(gs,sr){
@@ -232,6 +235,38 @@ function update_scoreboard_1(gs){
     nrb.innerText = gs.b_net_rat
 }
 
+function update_scoreboard_2(gs){
+    let pointsa = document.getElementById('points_a2')
+    pointsa.innerText = gs.a_points
+    let pointsb = document.getElementById('points_b2')
+    pointsb.innerText = gs.b_points
+    
+    let opa = document.getElementById('off_poss_a2')
+    opa.innerText = gs.a_pos
+    let opb = document.getElementById('off_poss_b2')
+    opb.innerText = gs.b_pos
+    
+    let dpa = document.getElementById('def_poss_a2')
+    dpa.innerText = gs.b_pos
+    let dpb = document.getElementById('def_poss_b2')
+    dpb.innerText = gs.a_pos
+
+    let ora = document.getElementById('off_rating_a2')
+    ora.innerText = gs.a_off_rat
+    let orb = document.getElementById('off_rating_b2')
+    orb.innerText = gs.b_off_rat
+    
+    let dra = document.getElementById('def_rating_a2')
+    dra.innerText = gs.a_def_rat
+    let drb = document.getElementById('def_rating_b2')
+    drb.innerText = gs.b_def_rat
+    
+    let nra = document.getElementById('net_rating_a2')
+    nra.innerText = gs.a_net_rat
+    let nrb = document.getElementById('net_rating_b2')
+    nrb.innerText = gs.b_net_rat
+}
+
 function shot_generator(shot_count){
     var overall_results = [];
     for(let i = 0; i < shot_count; i++){
@@ -260,4 +295,48 @@ function shot_generator(shot_count){
     return overall_results
 }
 
-console.log(shot_generator(50))
+async function simulation(){
+    const pc = document.getElementById("spc")
+    const pb = document.getElementById("sim_play_button");
+    pb.classList.add("disabled");
+
+    const to_sim_count = parseInt(document.getElementById("sim_pos_slider").value)
+    const usable_rate = parseInt(document.getElementById("sim_spd_slider").value)
+
+    var game_stats = 
+    {Possession:0,
+    a_pos: 0,
+    b_pos: 0,
+    a_points: 0,
+    b_points: 0,
+    a_off_rat: 0,
+    b_off_rat:0,
+    a_def_rat: 0,
+    b_def_rat:0,
+    a_net_rat: 0,
+    b_net_rat:0}
+
+
+    var shot_results = shot_generator(to_sim_count)
+    for (s in shot_results){
+        pc.innerText = parseInt(s)+1
+        shot(shot_results[s].team,shot_results[s].points,shot_results[s].success,SSG, rate = usable_rate);
+        game_stats = update_data(game_stats,shot_results[s])
+        update_scoreboard_2(game_stats)
+        await timer(3400/rate);
+    }
+    pb.classList.remove("disabled");
+    /*
+    update_data(game_stats,shot_results)
+    shot(shot_results[1].team,shot_results[1].points,shot_results[1].success,FSG)
+    console.log(game_stats)
+    */
+}
+
+function update_sim_sliders(){
+    document.getElementById("pos_speed_val").innerText = parseInt(document.getElementById("sim_spd_slider").value)
+    document.getElementById("pos_range_val").innerText = parseInt(document.getElementById("sim_pos_slider").value)
+
+}
+
+update_sim_sliders();

@@ -1,11 +1,14 @@
-#first_visualization_div{
-    
-    height:75%;
+
+.chart_div{
+    height:80%;
+    top:20%;
     width:60%;
     position: absolute;
     border: 1vh solid grey;
     left: 1%;
 }
+
+
 /*
 .court_svg{
     height:800px;
@@ -44,6 +47,34 @@
 
 }
 
+.page_container{
+    border:3px solid red;
+    position: absolute;
+    height: 290%;
+    width: 100%;
+}
+
+.page_section{
+    position: absolute;
+    left:0%;
+    width: 100%;
+    border: 3px dashed chartreuse;
+}
+
+#part_1{
+    top:0%;
+    height:30%;
+}
+
+#part_2{
+    top:30%;
+    height:35%
+}
+
+#part_3{
+    top:65%;
+    height:35%
+}
 #team_b_container{
     right:0px;
     background-color: rgb(221, 174, 255);
@@ -74,26 +105,40 @@
 }
 
 .vis_title{
-    font-size: 2vw;
+    padding: 10px 0;
+    margin: auto;
+    font-size: 1.5vw;
     font-weight: bold;
     color: black;
     text-align: center;
-    margin: auto;
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+
 }
 
 .demo_button_container{
     margin: auto;
-    bottom: 10%;
+    bottom: 0%;
     width: 100%;
-    position: absolute;
-    display: table; 
+    position: relative;
     text-align: center;
+    font-size: 1vh;
+    font-weight: bold;
+
 }
 
-#first_play_button{
+.slider{
+    width:80%;
+    max-height:10%;
+}
+
+.play_button{
+    position: relative;
     display: table-cell; 
     vertical-align: bottom;
-    font-size: 1.5vh;
+    font-size: 1.5vmax;
 }
 
 .stat{
@@ -104,7 +149,6 @@
     min-width: 12%;
     max-width:20%;
     align-items: stretch;
-    margin-top: -2px;
     position: absolute;
     text-align: right;
     border: 2px solid black;
@@ -117,13 +161,73 @@
     height: 37.5%;
 }
 
-/*
-.border{
-    height: 1%;
-    width: 100%;
-    background-color: grey;
+.poss_counter{
+    width:90%;
+    margin: auto;
+    max-height:20%;
     border: 2px solid black;
-    top: 36.5%;
-    position: absolute;
+    position:relative;
+    font-size: 1vw;
+    text-align: left;
+    font-weight: bold;
 }
-*/
+
+.sim_element{
+    font-size: 1vw;
+    text-align: center;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    position: relative;
+}
+
+#sims_title{
+    padding-top: 5px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+#sim_pos_slider{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+#pos_range_val{
+    position: relative;
+    float:right;
+    width:20%;
+
+}
+#sim_speed_title{
+    padding-top: 5px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+#sim_spd_slider{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#pos_speed_val{
+    position: relative;
+    float:right;
+    width:20%;
+}
+#sim_play_button{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#spc{
+    float:right;
+    width:20%;
+}
+#fpc{
+    float:right;
+    width:20%;
+}

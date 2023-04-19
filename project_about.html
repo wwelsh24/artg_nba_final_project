@@ -32,14 +32,17 @@
           </div>
         <a class="nav_link" href="project_about.html">About</a>
       </div>
-    <h1 class = "title" id = "page_title"> About Team Ratings </h1>
+    <h1 class = "title" id = "page_title"> Understanding Team Ratings </h1>
+    <div class = "page_container">
+    <div class = "page_section" id = "part_1">
       <div class = "description_container">
         <li><b>Offensive Rating:</b> Points Scored Per Possession X 100</li> <br>
         <li><b>Defensive Rating:</b> Points Allowed Per Possession X 100</li> <br>
         <li><b>Net Rating:</b> Offensive Rating - Defensive Rating</li> <br>
         <li>Offensive, defensive, and net ratings can be calculated for the team as a whole and for individual players/combinations of players when they’re on the court</li> <br>
         <li>These ratings provide insight into the performance of specific lineups in addition to the team as a whole</li> <br>
-      </div>
+      </div></div>
+      <div class = "page_section" id = "part_2">
       <div class = "chart_div" id = "first_visualization_div">
         <div class = "scoreboard"> 
           <div class = "team_container" id= "team_a_container">
@@ -65,9 +68,10 @@
         </div>
         <div class = "game_info" id = "first_vis_info"> 
           <h1 class = "vis_title" id = "first_vis_title">Example<br>Game</h1>
-          <div class = "poss_counter" id = "first_poss_counter"></div>
+          <div class = "poss_counter" id = "first_poss_counter">Total Possessions:
+            <div class = "sim_element" id = "fpc">-</div></div>
           <div class = "demo_button_container" id = "first_button_container">
-            <button class = "btn btn-primary" id = "first_play_button" onclick = "first_demonstration()">Play</button>
+            <button class = "btn btn-primary play_button" id = "first_play_button" onclick = "first_demonstration()">Play</button>
           </div>
         </div>
           <div class = "team_container" id = "team_b_container">
@@ -117,6 +121,95 @@
         </svg>     
       
       </div>
+    </div>
+    <div class = "page_section" id = "part_3">
+      <div class = "chart_div" id = "sim_visualization_div">
+        <div class = "scoreboard"> 
+          <div class = "team_container" id= "team_a_container">
+            <h1 class = "team_title">Sharks</h1>
+          <div class = "stat_container" id = "points_container_a2">Points:
+            <div class = "stat" id = "points_a2">-</div>
+          </div>
+          <div class = "stat_container" id = "off_poss_container_a2">Offensive Possessions:
+            <div class = "stat" id = "off_poss_a2">-</div>
+          </div>
+          <div class = "stat_container" id = "def_poss_container_a2">Defensive Possessions:
+            <div class = "stat" id = "def_poss_a2">-</div>
+          </div>
+          <div class = "stat_container" id = "off_rating_container_a2">Offensive Rating:
+            <div class = "stat" id = "off_rating_a2">-</div>
+          </div>
+          <div class = "stat_container" id = "def_rating_container_a2">Defensive Rating:
+          <div class = "stat" id = "def_rating_a2">-</div>
+        </div>
+          <div class = "stat_container" id = "net_rating_container_a2">Net Rating:
+            <div class = "stat" id = "net_rating_a2">-</div>
+          </div>
+        </div>
+        <div class = "game_info" id = "sim_vis_info"> 
+          <h1 class = "vis_title" id = "sim_vis_title">Simulated<br>Game</h1>
+          <div class = "poss_counter" id = "sim_poss_counter">Total Possessions:
+            <div class = "sim_element" id = "spc">-</div>
+          </div>
+          <div class = "demo_button_container" id = "sim_button_container">
+            <span class = "element_title" id = "sims_title">Simulation Possessions</span>
+            <input type="range" min="1" max="200" value="100" class="slider" id="sim_pos_slider" onchange="update_sim_sliders()">
+            <div class = "sim_element" id = "pos_range_val">-</div>
+            <span class = "element_title" id = "sim_speed_title">Simulation Speed</span>
+            <input type="range" min="1" max="25" value="10" class="slider" id="sim_spd_slider" onchange="update_sim_sliders()">
+            <div class = "sim_element" id = "pos_speed_val">-</div>
+            <button class = "btn btn-primary play_button" id = "sim_play_button" onclick = "simulation()">Play</button>
+          </div>
+        </div>
+          <div class = "team_container" id = "team_b_container">
+            <h1 class = "team_title">Jets</h1>
+            <div class = "stat_container" id = "points_container_b">Points:
+              <div class = "stat" id = "points_b2">-</div>
+            </div>
+            <div class = "stat_container" id = "off_poss_container_b2">Offensive Possessions:
+              <div class = "stat" id = "off_poss_b2">-</div>
+            </div>
+            <div class = "stat_container" id = "def_poss_container_b2">Defensive Possessions:
+              <div class = "stat" id = "def_poss_b2">-</div>
+            </div>
+            <div class = "stat_container" id = "off_rating_container_b2">Offensive Rating:
+              <div class = "stat" id = "off_rating_b2">-</div>
+            </div>
+            <div class = "stat_container" id = "def_rating_container_b2">Defensive Rating:
+            <div class = "stat" id = "def_rating_b2">-</div>
+          </div>
+            <div class = "stat_container" id = "net_rating_container_b2">Net Rating:
+              <div class = "stat" id = "net_rating_b2">-</div>
+            </div>
+    </div>
+        </div>
+        <svg class = "court_svg" id = "c_vis_2" viewBox = "0 0 200 125">
+          <g class = "court">
+            <rect width="200" height="125" rx="0" ry="0" fill="#ffe1bf" stroke="#00e4c1" stroke-width="3"/><rect width="5" height="25" rx="0" ry="0" transform="matrix(-1 0 0-1 200.437409 73.562107)" fill="#d2dbed" stroke="#151515"/>
+            <ellipse rx="5" ry="5" transform="translate(190 62.5)" fill="#dbdbdb" stroke="#ffac52"/>
+            <line x1="0" y1="-60.173997" x2="0" y2="60.173997" transform="matrix(-1 0 0 1.038654 100 62.5)" fill="none" stroke="#253ba7" stroke-width="2"/>
+            <ellipse rx="15" ry="15" transform="translate(100 62.5)" fill="#f5f6f8" stroke="#253ba7"/>
+            <g transform="translate(-.000001 0.000001)"><g transform="translate(.000001 0)">
+            <path d="M0,114.999999Q39.739111,114.78081,40,115c0,0,30.026212-15.730932,30-52.500001s-30-52.5-30-52.5-39.938915.000573-39.938915.000573" transform="translate(0 0.000001)" fill="none" stroke="#253ba7"/>
+            <rect width="40" height="35" rx="0" ry="0" transform="translate(0 45)" fill="#dcfcf4" stroke="#000"/>
+            <rect width="5" height="25" rx="0" ry="0" transform="matrix(-1 0 0-1 5.437409 75)" fill="#d2dbed" stroke="#151515"/>
+            <ellipse rx="5" ry="5" transform="translate(10.219913 62.5)" fill="#dbdbdb" stroke="#ffac52"/>
+            <ellipse rx="17.5" ry="17.5" transform="translate(40 62.5)" fill="rgba(210,219,237,0)" stroke="#000"/>
+            </g></g><g transform="matrix(-1 0 0-1 200.000001 125.000001)">
+            <g transform="translate(.000001 0)">
+            <path d="M0,114.999999Q39.739111,114.78081,40,115c0,0,30.026212-15.730932,30-52.500001s-30-52.5-30-52.5-39.938915.000573-39.938915.000573" transform="translate(0 0.000001)" fill="none" stroke="#253ba7"/>
+            <rect width="40" height="35" rx="0" ry="0" transform="translate(0 45)" fill="#dcfcf4" stroke="#000"/>
+            <rect width="5" height="25" rx="0" ry="0" transform="matrix(-1 0 0-1 5.437409 75)" fill="#d2dbed" stroke="#151515"/>
+            <ellipse rx="5" ry="5" transform="translate(10.219913 62.5)" fill="#dbdbdb" stroke="#ffac52"/>
+            <ellipse rx="17.5" ry="17.5" transform="translate(40 62.5)" fill="rgba(210,219,237,0)" stroke="#000"/></g></g>
+            <rect width="200" height="125" rx="0" ry="0" fill="none" stroke="#15ffc2" stroke-width="4"/>
+          </g>
+          <g class = "shot" id = "shot_2"></g>
+        </svg>     
+      
+      </div>
+    </div>
+  </div>
       <script src="scripts/default_script.js"></script>     
       <script src="scripts/about_script.js"></script>    
 
