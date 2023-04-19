@@ -11,4 +11,4 @@ The project also includes a narrative explanation of how ratings are calculated.
 
 <img width="1440" alt="Screen Shot 2023-04-19 at 3 23 23 PM" src="https://user-images.githubusercontent.com/56904365/233187477-b6509401-edd4-450f-99cc-00366547e217.png">
 
-For more information, see ____
+For more information, see [ARTG 5430 Final Project Writeup.pdf](https://github.com/wwelsh24/artg_nba_final_project/blob/c55bef765f9230af21e6a7e71df47f7f08a3026e/ARTG%205430%20Final%20Project%20Writeup.pdf).
