@@ -133,8 +133,8 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
             }
             else{
                 tooltip.style("visibility", "visible")
-                .style("top", `${y}px`)
-                .style("left", `${x}px`)
+                .style("bottom", `${y}px`)
+                .style("right", `${x}px`)
                 .style("z-index", "100")
                 .html(`<b>Team: </b><br>
                 ${dm.Team}<br>
