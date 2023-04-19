@@ -34,6 +34,8 @@
     opacity: 1;
     color:black;
     stroke: black;
+    right:0px;
+    top:0px;
 }
 
 
@@ -54,9 +56,9 @@
 
 #main_menu{
     right: 2%;
-    bottom:10%;
+    bottom:1%;
     position: absolute;
-    height: 70%;
+    height: 60%;
     width: 30%;
 }
 
@@ -83,5 +85,26 @@
     left:1%;
     position: absolute;
     height: 80%;
-    width:80%;
+    min-width: 60%;
+    max-width:70%;
 }
+
+option{
+    
+}
+
+#page_welcome{
+    max-width: 40%;
+    min-width: 30%;
+    position: absolute;
+    top:15%;
+    right:1%;
+    border: 2px solid gold;
+    height:25%;
+}
+
+@media screen and (min-width: 1680px) {
+    input[type=checkbox] {
+        transform: scale(1.5);
+    }
+  }

@@ -12,7 +12,7 @@ function parseCsv_Lineup(d) {
         "NETRTG": +d.NET_RATING,
         "Color_1":d.Color_1,
         "Color_2":d.Color_2,
-        'Category':0
+        'category':0
     };
 };
 };
@@ -27,7 +27,8 @@ function parseCsv_Team(d) {
         "DEFRTG": +d.DEF_RATING,
         "NETRTG": +d.NET_RATING,
         "Color_1":d.Color_1,
-        "Color_2":d.Color_2
+        "Color_2":d.Color_2,
+        'category':0
     };
 };
 
@@ -56,8 +57,9 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
             checkbox.type = 'checkbox';
             checkbox.id = Team;
             checkbox.name = Team;
-            checkbox.value = Team_ID;
+            checkbox.value = Team;
             checkbox.className = 'team_checkbox';
+            
             
          
             var label = document.createElement('label')
@@ -110,8 +112,10 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
         }
 
         function Mouse_On(node,dm){
-            let x = 0;
-            let y = 0;
+            
+            var x = node.cx;
+            var y = node.cy
+            console.log(node)
 
             if (chart_type == "team"){
             tooltip.style("visibility", "visible")
@@ -135,9 +139,9 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
                 .html(`<b>Team: </b><br>
                 ${dm.Team}<br>
                 <b>Lineup: </b><br>
-                ${dm.Lineup}
+                ${dm.Lineup}<br>
                 <b>Minutes: </b><br>
-                ${dm.Minutes}
+                ${dm.Minutes}<br>
                 <b>Offensive Rating: </b><br>
                 ${dm.OFFRTG}<br>
                 <b>Defensive Rating: </b><br>
@@ -146,7 +150,7 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
                 ${dm.NETRTG}`);
             }
             
-    
+            
             circles.attr("opacity",function(d){
                 let opac = .1
                 if (d.Team == dm.Team){
@@ -167,7 +171,7 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
                 }
                 return f
             });
-
+            
         }
 
         function Mouse_Off(node,dm){
@@ -179,6 +183,7 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
                 return Stroke_Select(d.Team)
             })
             .attr("opacity",1);
+            update();
         }
 
 
@@ -309,7 +314,54 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
     BSVG.call(zoom);
 }
         
+        function update_checks(data){
+            console.log('running')
+            clicked = false;
+            teams = []
+            d3.selectAll(".team_checkbox").each(function(d){
+            cb = d3.select(this);
+            team = cb.property("value")
+            if(cb.property("checked")){
+                teams.push(team)}});
+            if(teams.length>0){
+                console.log(teams)
+            for (i in data) {
+                if(teams.includes(data[i].Team)){
+                    data[i].category = 1;
+                }
+                else{
+                data[i].category = 0;
+            }}}
+            else{
+                for (i in data) {
+                        data[i].category = 0;
+                    }
+            }
 
+            if (teams.length==5){
+                d3.selectAll("input[type='checkbox']:not(:checked)")
+                    .property("disabled",true);
+            }
+            else{
+                d3.selectAll(".team_checkbox").property("disabled",false);
+            }  
+            console.log('sum',d3.sum(data, d => d.category))
+            console.log(data)
+            circles.attr("fill", function(d) {
+                if (d.category > 0 ) {return d.Color_1}
+                if (d3.sum(data, d => d.category) == 0 && teams.length==0) {return d.Color_1}
+                if (d3.sum(data, d => d.category) == 0 && teams.length>0) {return "#DADADA"}
+                else 	{ return "#DADADA" }
+            ;})
+            .attr("opacity", function(d) {
+                if (d.category > 0) {return 1}
+                if (d3.sum(data, d => d.category) == 0 && teams.length==0) {return 1}
+                if (d3.sum(data, d => d.category) == 0 && teams.length>0) {return .1}
+                else 	{ return .1 }
+            ;})
+            
+
+}
 
 
         function update(){
@@ -324,14 +376,18 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
             BSVG.selectAll(".axis").remove();
             if (chart_type == "team"){
                 drawPlot(data_2, chart_type);
+                update_checks(data_2)
                 }
                 else{
                     drawPlot(data_1,  chart_type);
+                    update_checks(data_1)
                 }
         }
         var team_toggle = document.getElementById("lineup_input");
         const selectors = d3.select('#lineup_input');
             selectors.on('change', update);
+        const team_cbs = d3.selectAll('.team_checkbox');
+            team_cbs.on('change', update);
         update();
     });
 });
