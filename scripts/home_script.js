@@ -3,7 +3,7 @@ function parseCsv_Lineup(d) {
     return {
         "Team":d.TEAM_NAME,
         "Lineup":d.GROUP_NAME,
-        "Team_ID": d.TEAM_ID,
+        "Team_ID": d.TEAM_ABBREVIATION,
         "Wins": d.W,
         "Losses": d.L,
         "Minutes":+d.MIN,
