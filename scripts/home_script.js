@@ -12,6 +12,7 @@ function parseCsv_Lineup(d) {
         "NETRTG": +d.NET_RATING,
         "Color_1":d.Color_1,
         "Color_2":d.Color_2,
+        "Net_Rank":d.NET_RATING_RANK,
         'category':0
     };
 };
@@ -28,6 +29,7 @@ function parseCsv_Team(d) {
         "NETRTG": +d.NET_RATING,
         "Color_1":d.Color_1,
         "Color_2":d.Color_2,
+        "Net_Rank":d.NET_RATING_RANK,
         'category':0
     };
 };
@@ -129,7 +131,9 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
                 <b>Defensive Rating: </b><br>
                 ${dm.DEFRTG}<br>
                 <b>Net Rating: </b><br>
-                ${dm.NETRTG}`);
+                ${dm.NETRTG}<br>
+                <b>Net Rating Rank: </b><br>
+                ${dm.Net_Rank}`);
             }
             else{
                 tooltip.style("visibility", "visible")
@@ -147,7 +151,9 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
                 <b>Defensive Rating: </b><br>
                 ${dm.DEFRTG}<br>
                 <b>Net Rating: </b><br>
-                ${dm.NETRTG}`);
+                ${dm.NETRTG}<br>
+                <b>Net Rating Rank: </b><br>
+                ${dm.Net_Rank}`);
             }
             
             
