@@ -14,8 +14,12 @@ function parseCsv5(d) {
     if (d.Player_Count==5){
         return {
             "MINUTES": +d.MIN,
+            "MINUTES": +d.MIN,
             "LINEUP": d.GROUP_NAME,
-            "LINEUP_ID": d.GROUP_ID,
+            "LINEUP_ID":d.GROUP_ID,
+            "GP": +d.GP,
+            "OFFRTG": +d.OFF_RATING,
+            "DEFRTG": +d.DEF_RATING,
             "NETRTG": +d.NET_RATING,
             "category": 1
         };}
@@ -284,15 +288,22 @@ function set_graphic(file_location){
                 d3.select(this).attr("fill",Bubble_Fill_Scale(d.NETRTG))
                 let x = 300;
                 let y = d3.select(this).attr("cy")+200;
-
+                console.log(d)
 
                 tooltip.style("visibility", "visible")
                     .style("top", `${d.y}px`)
-                    .style("left", `${d.x}px`)
+                    .style("left", `${d.x+100}px`)
                     .style("z-index", "100")
                     
-                    .html(`<b>Lineup: </b><br>
+                    .html(`
+                    <b>Lineup: </b><br>
                     ${d.LINEUP}<br>
+                    <b>Minutes: </b><br>
+                    ${d.MINUTES}<br>
+                    <b>Offensive Rating: </b><br>
+                    ${d.OFFRTG}<br>
+                    <b>Defensive Rating: </b><br>
+                    ${d.DEFRTG}<br>
                     <b>Net Rating: </b><br>
                     ${d.NETRTG}`);
         

@@ -188,8 +188,9 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
 
 
         function Team_Page_Link(team) {
+            console.log(team)
             let url =
-            "https://wwelsh24.github.io/artg_nba_final_project/team_rating.html?=".concat(team.Team_ID)
+            "https://wwelsh24.github.io/artg_nba_final_project/team_rating.html?=".concat(team)
             window.open(url,"_self");
             }
         
@@ -250,7 +251,7 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
             Mouse_Off(d3.select(this),d);
         })
         .on("dblclick", function (i, d) {
-            Team_Page_Link(d);
+            Team_Page_Link(d.Team_ID);
             })
             .on("click", function (i, d) {
             Mouse_On(d3.select(this),d);
@@ -382,6 +383,7 @@ d3.csv("data/filtered_lineup_data.csv", parseCsv_Lineup).then(function(data_1) {
                     drawPlot(data_1,  chart_type);
                     update_checks(data_1)
                 }
+                
         }
         var team_toggle = document.getElementById("lineup_input");
         const selectors = d3.select('#lineup_input');

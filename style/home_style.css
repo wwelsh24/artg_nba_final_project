@@ -98,8 +98,19 @@ label{
     position: absolute;
     top:15%;
     right:2%;
-    border: 2px solid gold;
+    border: 2px solid rgb(109, 109, 109);
+    border-radius: 10px;
     height:25%;
+}
+
+.description_container{
+
+    font-size: 1.5vin;
+}
+
+.selection{
+    font-size: 1em;
+    padding:5px 0;
 }
 
 @media screen and (min-width: 1680px) {
