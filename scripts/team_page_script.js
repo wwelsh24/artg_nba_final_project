@@ -205,10 +205,10 @@ function set_graphic(file_location){
         var radiusScale = d3.scaleSqrt().domain([0,500]).range([2, 40]);
         var Bubble_Fill_Scale = d3.scaleLinear()
             .domain([-300,-20,0,20,300])
-            .range(["#FF0000","#FF3F3F","#FFFFFF","#19BAE2","#009AC0"])
+            .range(["#B50000","#FF3F3F","#FFFFFF","#19BAE2","#0087A9"])
         var Color_Axis_Scale = d3.scaleLinear()
             .domain([0,280,300,320,600])
-            .range(["#009AC0","#19BAE2","#FFFFFF","#FF3F3F","#FF0000"])
+            .range(["#0087A9","#19BAE2","#FFFFFF","#FF3F3F","#B50000"])
         var NSVG = d3.select("#netr_axis")
 
         const CA_Tick = [300,20,0,-20,-300]
@@ -478,21 +478,37 @@ function set_graphic(file_location){
                 .domain([70,150])
                 .range([02,598])
 
+                let ill_off_rating = chosen_lineup.OFFRTG
+                if(ill_off_rating<70){
+                    ill_off_rating = 70
+                }
+                if(ill_off_rating>150){
+                    ill_off_rating = 150
+                }
+
+                let ill_def_rating = chosen_lineup.DEFRTG
+                if(ill_def_rating<70){
+                    ill_def_rating = 70
+                }
+                if(ill_def_rating>150){
+                    ill_def_rating = 150
+                }
+
                 if(Object.keys(chosen_lineup).length>0){
                 
                 let Net_Line = rtg.append("line")
-                    .attr("x1", Rating_Scale(chosen_lineup.OFFRTG))
+                    .attr("x1", Rating_Scale(ill_off_rating))
                     .attr("y1",50)
-                    .attr("x2", Rating_Scale(chosen_lineup.OFFRTG))
+                    .attr("x2", Rating_Scale(ill_off_rating))
                     .attr("y2",50)
                     .transition()
                     .duration(500)
                     .ease(d3.easeLinear)
-                    .attr("x2", Rating_Scale(chosen_lineup.DEFRTG))
+                    .attr("x2", Rating_Scale(ill_def_rating))
                     .attr("y2",50)
                     .attr("stroke", Bubble_Fill_Scale(chosen_lineup.NETRTG))
                     .attr("stroke-width",10);
-
+                
                 let ORT_Circle = rtg.append("circle")          
                     .attr("class", "rating_point")         
                     .attr("cx", Rating_Scale(chosen_lineup.OFFRTG))

@@ -49,7 +49,7 @@ body {
     */
     overflow: hidden;
     position:absolute;
-    bottom: 6px;
+    bottom: 0px;
 }
 
 #page_title{
